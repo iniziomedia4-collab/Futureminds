@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "eyebrow": "Gallery",
+    "title": "Inside the Work",
+    "subtitle": "Classroom sessions, faculty development, student activities and institutional engagements across India."
+  },
+  "filters": ["All", "Classroom", "Faculty", "Students", "Engagement"],
+  "tiles": [
+    { "category": "Classroom", "title": "Capability-Building Sessions", "size": "tall" },
+    { "category": "Faculty", "title": "Faculty Development Programmes", "size": "mid" },
+    { "category": "Students", "title": "Career Readiness Workshops", "size": "wide" },
+    { "category": "Engagement", "title": "Institutional Partnerships", "size": "mid" },
+    { "category": "Students", "title": "Group Discussions & Role Plays", "size": "tall" },
+    { "category": "Classroom", "title": "CEFR & OET Training", "size": "mid" },
+    { "category": "Faculty", "title": "4Cs in the Classroom", "size": "wide" },
+    { "category": "Engagement", "title": "University-Level Forums", "size": "tall" },
+    { "category": "Students", "title": "Final-Year Readiness Bootcamps", "size": "mid" },
+    { "category": "Faculty", "title": "AI Awareness for Educators", "size": "mid" }
+  ]
+}

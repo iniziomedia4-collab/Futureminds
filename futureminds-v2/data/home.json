@@ -1,0 +1,59 @@
+{
+  "hero": {
+    "badge": "41+ Years of Educational Leadership · Bengaluru, India",
+    "titleLead": "Building Future-Ready Minds for",
+    "titleAccent": "Education, Employability",
+    "titleTail": "& Leadership",
+    "subtitle": "A nationally recognised education and employability organisation partnering with universities, colleges and government bodies across India — bridging academic learning and real-world readiness through structured capability-building frameworks.",
+    "stats": [
+      { "value": "41+", "label": "Years of Impact" },
+      { "value": "3,00,000+", "label": "Students Empowered" },
+      { "value": "3,00,000+", "label": "Educators Empowered" }
+    ]
+  },
+  "trust": {
+    "label": "Trusted by national bodies, universities & an international assessment partner",
+    "chips": [
+      { "name": "AICTE", "note": "MoU" },
+      { "name": "VTU", "note": "MoU" },
+      { "name": "KSOU", "note": "MoU" },
+      { "name": "KHEC", "note": "Recommended" },
+      { "name": "Burlington", "note": "Intl. Partner" },
+      { "name": "NEP 2020", "note": "Aligned" }
+    ],
+    "metrics": [
+      { "count": 41, "suffix": "+", "label": "Years of Leadership" },
+      { "count": 300, "suffix": "K+", "label": "Students Impacted" },
+      { "count": 300, "suffix": "K+", "label": "Educators Impacted" },
+      { "count": 4, "suffix": "", "label": "Active States" },
+      { "text": "Pan-India", "label": "Institutional Reach" }
+    ]
+  },
+  "future": {
+    "eyebrow": "Our Philosophy",
+    "title": "Education Beyond Degrees",
+    "intro": "Degrees alone do not ensure employability. We help institutions move learners from knowledge to capability — and from students to future-ready professionals.",
+    "transforms": [
+      { "from": "Degree", "to": "Skills that compound" },
+      { "from": "Knowledge", "to": "Applied Capability" },
+      { "from": "Learning", "to": "Employability" },
+      { "from": "Student", "to": "Future Professional" },
+      { "from": "Institution", "to": "Learning Ecosystem" }
+    ]
+  },
+  "pillars": {
+    "eyebrow": "What We Build",
+    "title": "Eight Pillars of Future-Ready Capability",
+    "intro": "Holistic capability building that integrates communication, employability, ethics and applied technology — institution-sensitive and discipline-contextual.",
+    "items": [
+      { "icon": "briefcase", "title": "Employability Enhancement", "text": "Workplace readiness, professional confidence and career-aligned interventions built into the academic journey.", "stat": "3,00,000+", "statLabel": "students prepared" },
+      { "icon": "users", "title": "Faculty Development", "text": "21st-century pedagogy, the 4Cs, Bloom's taxonomy and AI awareness for educators across institutions.", "stat": "3,00,000+", "statLabel": "educators empowered" },
+      { "icon": "compass", "title": "Career Readiness", "text": "Resume, interview, group discussion and career-pathway awareness aligned to evolving industry expectations.", "stat": "8", "statLabel": "domains mapped" },
+      { "icon": "message", "title": "English & Communication", "text": "CEFR-aligned language proficiency and workplace communication, supported by our Burlington partnership.", "stat": "CEFR", "statLabel": "& OET aligned" },
+      { "icon": "cpu", "title": "AI & Digital Awareness", "text": "Applied AI literacy and digital fluency so students and faculty stay ahead of automation-driven change.", "stat": "21st C", "statLabel": "skills focus" },
+      { "icon": "rocket", "title": "Entrepreneurship", "text": "An entrepreneurial mindset — initiative, problem-solving and value creation — embedded into the EEE framework.", "stat": "EEE", "statLabel": "flagship model" },
+      { "icon": "shield", "title": "Professional Ethics", "text": "Skills without values lack sustainability. We build ethical, responsible and accountable professionals.", "stat": "Values", "statLabel": "led delivery" },
+      { "icon": "trend", "title": "Future Skills", "text": "Adaptability, critical thinking and long-term readiness for workplaces and careers still emerging.", "stat": "NEP", "statLabel": "2020 aligned" }
+    ]
+  }
+}

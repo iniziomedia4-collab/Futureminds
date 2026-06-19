@@ -1,0 +1,25 @@
+{
+  "hero": {
+    "eyebrow": "Prestigious Collaborations",
+    "title": "An Institutional Wall of Trust",
+    "subtitle": "MoUs, recommendations and partnerships with national bodies, state councils and an international assessment organisation."
+  },
+  "partners": [
+    { "name": "VTU", "full": "Visvesvaraya Technological University", "relation": "MoU" },
+    { "name": "AICTE", "full": "All India Council for Technical Education", "relation": "MoU" },
+    { "name": "KSOU", "full": "Karnataka State Open University", "relation": "MoU" },
+    { "name": "KHEC", "full": "Karnataka Higher Education Council", "relation": "Recommended" },
+    { "name": "Burlington", "full": "International Assessment Partner", "relation": "CEFR & OET" },
+    { "name": "Universities", "full": "Autonomous & affiliated institutions", "relation": "Engaged" },
+    { "name": "Government Bodies", "full": "State higher-education councils", "relation": "Collaboration" },
+    { "name": "NEP 2020", "full": "Aligned frameworks & assessments", "relation": "Aligned" }
+  ],
+  "statements": [
+    "MoUs with VTU, AICTE & KSOU",
+    "Recommended by the Karnataka Higher Education Council (KHEC)",
+    "Partnership with international assessment organisation, Burlington",
+    "NEP-2020 aligned frameworks for CEFR assessment & OET training",
+    "Pan-India institutional engagement experience",
+    "Proven implementation capability across institutions"
+  ]
+}

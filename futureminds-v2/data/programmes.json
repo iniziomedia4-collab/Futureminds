@@ -1,0 +1,62 @@
+{
+  "hero": {
+    "eyebrow": "Programmes",
+    "title": "Modular Interventions for Institutions, Faculty & Students",
+    "subtitle": "Each engagement is designed for measurable outcomes — from pilot programmes to university-wide initiatives, all academically respectful and industry-relevant."
+  },
+  "eee": {
+    "eyebrow": "The Signature Framework",
+    "title": "EEE — English, Employability & Entrepreneurship",
+    "intro": "Our flagship, NEP-2020 aligned employability solution — structured, scalable, and deployable from a single certificate course to a multi-semester institutional capability model.",
+    "pillars": [
+      { "icon": "message", "label": "English", "text": "Language proficiency, workplace communication and professional confidence." },
+      { "icon": "briefcase", "label": "Employability", "text": "Career readiness, workplace awareness and industry-aligned capability." },
+      { "icon": "rocket", "label": "Entrepreneurship", "text": "Entrepreneurial mindset, initiative and ethical, responsible citizenship." }
+    ],
+    "models": [
+      { "icon": "badge", "title": "Certificate Courses", "text": "Focused, credential-bearing modules that fit within existing academic calendars." },
+      { "icon": "layers", "title": "Credit-Linked Programmes", "text": "Integrated into degree structures and aligned to NEP-2020 credit frameworks." },
+      { "icon": "plus", "title": "Value-Added Courses", "text": "Supplementary capability tracks that enrich the core curriculum." },
+      { "icon": "calendar", "title": "Multi-Semester Models", "text": "Progressive employability journeys spanning the full duration of study." },
+      { "icon": "building", "title": "Institutional Frameworks", "text": "University-wide, long-term capability-building ecosystems with phased rollout." }
+    ]
+  },
+  "programmes": [
+    {
+      "icon": "compass",
+      "title": "Student Capability Building",
+      "text": "Communication, employability, 21st-century skills and final-year readiness bootcamps.",
+      "outcomes": ["English & communication skills", "Career awareness & planning", "Applied AI awareness", "Professional behaviour & ethics", "Pre-final & final-year readiness"]
+    },
+    {
+      "icon": "users",
+      "title": "Faculty Development Programmes",
+      "text": "21st-century teaching, learning outcomes and experiential pedagogy for educators.",
+      "outcomes": ["4Cs in classroom practice", "Bloom's taxonomy & outcomes", "AI awareness for educators", "Learner engagement & assessment", "Future of higher education"]
+    },
+    {
+      "icon": "building",
+      "title": "Institutional & University Engagements",
+      "text": "Employability strategy, student development frameworks and phased rollouts.",
+      "outcomes": ["Employability strategy design", "University-wide initiatives", "Career-aligned intervention models", "Pilot programmes & phased rollouts", "Faculty capability building"]
+    },
+    {
+      "icon": "handshake",
+      "title": "University Partnerships",
+      "text": "Long-term collaborations with MoU-backed governance and shared outcomes.",
+      "outcomes": ["MoUs with VTU, AICTE, KSOU", "KHEC recommended", "NEP-2020 aligned design", "Shared outcome frameworks"]
+    },
+    {
+      "icon": "trend",
+      "title": "Placement & Career Facilitation",
+      "text": "Beyond training — confidence, mock interviews and workplace readiness.",
+      "outcomes": ["Resume development support", "Interview & GD practice", "Mock interview activities", "Industry expectation orientation", "Professional etiquette"]
+    },
+    {
+      "icon": "globe",
+      "title": "Overseas Career Readiness",
+      "text": "Global employability with CEFR & OET training — positioned as career readiness, not a visa service.",
+      "outcomes": ["International communication skills", "CEFR & OET support", "Global professional preparation", "Cross-cultural workplace fluency"]
+    }
+  ]
+}

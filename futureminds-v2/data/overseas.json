@@ -1,0 +1,20 @@
+{
+  "hero": {
+    "eyebrow": "Global Career Readiness",
+    "title": "Preparing Talent for International Opportunity",
+    "subtitle": "Beyond domestic employability, Futureminds prepares students and professionals for global standards of communication and workplace readiness — through structured, assessment-aligned programmes."
+  },
+  "positioning": "Positioned as global career readiness and professional preparation — not a visa or migration service.",
+  "features": [
+    { "icon": "message", "title": "CEFR Training", "text": "Common European Framework of Reference alignment for measurable language proficiency." },
+    { "icon": "shield", "title": "OET Support", "text": "Occupational English Test preparation for healthcare and professional contexts." },
+    { "icon": "globe", "title": "International Communication", "text": "Cross-cultural workplace fluency and professional communication standards." },
+    { "icon": "trend", "title": "Global Employability", "text": "Career readiness and professional preparation for an international workforce." }
+  ],
+  "outcomes": [
+    "Measurable communication proficiency",
+    "Confidence in international professional settings",
+    "Readiness aligned to global assessment standards",
+    "Long-term career adaptability"
+  ]
+}
