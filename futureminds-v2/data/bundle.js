@@ -768,9 +768,9 @@ window.FM_BUNDLE = {
       "address": "#14, Sumo Solitaire, 37th A Cross, 1st Main, 8th Block, Jayanagar, Bengaluru 560071, Karnataka, India",
       "email": "info@futureminds.in",
       "partnerEmail": "partnerships@futureminds.in",
-      "phoneGeneral": "+91 984 502 9886",
-      "phoneInstitutions": "+91 984 502 9886",
-      "whatsapp": "919845029886",
+      "phoneGeneral": "+91 819 707 1905",
+      "phoneInstitutions": "+91 819 707 1949",
+      "whatsapp": "918197071905",
       "mapNote": "Headquartered in Bengaluru, serving institutions Pan-India."
     },
     "socials": [

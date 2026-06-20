@@ -1,5 +1,5 @@
-/* ============================================================
-   FUTUREMINDS v2 — app.js
+﻿/* ============================================================
+   FUTUREMINDS v2 â€” app.js
    JSON-driven multi-page renderer.
    Loads window.FM_BUNDLE (file://) or fetches /data/*.json (served).
    ============================================================ */
@@ -55,7 +55,7 @@
 
   /* ---------- CHROME ---------- */
   function brandFallbackSVG() {
-    return '<span class="brand-fallback" style="display:none"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#C8A24B" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#C8A24B" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#C8A24B" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#C8A24B"/></svg><span class="brand-name">Future<b>minds</b></span></span>';
+    return '<span class="brand-fallback" style="display:none"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#c99b0d" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#c99b0d" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#c99b0d" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#c99b0d"/></svg><span class="brand-name">Future<b>minds</b></span></span>';
   }
   function renderNav(site) {
     var page = currentPage();
@@ -83,11 +83,11 @@
     var socials = site.socials.map(function (s) {
       return '<a href="' + s.href + '" target="_blank" rel="noopener" aria-label="' + esc(s.label) + '">' + icon(s.icon, 18) + '</a>';
     }).join('');
-    var brand = '<a href="index.html" class="brand" style="display:inline-flex"><span class="brand-fallback" style="display:flex"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#C8A24B" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#C8A24B" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#C8A24B" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#C8A24B"/></svg><span class="brand-name">Future<b>minds</b></span></span></a>';
+    var brand = '<a href="index.html" class="brand" style="display:inline-flex"><span class="brand-fallback" style="display:flex"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#c99b0d" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#c99b0d" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#c99b0d" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#c99b0d"/></svg><span class="brand-name">Future<b>minds</b></span></span></a>';
     return '<footer class="footer"><div class="container">' +
       '<div class="footer-top"><div class="footer-brand">' + brand +
       '<p>' + esc(f.blurb) + '</p><div class="footer-socials">' + socials + '</div></div>' + cols + '</div>' +
-      '<div class="footer-bottom"><span>&copy; ' + new Date().getFullYear() + ' ' + esc(site.brand.name) + '. All rights reserved. · Bengaluru, India</span><span>' + esc(f.accreditations) + '</span></div>' +
+      '<div class="footer-bottom"><span>&copy; ' + new Date().getFullYear() + ' ' + esc(site.brand.name) + '. All rights reserved. Â· Bengaluru, India</span><span>' + esc(f.accreditations) + '</span></div>' +
       '</div></footer>';
   }
   function renderChrome(site) {
@@ -215,8 +215,8 @@
     vals.forEach(function (v, i) { line += (i ? 'L' : 'M') + x(i) + ' ' + y(v) + ' '; });
     var area = 'M' + x(0) + ' ' + (H - pad) + ' ' + vals.map(function (v, i) { return 'L' + x(i) + ' ' + y(v); }).join(' ') + ' L' + x(vals.length - 1) + ' ' + (H - pad) + ' Z';
     chart.labels.forEach(function (lb, i) { grid += '<line x1="' + x(i) + '" y1="' + pad + '" x2="' + x(i) + '" y2="' + (H - pad) + '" stroke="rgba(255,255,255,.06)"/><text x="' + x(i) + '" y="' + (H - pad + 22) + '" fill="rgba(255,255,255,.5)" font-size="12" text-anchor="middle" font-family="Verdana">' + esc(lb) + '</text>'; });
-    vals.forEach(function (v, i) { dots += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="5" fill="#C8A24B" stroke="#0B1E3F" stroke-width="2"/>'; });
-    return '<svg id="growthChart" viewBox="0 0 900 300" width="100%" preserveAspectRatio="xMidYMid meet" aria-label="Growth chart"><defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#C8A24B" stop-opacity=".35"/><stop offset="1" stop-color="#C8A24B" stop-opacity="0"/></linearGradient></defs>' + grid + '<path d="' + area + '" fill="url(#ga)"/><path class="gline" d="' + line + '" fill="none" stroke="#C8A24B" stroke-width="3" stroke-linecap="round"/>' + dots + '</svg>';
+    vals.forEach(function (v, i) { dots += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="5" fill="#c99b0d" stroke="#0a1f35" stroke-width="2"/>'; });
+    return '<svg id="growthChart" viewBox="0 0 900 300" width="100%" preserveAspectRatio="xMidYMid meet" aria-label="Growth chart"><defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c99b0d" stop-opacity=".35"/><stop offset="1" stop-color="#c99b0d" stop-opacity="0"/></linearGradient></defs>' + grid + '<path d="' + area + '" fill="url(#ga)"/><path class="gline" d="' + line + '" fill="none" stroke="#c99b0d" stroke-width="3" stroke-linecap="round"/>' + dots + '</svg>';
   }
   function animateChart() {
     try {
@@ -232,15 +232,15 @@
     var html = '';
     for (var i = 0; i < 320; i++) { var xr = Math.random() * 500, yr = Math.random() * 250, on = false; lands.forEach(function (l) { if (Math.hypot(xr - l[0], yr - l[1]) < l[2]) on = true; }); if (on) html += '<circle cx="' + xr.toFixed(1) + '" cy="' + yr.toFixed(1) + '" r="1.5" fill="rgba(255,255,255,.32)"/>'; }
     var hub = [330, 150], targets = [[110, 90], [360, 80], [260, 60], [420, 170]];
-    targets.forEach(function (t) { var mx = (hub[0] + t[0]) / 2, my = Math.min(hub[1], t[1]) - 40; html += '<path d="M' + hub[0] + ' ' + hub[1] + ' Q' + mx + ' ' + my + ' ' + t[0] + ' ' + t[1] + '" fill="none" stroke="#C8A24B" stroke-width="1" opacity=".55"/><circle cx="' + t[0] + '" cy="' + t[1] + '" r="3" fill="#C8A24B"/>'; });
-    html += '<circle cx="' + hub[0] + '" cy="' + hub[1] + '" r="6" fill="#C8A24B"/><circle cx="' + hub[0] + '" cy="' + hub[1] + '" r="11" fill="none" stroke="#C8A24B" opacity=".5"><animate attributeName="r" values="6;16;6" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0;.6" dur="2.6s" repeatCount="indefinite"/></circle>';
+    targets.forEach(function (t) { var mx = (hub[0] + t[0]) / 2, my = Math.min(hub[1], t[1]) - 40; html += '<path d="M' + hub[0] + ' ' + hub[1] + ' Q' + mx + ' ' + my + ' ' + t[0] + ' ' + t[1] + '" fill="none" stroke="#c99b0d" stroke-width="1" opacity=".55"/><circle cx="' + t[0] + '" cy="' + t[1] + '" r="3" fill="#c99b0d"/>'; });
+    html += '<circle cx="' + hub[0] + '" cy="' + hub[1] + '" r="6" fill="#c99b0d"/><circle cx="' + hub[0] + '" cy="' + hub[1] + '" r="11" fill="none" stroke="#c99b0d" opacity=".5"><animate attributeName="r" values="6;16;6" dur="2.6s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0;.6" dur="2.6s" repeatCount="indefinite"/></circle>';
     return '<svg viewBox="0 0 500 250" width="100%" aria-label="Global reach map">' + html + '</svg>';
   }
   function indiaSVG() {
     var path = 'M120 20 L150 35 L160 60 L150 80 L165 95 L160 120 L175 130 L160 160 L150 155 L145 185 L130 230 L115 255 L105 220 L95 200 L80 175 L70 150 L55 130 L60 100 L80 95 L75 70 L95 55 L100 35 Z';
-    return '<svg viewBox="0 0 240 280" width="100%" aria-label="India map, Bengaluru highlighted"><path d="' + path + '" fill="rgba(200,162,75,.12)" stroke="rgba(200,162,75,.5)" stroke-width="1.5"/>' +
-      '<circle cx="108" cy="205" r="5" fill="#C8A24B"/><circle cx="108" cy="205" r="10" fill="none" stroke="#C8A24B" opacity=".6"><animate attributeName="r" values="5;15;5" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="2.4s" repeatCount="indefinite"/></circle>' +
-      '<text x="118" y="208" fill="#E8D9A8" font-size="11" font-family="Verdana" font-weight="700">Bengaluru HQ</text>' +
+    return '<svg viewBox="0 0 240 280" width="100%" aria-label="India map, Bengaluru highlighted"><path d="' + path + '" fill="rgba(201,155,13,.12)" stroke="rgba(201,155,13,.5)" stroke-width="1.5"/>' +
+      '<circle cx="108" cy="205" r="5" fill="#c99b0d"/><circle cx="108" cy="205" r="10" fill="none" stroke="#c99b0d" opacity=".6"><animate attributeName="r" values="5;15;5" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="2.4s" repeatCount="indefinite"/></circle>' +
+      '<text x="118" y="208" fill="#f5ecc7" font-size="11" font-family="Verdana" font-weight="700">Bengaluru HQ</text>' +
       '<circle cx="125" cy="225" r="3" fill="rgba(255,255,255,.5)"/><circle cx="118" cy="190" r="3" fill="rgba(255,255,255,.5)"/><circle cx="100" cy="175" r="3" fill="rgba(255,255,255,.5)"/></svg>';
   }
   function galleryBlock(g) {
@@ -289,7 +289,7 @@
       var integ = a.philosophy.integrates.map(function (s) { return '<span>' + esc(s) + '</span>'; }).join('');
       var trad = a.approach.traditional, fm = a.approach.futureminds;
       var xIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#8C99B0" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>';
-      var ckIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#C8A24B" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+      var ckIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#c99b0d" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
       var tradPoints = trad.points.map(function (p) { return '<li>' + xIcon + esc(p) + '</li>'; }).join('');
       var fmPoints = fm.points.map(function (p) { return '<li>' + ckIcon + esc(p) + '</li>'; }).join('');
       return pageHero(a.hero, 'About') +
