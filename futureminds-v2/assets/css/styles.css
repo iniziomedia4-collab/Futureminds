@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    FUTUREMINDS v2 â€” Multi-page institutional site
    Font: Verdana (system) everywhere
    Palette Ratio:  #003d2b 50% Â· #c99b0d 30% Â· #005581 20%
@@ -352,25 +352,61 @@ a{color:inherit;text-decoration:none}
 /* Green hover (50%) */
 .testi-nav button:hover{background:var(--green);color:#fff;border-color:var(--green)}
 
-/* ===================== GALLERY ===================== */
-.gallery{columns:4;column-gap:16px}
-/* Green gallery tiles (50%) */
-.gallery .tile{break-inside:avoid;margin-bottom:16px;border-radius:var(--r-md);overflow:hidden;position:relative;background:linear-gradient(150deg,var(--green-mid),var(--green-dark));color:#fff;display:flex;align-items:flex-end;padding:22px;min-height:160px;border:1px solid rgba(255,255,255,.1);transition:transform .4s var(--ease)}
-.gallery .tile.tall{min-height:250px}
-.gallery .tile.wide{min-height:200px}
-.gallery .tile::before{content:"";position:absolute;inset:0;background:radial-gradient(120% 120% at 80% 10%,rgba(201,155,13,.25),transparent 60%);opacity:.85}
-.gallery .tile span{position:relative;font-weight:700;font-size:.94rem;z-index:1}
-.gallery .tile small{position:relative;display:block;color:var(--gold-soft);font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:4px;z-index:1}
-.gallery .tile:hover{transform:scale(1.015)}
+/* ===================== GALLERY — REAL IMAGES ===================== */
+.gallery{columns:4;column-gap:14px}
+.gallery .tile{break-inside:avoid;margin-bottom:14px;border-radius:var(--r-md);overflow:hidden;position:relative;background:var(--green-dark);color:#fff;display:flex;flex-direction:column;cursor:pointer;transition:transform .4s var(--ease),box-shadow .3s}
+.gallery .tile:hover{transform:translateY(-4px) scale(1.012);box-shadow:0 20px 50px -15px rgba(0,0,0,.45)}
+.gallery .tile img{width:100%;display:block;object-fit:cover;transition:transform .5s var(--ease)}
+.gallery .tile:hover img{transform:scale(1.06)}
+.gallery .tile.tall img{min-height:320px;max-height:380px}
+.gallery .tile.wide img{min-height:200px}
+.gallery .tile.mid img{min-height:200px}
+.tile-info{position:absolute;bottom:0;left:0;right:0;background:linear-gradient(0deg,rgba(0,0,0,.78) 0%,transparent 100%);padding:28px 16px 14px;z-index:2}
+.tile-info small{display:block;color:var(--gold);font-size:.66rem;letter-spacing:.1em;text-transform:uppercase;margin-bottom:3px;font-weight:700}
+.tile-info span{font-weight:700;font-size:.88rem;color:#fff;line-height:1.3}
+
+/* Video tile */
+.tile-video{cursor:pointer;position:relative}
+.tile-thumb{width:100%;min-height:200px;background:#001a10 center/cover no-repeat}
+.tile.tall .tile-thumb{min-height:300px}
+.tile-play{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);z-index:3;pointer-events:none;transition:transform .3s var(--ease),opacity .3s}
+.tile-video:hover .tile-play{transform:translate(-50%,-50%) scale(1.12)}
+
+/* Video Modal */
+.vid-modal{display:none;position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.92);align-items:center;justify-content:center;flex-direction:column;padding:20px}
+.vid-modal.open{display:flex}
+.vid-modal video{max-width:min(900px,94vw);max-height:80vh;width:100%;border-radius:var(--r-md);box-shadow:0 40px 100px -30px rgba(0,0,0,.8)}
+.vid-close{position:absolute;top:18px;right:22px;background:none;border:none;color:#fff;font-size:2.4rem;cursor:pointer;width:48px;height:48px;display:flex;align-items:center;justify-content:center;border-radius:50%;transition:background .25s}
+.vid-close:hover{background:rgba(255,255,255,.15)}
+
 .gallery-filters{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
 .gallery-filter{padding:9px 18px;border-radius:var(--r-pill);border:1px solid var(--line);background:#fff;color:var(--mute);font-size:.82rem;font-weight:700;cursor:pointer;transition:.3s}
-/* Green active filter (50%) */
 .gallery-filter.active{background:var(--green);color:#fff;border-color:var(--green)}
+.gallery-filter:hover:not(.active){background:var(--paper);border-color:var(--green)}
+
+/* ===================== MOU CAROUSEL ===================== */
+.mou-carousel{position:relative;overflow:hidden;border-radius:var(--r-xl);height:480px}
+.mou-slide{position:absolute;inset:0;opacity:0;transition:opacity .6s var(--ease);display:flex;flex-direction:column;align-items:center;justify-content:center}
+.mou-slide.active{opacity:1;position:relative}
+.mou-slide img{width:100%;height:440px;object-fit:cover;border-radius:var(--r-xl)}
+.mou-caption{margin-top:14px;text-align:center;color:rgba(255,255,255,.82);font-size:.9rem;font-weight:700}
+.mou-nav{display:flex;align-items:center;justify-content:center;gap:18px;margin-top:22px}
+.mou-nav button{padding:10px 22px;border-radius:var(--r-pill);border:1px solid rgba(255,255,255,.3);background:rgba(255,255,255,.1);color:#fff;cursor:pointer;font-size:1.1rem;transition:.3s;backdrop-filter:blur(6px)}
+.mou-nav button:hover{background:var(--gold);border-color:var(--gold);color:#0a2218}
+.mou-dots{display:flex;gap:8px}
+.mou-dots .md{width:10px;height:10px;border-radius:50%;border:2px solid rgba(255,255,255,.45);background:transparent;cursor:pointer;transition:.3s;padding:0}
+.mou-dots .md.active{background:var(--gold);border-color:var(--gold)}
+
+/* ===================== PARTNER LINKS ===================== */
+a.client-cell{cursor:pointer;text-decoration:none}
+a.client-cell:hover{transform:translateY(-4px) scale(1.03);box-shadow:0 14px 36px -16px rgba(0,61,43,.4);border-color:var(--gold)}
+a.client-cell:hover b{color:var(--gold)}
+a.client-cell::after{content:"↗";position:absolute;top:10px;right:12px;font-size:.8rem;color:var(--gold);opacity:0;transition:opacity .25s}
+a.client-cell:hover::after{opacity:1}
 
 /* ===================== CONTACT ===================== */
 .contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:52px;align-items:start}
 .contact-info .ci{display:flex;gap:15px;margin-bottom:24px;align-items:flex-start}
-/* Gold icon (30%) */
 .contact-info .ci .ic{width:46px;height:46px;border-radius:12px;background:rgba(255,255,255,.06);border:1px solid var(--glass-border);display:flex;align-items:center;justify-content:center;color:var(--gold);flex:none}
 .contact-info .ci b{display:block;color:#fff;font-size:.98rem;margin-bottom:3px}
 .contact-info .ci span{color:rgba(255,255,255,.7);font-size:.9rem}
@@ -384,7 +420,6 @@ a{color:inherit;text-decoration:none}
 .field{margin-bottom:15px}
 .field label{display:block;font-size:.8rem;font-weight:700;color:var(--ink);margin-bottom:6px}
 .field input,.field select,.field textarea{width:100%;padding:12px 14px;border:1px solid var(--line);border-radius:var(--r-sm);font-size:.92rem;color:var(--ink);background:var(--paper);transition:.3s}
-/* Gold focus ring (30%) */
 .field input:focus,.field select:focus,.field textarea:focus{outline:none;border-color:var(--gold);background:#fff;box-shadow:0 0 0 4px rgba(201,155,13,.14)}
 .field textarea{resize:vertical;min-height:96px}
 .form-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:6px}
@@ -393,25 +428,22 @@ a{color:inherit;text-decoration:none}
 .whatsapp-fab{position:fixed;bottom:24px;right:24px;z-index:90;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 14px 34px -10px rgba(37,211,102,.6);transition:transform .35s var(--ease)}
 .whatsapp-fab:hover{transform:scale(1.08)}
 
-/* CTA band â€” green dominant (50%) */
+/* CTA band */
 .cta-band{background:linear-gradient(160deg,var(--green-mid),var(--green-dark));border-radius:var(--r-xl);padding:clamp(36px,6vw,64px);text-align:center;position:relative;overflow:hidden}
-/* Gold glow overlay (30%) */
 .cta-band::before{content:"";position:absolute;width:340px;height:340px;border-radius:50%;background:rgba(201,155,13,.2);filter:blur(80px);top:-120px;right:-40px}
 .cta-band h2{color:#fff;font-size:clamp(1.6rem,3vw,2.4rem);margin-bottom:14px;position:relative}
 .cta-band p{color:rgba(255,255,255,.76);max-width:560px;margin:0 auto 26px;position:relative}
 .cta-band .cta-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;position:relative}
 
-/* ===================== FOOTER â€” green (50%) ===================== */
+/* ===================== FOOTER ===================== */
 .footer{background:var(--green-dark);color:rgba(255,255,255,.72);padding:66px 0 30px}
 .footer-top{display:grid;grid-template-columns:1.6fr 1fr 1fr 1fr;gap:40px;padding-bottom:42px;border-bottom:1px solid rgba(255,255,255,.14)}
-/* Gold column headings (30%) */
 .footer h5{color:var(--gold);font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;margin-bottom:16px}
 .footer-col a{display:block;color:rgba(255,255,255,.65);font-size:.9rem;margin-bottom:10px;transition:color .3s}
 .footer-col a:hover{color:var(--gold)}
 .footer-brand p{font-size:.92rem;max-width:320px;margin:14px 0 18px;line-height:1.7;color:rgba(255,255,255,.72)}
 .footer-socials{display:flex;gap:10px}
 .footer-socials a{width:38px;height:38px;border-radius:10px;border:1px solid rgba(255,255,255,.18);display:flex;align-items:center;justify-content:center;color:rgba(255,255,255,.72);transition:.3s}
-/* Gold social hover (30%) */
 .footer-socials a:hover{background:var(--gold);border-color:var(--gold);color:#0a2218;transform:translateY(-2px)}
 .footer-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;padding-top:24px;font-size:.82rem;color:rgba(255,255,255,.42)}
 
@@ -427,7 +459,6 @@ a{color:inherit;text-decoration:none}
   .statement-list{grid-template-columns:1fr}
 }
 @media(max-width:760px){
-  /* Mobile nav â€” dark green dropdown */
   .nav-links{display:none;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:flex-start;background:var(--green-dark);padding:22px var(--gutter);gap:8px;border-top:1px solid rgba(255,255,255,.12)}
   .nav-links a{padding:10px 14px;border-radius:8px;font-size:.82rem}
   .nav-links.open{display:flex}
@@ -440,6 +471,8 @@ a{color:inherit;text-decoration:none}
   .trust-metrics .m{flex-basis:50%;border-bottom:1px solid rgba(255,255,255,.1);padding-block:14px}
   .form-row{grid-template-columns:1fr}
   .hero-stats .sep{display:none}
+  .mou-carousel{height:auto}
+  .mou-slide img{height:240px}
 }
 @media(max-width:480px){
   .grid-4,.grid-3,.grid-2,.impact-grid{grid-template-columns:1fr}
@@ -452,4 +485,3 @@ a{color:inherit;text-decoration:none}
   *{animation:none!important;scroll-behavior:auto!important}
   .reveal{opacity:1!important;transform:none!important;transition:none!important}
 }
-

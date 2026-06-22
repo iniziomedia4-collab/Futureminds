@@ -88,65 +88,235 @@ window.FM_BUNDLE = {
     "hero": {
       "eyebrow": "Gallery",
       "title": "Inside the Work",
-      "subtitle": "Classroom sessions, faculty development, student activities and institutional engagements across India."
+      "subtitle": "Classroom sessions, faculty development, student workshops, institutional engagements and events across India."
     },
     "filters": [
       "All",
       "Classroom",
       "Faculty",
       "Students",
-      "Engagement"
+      "Engagement",
+      "Events",
+      "Videos"
     ],
     "tiles": [
       {
-        "category": "Classroom",
-        "title": "Capability-Building Sessions",
-        "size": "tall"
-      },
-      {
-        "category": "Faculty",
-        "title": "Faculty Development Programmes",
-        "size": "mid"
-      },
-      {
+        "type": "image",
         "category": "Students",
-        "title": "Career Readiness Workshops",
+        "title": "Career Readiness Workshop — Group Discussion",
+        "src": "img/gallery/IMG-20260304-WA0010.jpg",
         "size": "wide"
       },
       {
-        "category": "Engagement",
-        "title": "Institutional Partnerships",
-        "size": "mid"
-      },
-      {
+        "type": "image",
         "category": "Students",
-        "title": "Group Discussions & Role Plays",
+        "title": "Collaborative Learning — Case Studies",
+        "src": "img/gallery/IMG-20260304-WA0012.jpg",
         "size": "tall"
       },
       {
-        "category": "Classroom",
-        "title": "CEFR & OET Training",
+        "type": "video",
+        "category": "Videos",
+        "title": "Futureminds Programme Highlights",
+        "src": "vid/VID-20250926-WA0006.mp4",
+        "thumb": "img/gallery/IMG-20260304-WA0010.jpg",
         "size": "mid"
       },
       {
-        "category": "Faculty",
-        "title": "4Cs in the Classroom",
+        "type": "image",
+        "category": "Classroom",
+        "title": "Interactive Session — Student Engagement",
+        "src": "img/gallery/IMG-20260304-WA0004.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Classroom",
+        "title": "CEFR & Communication Training",
+        "src": "img/gallery/IMG-20260304-WA0005.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Engagement",
+        "title": "Institutional Visit — Toyota Kirloskar Motor",
+        "src": "img/gallery/IMG-20260324-WA0007.jpg",
         "size": "wide"
       },
       {
-        "category": "Engagement",
-        "title": "University-Level Forums",
-        "size": "tall"
-      },
-      {
-        "category": "Students",
-        "title": "Final-Year Readiness Bootcamps",
+        "type": "video",
+        "category": "Videos",
+        "title": "Student Testimonials & Impact Stories",
+        "src": "vid/VID-20250926-WA0009.mp4",
+        "thumb": "img/gallery/IMG-20260506-WA0003.jpeg",
         "size": "mid"
       },
       {
+        "type": "image",
+        "category": "Faculty",
+        "title": "Faculty Development Programme Session",
+        "src": "img/gallery/IMG-20260516-WA0003.jpg",
+        "size": "tall"
+      },
+      {
+        "type": "image",
+        "category": "Events",
+        "title": "Graduation Ceremony — Partner College",
+        "src": "img/gallery/IMG-20260612-WA0004.jpg",
+        "size": "wide"
+      },
+      {
+        "type": "image",
+        "category": "Events",
+        "title": "Convocation Ceremony — Degree Presentation",
+        "src": "img/gallery/IMG-20260612-WA0005.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Faculty",
+        "title": "Interactive Faculty Workshop",
+        "src": "img/gallery/IMG-20260506-WA0003.jpeg",
+        "size": "mid"
+      },
+      {
+        "type": "video",
+        "category": "Videos",
+        "title": "Faculty Development Programme — Live Session",
+        "src": "vid/VID-20260225-WA0008.mp4",
+        "thumb": "img/gallery/IMG-20260516-WA0003.jpg",
+        "size": "wide"
+      },
+      {
+        "type": "image",
+        "category": "Students",
+        "title": "Group Activity — Employability Workshop",
+        "src": "img/gallery/IMG-20260304-WA0002.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Classroom",
+        "title": "Small Group Learning Circle",
+        "src": "img/gallery/IMG-20260304-WA0006.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "video",
+        "category": "Videos",
+        "title": "Campus Engagement & Student Activities",
+        "src": "vid/VID-20250926-WA0010.mp4",
+        "thumb": "img/gallery/IMG-20260612-WA0006.jpg",
+        "size": "tall"
+      },
+      {
+        "type": "image",
+        "category": "Engagement",
+        "title": "Convocation — Futureminds Institutional Partner",
+        "src": "img/gallery/IMG-20260612-WA0006.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Faculty",
+        "title": "FDP — Pedagogy & 4Cs Framework",
+        "src": "img/gallery/IMG-20260516-WA0004.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Students",
+        "title": "Workplace Readiness Bootcamp",
+        "src": "img/gallery/IMG-20260516-WA0005.jpg",
+        "size": "wide"
+      },
+      {
+        "type": "video",
+        "category": "Videos",
+        "title": "MOU Signing — Partnership Ceremony",
+        "src": "vid/VID-20260606-WA0004.mp4",
+        "thumb": "img/gallery/1781917775714.jpeg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Events",
+        "title": "Institutional Collaboration — Formal Ceremony",
+        "src": "img/gallery/1781917775714.jpeg",
+        "size": "tall"
+      },
+      {
+        "type": "image",
+        "category": "Classroom",
+        "title": "Communication & Language Training",
+        "src": "img/gallery/IMG-20260516-WA0006.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "video",
+        "category": "Videos",
+        "title": "Employability Programme — Student Workshop",
+        "src": "vid/VID-20260606-WA0037.mp4",
+        "thumb": "img/gallery/IMG-20260516-WA0007.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Engagement",
+        "title": "University Forum — Institutional Engagement",
+        "src": "img/gallery/IMG-20260516-WA0007.jpg",
+        "size": "wide"
+      },
+      {
+        "type": "image",
         "category": "Faculty",
         "title": "AI Awareness for Educators",
+        "src": "img/gallery/IMG-20260516-WA0008.jpg",
         "size": "mid"
+      },
+      {
+        "type": "video",
+        "category": "Videos",
+        "title": "Programme Overview — Futureminds",
+        "src": "vid/VID_20260227_172051.mp4",
+        "thumb": "img/gallery/IMG-20250315-WA0006.jpg",
+        "size": "wide"
+      },
+      {
+        "type": "image",
+        "category": "Classroom",
+        "title": "Student Workshop — Career Planning",
+        "src": "img/gallery/IMG-20250315-WA0006.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Faculty",
+        "title": "Faculty Training — Communication Skills",
+        "src": "img/gallery/IMG-20250315-WA0007.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "video",
+        "category": "Videos",
+        "title": "June 2026 — Institutional Events",
+        "src": "vid/VID-20260611-WA0006.mp4",
+        "thumb": "img/gallery/IMG-20260612-WA0008.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Events",
+        "title": "Institutional Events — June 2026",
+        "src": "img/gallery/IMG-20260612-WA0008.jpg",
+        "size": "mid"
+      },
+      {
+        "type": "image",
+        "category": "Students",
+        "title": "Employability Training — Group Session",
+        "src": "img/gallery/IMG-20250315-WA0008.jpg",
+        "size": "tall"
       }
     ]
   },
@@ -424,57 +594,100 @@ window.FM_BUNDLE = {
     "hero": {
       "eyebrow": "Prestigious Collaborations",
       "title": "An Institutional Wall of Trust",
-      "subtitle": "MoUs, recommendations and partnerships with national bodies, state councils and an international assessment organisation."
+      "subtitle": "MoUs, recommendations and partnerships with national bodies, state councils, industry leaders and an international assessment organisation."
     },
     "partners": [
       {
         "name": "VTU",
         "full": "Visvesvaraya Technological University",
-        "relation": "MoU"
+        "relation": "MoU",
+        "url": "https://vtu.ac.in"
       },
       {
         "name": "AICTE",
         "full": "All India Council for Technical Education",
-        "relation": "MoU"
+        "relation": "MoU",
+        "url": "https://aicte-india.org"
       },
       {
         "name": "KSOU",
         "full": "Karnataka State Open University",
-        "relation": "MoU"
+        "relation": "MoU",
+        "url": "https://ksouedu.com"
       },
       {
         "name": "KHEC",
         "full": "Karnataka Higher Education Council",
-        "relation": "Recommended"
+        "relation": "Recommended",
+        "url": "https://khec.karnataka.gov.in"
+      },
+      {
+        "name": "TKM",
+        "full": "Toyota Kirloskar Motor",
+        "relation": "MoU Signed",
+        "url": "https://www.toyotabharat.com"
       },
       {
         "name": "Burlington",
-        "full": "International Assessment Partner",
-        "relation": "CEFR & OET"
+        "full": "Burlington English — International Assessment Partner",
+        "relation": "CEFR & OET",
+        "url": "https://www.burlingtonenglish.com"
       },
       {
-        "name": "Universities",
-        "full": "Autonomous & affiliated institutions",
-        "relation": "Engaged"
+        "name": "FKCCI",
+        "full": "Federation of Karnataka Chambers of Commerce & Industry",
+        "relation": "Association",
+        "url": "https://fkcci.in"
       },
       {
-        "name": "Government Bodies",
-        "full": "State higher-education councils",
-        "relation": "Collaboration"
+        "name": "BMA",
+        "full": "Bangalore Management Association",
+        "relation": "Member",
+        "url": "https://bma.org.in"
+      },
+      {
+        "name": "ISTE",
+        "full": "Indian Society for Technical Education",
+        "relation": "Member",
+        "url": "https://isteonline.in"
       },
       {
         "name": "NEP 2020",
-        "full": "Aligned frameworks & assessments",
-        "relation": "Aligned"
+        "full": "Aligned Frameworks & Assessments",
+        "relation": "Aligned",
+        "url": "https://www.education.gov.in/nep"
+      }
+    ],
+    "mouPhotos": [
+      {
+        "src": "img/mou/IMG-20260324-WA0007.jpg",
+        "caption": "Toyota Kirloskar Motor (TKM) — MOU Partnership Visit"
+      },
+      {
+        "src": "img/mou/1781917775714.jpeg",
+        "caption": "Institutional Collaboration — MOU Ceremony"
+      },
+      {
+        "src": "img/mou/IMG-20260612-WA0004.jpg",
+        "caption": "Graduation Ceremony — Partner College Collaboration"
+      },
+      {
+        "src": "img/mou/IMG-20260506-WA0003.jpeg",
+        "caption": "Futureminds Programme Engagement — Partner Institution"
+      },
+      {
+        "src": "img/mou/IMG-20260516-WA0003.jpg",
+        "caption": "Faculty Development Programme — Partner University"
       }
     ],
     "statements": [
-      "MoUs with VTU, AICTE & KSOU",
+      "MoUs with VTU, AICTE & KSOU — national university and council bodies",
       "Recommended by the Karnataka Higher Education Council (KHEC)",
-      "Partnership with international assessment organisation, Burlington",
-      "NEP-2020 aligned frameworks for CEFR assessment & OET training",
-      "Pan-India institutional engagement experience",
-      "Proven implementation capability across institutions"
+      "Partnership with Toyota Kirloskar Motor (TKM) — industry employability linkage",
+      "International partnership with Burlington English for CEFR assessment & OET training",
+      "NEP-2020 aligned frameworks across all programmes",
+      "Pan-India institutional engagement spanning universities, colleges and government bodies",
+      "Proven implementation capability across diverse educational environments"
     ]
   },
   "pathways": {
@@ -765,7 +978,7 @@ window.FM_BUNDLE = {
       "href": "contact.html"
     },
     "contact": {
-      "address": "#14, Sumo Solitaire, 37th A Cross, 1st Main, 8th Block, Jayanagar, Bengaluru 560071, Karnataka, India",
+      "address": "226 Maithri, 3rd Cross, 7th Main, Vasantapur, Bengaluru 560078, Karnataka, India",
       "email": "info@futureminds.in",
       "partnerEmail": "partnerships@futureminds.in",
       "phoneGeneral": "+91 819 707 1905",
@@ -819,8 +1032,8 @@ window.FM_BUNDLE = {
       }
     },
     "footer": {
-      "blurb": "A nationally recognised education and employability organisation with 41+ years of impact — partnering with universities, colleges and government bodies to build future-ready learning ecosystems.",
-      "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KHEC · International partner: Burlington",
+      "blurb": "A nationally recognised education and employability organisation with 40+ years of impact — partnering with universities, colleges and government bodies to build future-ready learning ecosystems.",
+      "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KHEC · TKM & Burlington Partnership",
       "columns": [
         {
           "title": "Organisation",

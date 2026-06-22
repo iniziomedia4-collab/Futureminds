@@ -1,4 +1,4 @@
-﻿/* ============================================================
+/* ============================================================
    FUTUREMINDS v2 â€” app.js
    JSON-driven multi-page renderer.
    Loads window.FM_BUNDLE (file://) or fetches /data/*.json (served).
@@ -246,15 +246,47 @@
   function galleryBlock(g) {
     var filters = g.filters.map(function (f, i) { return '<button class="gallery-filter' + (i === 0 ? ' active' : '') + '" data-f="' + esc(f) + '">' + esc(f) + '</button>'; }).join('');
     return '<section class="section"><div class="container">' + sectionHead(g.hero.eyebrow, g.hero.title, g.hero.subtitle, true) +
-      '<div class="gallery-filters" id="galFilters">' + filters + '</div><div class="gallery" id="galGrid"></div></div></section>';
+      '<div class="gallery-filters" id="galFilters">' + filters + '</div><div class="gallery" id="galGrid"></div></div></section>' +
+      '<!-- Video Modal --><div class="vid-modal" id="vidModal" role="dialog" aria-modal="true" aria-label="Video player"><button class="vid-close" id="vidClose" aria-label="Close">&times;</button><video id="vidPlayer" controls playsinline></video></div>';
   }
   function initGallery(g) {
     var grid = document.getElementById('galGrid'), filters = document.getElementById('galFilters');
+    var modal = document.getElementById('vidModal'), player = document.getElementById('vidPlayer'), closeBtn = document.getElementById('vidClose');
     if (!grid) return;
+    function openVideo(src) {
+      if (!modal || !player) return;
+      player.src = src;
+      modal.classList.add('open');
+      player.play().catch(function () {});
+      document.body.style.overflow = 'hidden';
+    }
+    function closeVideo() {
+      if (!modal || !player) return;
+      modal.classList.remove('open');
+      player.pause();
+      player.src = '';
+      document.body.style.overflow = '';
+    }
+    if (closeBtn) closeBtn.addEventListener('click', closeVideo);
+    if (modal) modal.addEventListener('click', function (e) { if (e.target === modal) closeVideo(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeVideo(); });
     function render(f) {
       grid.innerHTML = g.tiles.filter(function (t) { return f === 'All' || t.category === f; }).map(function (t) {
-        return '<div class="tile ' + (t.size || '') + '"><div><small>' + esc(t.category) + '</small><span>' + esc(t.title) + '</span></div></div>';
+        if (t.type === 'video') {
+          var thumb = t.thumb ? 'style="background-image:url(\'' + t.thumb + '\');background-size:cover;background-position:center"' : '';
+          return '<div class="tile ' + (t.size || 'mid') + ' tile-video" data-src="' + esc(t.src) + '">' +
+            '<div class="tile-thumb" ' + thumb + '></div>' +
+            '<div class="tile-play"><svg viewBox="0 0 24 24" fill="#fff" width="48"><circle cx="12" cy="12" r="11" fill="rgba(0,0,0,.55)"/><polygon points="9.5,7 18,12 9.5,17" fill="#c99b0d"/></svg></div>' +
+            '<div class="tile-info"><small>' + esc(t.category) + '</small><span>' + esc(t.title) + '</span></div></div>';
+        } else {
+          return '<div class="tile ' + (t.size || 'mid') + '">' +
+            '<img src="' + esc(t.src) + '" alt="' + esc(t.title) + '" loading="lazy">' +
+            '<div class="tile-info"><small>' + esc(t.category) + '</small><span>' + esc(t.title) + '</span></div></div>';
+        }
       }).join('');
+      grid.querySelectorAll('.tile-video').forEach(function (el) {
+        el.addEventListener('click', function () { openVideo(el.dataset.src); });
+      });
     }
     if (filters) filters.querySelectorAll('.gallery-filter').forEach(function (b) { b.addEventListener('click', function () { filters.querySelectorAll('.gallery-filter').forEach(function (x) { x.classList.remove('active'); }); b.classList.add('active'); render(b.dataset.f); }); });
     render('All');
@@ -319,10 +351,29 @@
     },
     partners: function (d) {
       var pn = d.partners;
-      var cells = pn.partners.map(function (p) { return '<div class="client-cell"><b>' + esc(p.name) + '</b><small>' + esc(p.full) + '</small><span class="rel">' + esc(p.relation) + '</span></div>'; }).join('');
+      var cells = pn.partners.map(function (p) {
+        var inner = '<b>' + esc(p.name) + '</b><small>' + esc(p.full) + '</small><span class="rel">' + esc(p.relation) + '</span>';
+        return p.url ? '<a class="client-cell" href="' + esc(p.url) + '" target="_blank" rel="noopener">' + inner + '</a>' : '<div class="client-cell">' + inner + '</div>';
+      }).join('');
       var stmts = pn.statements.map(function (s) { return '<li>' + icon('check', 22) + '<span>' + esc(s) + '</span></li>'; }).join('');
+      /* MOU Photo Carousel */
+      var mouHtml = '';
+      if (pn.mouPhotos && pn.mouPhotos.length) {
+        var slides = pn.mouPhotos.map(function (ph, i) {
+          return '<div class="mou-slide' + (i === 0 ? ' active' : '') + '">' +
+            '<img src="' + esc(ph.src) + '" alt="' + esc(ph.caption) + '" loading="lazy">' +
+            '<p class="mou-caption">' + esc(ph.caption) + '</p></div>';
+        }).join('');
+        mouHtml = '<section class="section ink" id="mou-gallery"><div class="container">' +
+          sectionHead('MOU Signatures', 'Partnership Ceremonies & Formal Collaborations', null, true) +
+          '<div class="mou-carousel reveal" id="mouCarousel">' + slides + '</div>' +
+          '<div class="mou-nav"><button id="mouPrev" aria-label="Previous">&#8592;</button>' +
+          '<div class="mou-dots" id="mouDots">' + pn.mouPhotos.map(function (_, i) { return '<button class="md' + (i === 0 ? ' active' : '') + '" data-i="' + i + '" aria-label="Slide ' + (i+1) + '"></button>'; }).join('') + '</div>' +
+          '<button id="mouNext" aria-label="Next">&#8594;</button></div></div></section>';
+      }
       return pageHero(pn.hero, 'Partners') +
         '<section class="section"><div class="container"><div class="client-wall reveal">' + cells + '</div></div></section>' +
+        mouHtml +
         '<section class="section paper"><div class="container">' + sectionHead('Credibility', 'Trust & Accreditation', null, true) + '<ul class="statement-list reveal">' + stmts + '</ul></div></section>' + ctaBand(d.site);
     },
     overseas: function (d) {
@@ -338,6 +389,28 @@
       return '<header class="page-hero" style="padding-bottom:30px"><div class="glow"></div><div class="container"><div class="page-hero-inner reveal"><div class="crumbs"><a href="index.html">Home</a> / Contact</div><span class="eyebrow">Contact</span><h1>Let\'s Shape Future-Ready Institutions Together</h1><p>' + esc(d.site.contact.mapNote) + '</p></div></div></header>' + contactBlock(d.site);
     }
   };
+
+  /* ---------- MOU CAROUSEL ---------- */
+  function initMouCarousel() {
+    var carousel = document.getElementById('mouCarousel');
+    var dots = document.getElementById('mouDots');
+    var prev = document.getElementById('mouPrev');
+    var next = document.getElementById('mouNext');
+    if (!carousel) return;
+    var slides = carousel.querySelectorAll('.mou-slide');
+    var cur = 0;
+    function go(n) {
+      slides[cur].classList.remove('active');
+      cur = (n + slides.length) % slides.length;
+      slides[cur].classList.add('active');
+      if (dots) { dots.querySelectorAll('.md').forEach(function (d, i) { d.classList.toggle('active', i === cur); }); }
+    }
+    if (prev) prev.addEventListener('click', function () { go(cur - 1); });
+    if (next) next.addEventListener('click', function () { go(cur + 1); });
+    if (dots) { dots.querySelectorAll('.md').forEach(function (d) { d.addEventListener('click', function () { go(parseInt(d.dataset.i)); }); }); }
+    /* Auto-advance every 4s */
+    setInterval(function () { go(cur + 1); }, 4000);
+  }
 
   /* ---------- WIRING ---------- */
   function animateCount(el) {
@@ -367,6 +440,7 @@
     if (page === 'career-pathways') initPathways(d.pathways.domains);
     if (page === 'impact') animateChart();
     if (page === 'gallery') initGallery(d.gallery);
+    if (page === 'partners') initMouCarousel();
     if (page === 'contact') { var f = document.getElementById('contactForm'); if (f) f.addEventListener('submit', function (e) { e.preventDefault(); f.querySelector('.form-ok').style.display = 'block'; f.reset(); }); }
   }
 
