@@ -1,0 +1,57 @@
+{
+  "hero": {
+    "eyebrow": "About Futureminds",
+    "title": "Four Decades of Educational Leadership",
+    "subtitle": "A nationally recognised education and employability-skills organisation with over four decades of cumulative experience in education, training, institutional development, and skill-ecosystem design."
+  },
+  "lead": {
+    "title": "The Evolution of Excellence",
+    "paragraphs": [
+      "Futureminds works closely with universities, autonomous colleges, government bodies, and higher-education institutions to support employability enhancement, student capability building, faculty development, career readiness, and institution-wide academic transformation.",
+      "We believe higher education must move beyond degrees alone and increasingly support students in becoming adaptable, responsible, employable, and future-ready professionals. We are currently executing projects across Karnataka, Kerala, Tamil Nadu and Andhra Pradesh."
+    ],
+    "pull": "Transformation is not a single event. It is a sequence of purposeful shifts in capability, culture, and context."
+  },
+  "timeline": [
+    { "era": "1970s — 1990s", "title": "Educational Leadership", "text": "Four decades of grounding in education, training and institution building — establishing the bedrock of trust and pedagogical depth." },
+    { "era": "2000s", "title": "Faculty Empowerment", "text": "Structured faculty development programmes bringing 21st-century pedagogy, learning outcomes and learner engagement into classrooms." },
+    { "era": "2010s", "title": "Employability Transformation", "text": "The shift from content delivery to capability — career readiness, communication and workplace preparedness at institutional scale." },
+    { "era": "Today", "title": "Future-Ready Ecosystems", "text": "NEP-2020 aligned frameworks, the flagship EEE model, AI awareness and career-pathway intelligence across India." }
+  ],
+  "philosophy": {
+    "eyebrow": "Our Philosophy",
+    "title": "What We Believe",
+    "beliefs": [
+      "Degrees alone do not ensure employability.",
+      "Skills without values lack sustainability.",
+      "Education must evolve with industry, society, and technology.",
+      "Students require career clarity in addition to academic knowledge.",
+      "Institutions must prepare learners for evolving workplaces, not only examinations."
+    ],
+    "integrates": [
+      "English & communication capability",
+      "Employability & workplace readiness",
+      "Entrepreneurship awareness",
+      "21st-century skills",
+      "Professional ethics",
+      "Applied digital & AI awareness",
+      "Career-pathway understanding",
+      "Long-term adaptability"
+    ]
+  },
+  "approach": {
+    "eyebrow": "Our Distinctive Approach",
+    "title": "Designed Differently from Conventional Training",
+    "intro": "Rather than relying on motivational delivery, we build thinking, confidence and adaptability through experiential, reflection-driven learning.",
+    "traditional": {
+      "title": "Conventional Training",
+      "subtitle": "Motivational & Generic",
+      "points": ["One-size-fits-all workshops", "Lecture-led, passive delivery", "Short-term placement focus", "Discipline-agnostic content"]
+    },
+    "futureminds": {
+      "title": "The Futureminds Methodology",
+      "subtitle": "Experiential & Future-Aligned",
+      "points": ["Experiential learning & case studies", "Role plays, simulations & guided reflection", "Career awareness & future-of-work alignment", "Discipline-contextual & industry-relevant"]
+    }
+  }
+}
