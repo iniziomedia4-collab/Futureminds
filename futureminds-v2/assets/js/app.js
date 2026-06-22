@@ -215,7 +215,7 @@
     vals.forEach(function (v, i) { line += (i ? 'L' : 'M') + x(i) + ' ' + y(v) + ' '; });
     var area = 'M' + x(0) + ' ' + (H - pad) + ' ' + vals.map(function (v, i) { return 'L' + x(i) + ' ' + y(v); }).join(' ') + ' L' + x(vals.length - 1) + ' ' + (H - pad) + ' Z';
     chart.labels.forEach(function (lb, i) { grid += '<line x1="' + x(i) + '" y1="' + pad + '" x2="' + x(i) + '" y2="' + (H - pad) + '" stroke="rgba(255,255,255,.06)"/><text x="' + x(i) + '" y="' + (H - pad + 22) + '" fill="rgba(255,255,255,.5)" font-size="12" text-anchor="middle" font-family="Verdana">' + esc(lb) + '</text>'; });
-    vals.forEach(function (v, i) { dots += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="5" fill="#c99b0d" stroke="#0a1f35" stroke-width="2"/>'; });
+    vals.forEach(function (v, i) { dots += '<circle cx="' + x(i) + '" cy="' + y(v) + '" r="5" fill="#c99b0d" stroke="#0a2218" stroke-width="2"/>'; });
     return '<svg id="growthChart" viewBox="0 0 900 300" width="100%" preserveAspectRatio="xMidYMid meet" aria-label="Growth chart"><defs><linearGradient id="ga" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#c99b0d" stop-opacity=".35"/><stop offset="1" stop-color="#c99b0d" stop-opacity="0"/></linearGradient></defs>' + grid + '<path d="' + area + '" fill="url(#ga)"/><path class="gline" d="' + line + '" fill="none" stroke="#c99b0d" stroke-width="3" stroke-linecap="round"/>' + dots + '</svg>';
   }
   function animateChart() {
@@ -386,3 +386,6 @@
     if (main) main.innerHTML = '<div class="container" style="padding:160px 0;text-align:center"><h2>Content could not be loaded</h2><p>Ensure data/bundle.js is present, or run via a local server (see README).</p></div>';
   });
 })();
+
+
+

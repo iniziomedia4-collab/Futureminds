@@ -1,4 +1,5 @@
-/* Futureminds v2 — Three.js knowledge sphere (home hero) */
+﻿/* Futureminds v2 â€” Three.js knowledge sphere (home hero)
+   Colors: #c99b0d gold dots (30%) Â· #006a34 green core (50%) Â· #007ab8 navy lines (20%) */
 window.initHero3D = function () {
   const canvas = document.getElementById('hero-canvas');
   if (!canvas || !window.THREE) return;
@@ -22,7 +23,8 @@ window.initHero3D = function () {
   const posArr = new Float32Array(N * 3);
   pts.forEach((p, i) => { posArr[i * 3] = p.x; posArr[i * 3 + 1] = p.y; posArr[i * 3 + 2] = p.z; });
   geo.setAttribute('position', new THREE.BufferAttribute(posArr, 3));
-  group.add(new THREE.Points(geo, new THREE.PointsMaterial({ color: 0xc99b0d, size: 0.16, transparent: true, opacity: 0.9 })));
+  /* Gold dots â€” 30% palette */
+  group.add(new THREE.Points(geo, new THREE.PointsMaterial({ color: 0xc99b0d, size: 0.17, transparent: true, opacity: 0.95 })));
 
   const linePos = [];
   for (let i = 0; i < N; i++) for (let j = i + 1; j < N; j++) if (pts[i].distanceTo(pts[j]) < 2.6) {
@@ -30,14 +32,17 @@ window.initHero3D = function () {
   }
   const lgeo = new THREE.BufferGeometry();
   lgeo.setAttribute('position', new THREE.BufferAttribute(new Float32Array(linePos), 3));
-  group.add(new THREE.LineSegments(lgeo, new THREE.LineBasicMaterial({ color: 0x007ab8, transparent: true, opacity: 0.32 })));
+  /* Navy lines â€” 20% palette */
+  group.add(new THREE.LineSegments(lgeo, new THREE.LineBasicMaterial({ color: 0x005581, transparent: true, opacity: 0.30 })));
 
   const hubGeo = new THREE.SphereGeometry(0.22, 16, 16);
+  /* Gold hubs (30%) */
   const hubMat = new THREE.MeshBasicMaterial({ color: 0xd4a91a });
   const hubs = [];
   for (let k = 0; k < 7; k++) { const m = new THREE.Mesh(hubGeo, hubMat.clone()); m.position.copy(pts[Math.floor(k * N / 7)]); group.add(m); hubs.push(m); }
 
-  group.add(new THREE.Mesh(new THREE.SphereGeometry(2.4, 32, 32), new THREE.MeshBasicMaterial({ color: 0x005581, transparent: true, opacity: 0.5 })));
+  /* Green core sphere (50%) */
+  group.add(new THREE.Mesh(new THREE.SphereGeometry(2.4, 32, 32), new THREE.MeshBasicMaterial({ color: 0x003d2b, transparent: true, opacity: 0.55 })));
 
   function resize() {
     const w = canvas.clientWidth || canvas.offsetWidth, h = canvas.clientHeight || canvas.offsetHeight;
@@ -62,3 +67,4 @@ window.initHero3D = function () {
   loop();
   document.addEventListener('visibilitychange', () => { if (document.hidden) cancelAnimationFrame(raf); else loop(); });
 };
+
