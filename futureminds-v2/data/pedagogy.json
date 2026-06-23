@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "eyebrow": "Pedagogy & Philosophy",
+    "title": "Why Futureminds",
+    "subtitle": "We partner with educational institutions to design and implement structured, scalable, and outcome-driven interventions."
+  },
+  "why": {
+    "title": "The Futureminds Difference",
+    "intro": "Many educational websites miss this. Here is why Vice-Chancellors, Registrars and Principals choose Futureminds:",
+    "items": [
+      {
+        "icon": "building",
+        "title": "Institutional Focus",
+        "text": "Designed specifically for universities and colleges, integrating seamlessly with existing academic ecosystems."
+      },
+      {
+        "icon": "layers",
+        "title": "Structured Frameworks",
+        "text": "We deliver long-term capability building, not just standalone motivational workshops."
+      },
+      {
+        "icon": "cpu",
+        "title": "Trainer-Independent Content",
+        "text": "A scalable delivery model built on robust content and methodology, ensuring consistent quality."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Employability Integration",
+        "text": "Bridging the gap between academic learning and practical workplace readiness."
+      },
+      {
+        "icon": "users",
+        "title": "Faculty Capability Enhancement",
+        "text": "Empowering educators to drive long-term institutional impact through modern pedagogical practices."
+      },
+      {
+        "icon": "shield",
+        "title": "National Alignment",
+        "text": "Strict alignment with NEP 2020, PM-USHA, employability mandates, and future skills frameworks."
+      }
+    ]
+  },
+  "pedagogy": {
+    "title": "Our Pedagogical Framework",
+    "intro": "Our training methodology is rooted in proven educational frameworks that move learners from passive reception to active capability.",
+    "items": [
+      {
+        "id": "4cs",
+        "icon": "message",
+        "title": "The 4Cs Framework",
+        "text": "Critical Thinking, Communication, Collaboration, and Creativity embedded into every learning module."
+      },
+      {
+        "id": "5e",
+        "icon": "rocket",
+        "title": "The 5E Model",
+        "text": "Engage, Explore, Explain, Elaborate, and Evaluate — ensuring deep conceptual understanding and application."
+      },
+      {
+        "id": "blooms",
+        "icon": "trend",
+        "title": "Bloom's Taxonomy",
+        "text": "Structuring learning outcomes to move students from basic remembering to higher-order creating and evaluating."
+      },
+      {
+        "id": "orid",
+        "icon": "compass",
+        "title": "ORID Framework",
+        "text": "Objective, Reflective, Interpretive, and Decisional learning processes for structured reflection and experiential growth."
+      }
+    ]
+  }
+}

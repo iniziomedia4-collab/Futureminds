@@ -84,6 +84,130 @@ window.FM_BUNDLE = {
       }
     }
   },
+  "founder": {
+    "hero": {
+      "eyebrow": "Founder & Leadership",
+      "title": "Venkatessh Sharma",
+      "subtitle": "Education entrepreneur, institution builder, trainer, mentor, and skill development leader with nearly four decades of experience spanning higher education, employability, faculty development, educational technology, leadership development, and institutional transformation."
+    },
+    "message": {
+      "title": "Founder's Message",
+      "paragraphs": [
+        "India stands at a critical point in its educational journey. While academic excellence remains important, the future increasingly belongs to individuals who can communicate effectively, think critically, collaborate across disciplines, adapt to change, leverage technology responsibly, and continuously learn throughout their careers.",
+        "At Futureminds, we believe that education must extend beyond knowledge acquisition to include employability, entrepreneurship, workplace readiness, leadership, and lifelong learning.",
+        "For more than four decades, I have had the privilege of working with educational institutions, universities, government bodies, teachers, students, and industry leaders across India. These experiences have reinforced my conviction that institutions must proactively prepare learners not only for examinations but also for life, careers, and meaningful societal contributions.",
+        "Futureminds was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
+        "Through our programmes in employability enhancement, faculty development, communication skills, entrepreneurship, future skills, AI awareness, and institutional transformation, we strive to create measurable and sustainable impact.",
+        "We look forward to partnering with institutions that share our commitment to developing future-ready learners and transforming education into a powerful catalyst for personal, professional, and societal growth."
+      ],
+      "signoff": "Warm Regards,",
+      "name": "Venkatessh Sharma",
+      "role": "Founder & CEO",
+      "org": "Futureminds"
+    },
+    "profile": {
+      "title": "Founder Profile",
+      "subtitle": "Founder & CEO – Futureminds",
+      "paragraphs": [
+        "Venkatessh Sharma is an education entrepreneur, institution builder, trainer, mentor, and skill development leader with nearly four decades of experience spanning higher education, employability, faculty development, educational technology, leadership development, and institutional transformation.",
+        "Over the course of his distinguished career, he has worked extensively with universities, colleges, educational institutions, government bodies, professional associations, and industry organisations across India. His work has focused on strengthening educational quality, enhancing student employability, developing faculty capability, and creating sustainable frameworks for institutional growth.",
+        "As Founder & CEO of Futureminds, he leads the design and implementation of innovative programmes in the areas of employability enhancement, communication capability, entrepreneurship development, faculty development, career pathways, workplace readiness, future skills, and educational transformation.",
+        "Venkatessh Sharma has played a pioneering role in integrating Information Technology into education and has successfully executed several large-scale initiatives involving national institutions, government agencies, and development projects. His contributions have significantly influenced the adoption of technology-enabled learning and skill development practices across educational ecosystems.",
+        "He has conceptualised and implemented professional development programmes that have impacted more than 300,000 students and over 270,000 educators, helping institutions strengthen teaching-learning processes, student outcomes, and employability readiness.",
+        "His contributions to education were recognised by the Government of India through his appointment as a Member of the Executive Committee of the All India Council for Technical Education (AICTE), where he participated in policy-level deliberations and contributed to strengthening India's higher education ecosystem.",
+        "In addition to his educational leadership, Venkatessh Sharma has been actively associated with entrepreneurship development, institutional consulting, leadership development, and social impact initiatives. He has worked closely with educational leaders, policymakers, administrators, and industry stakeholders to design programmes that align education with the evolving needs of society and the workplace.",
+        "A passionate advocate of lifelong learning and future-ready education, he continues to champion initiatives that empower students, educators, and institutions to succeed in a rapidly changing world."
+      ]
+    },
+    "highlights": {
+      "title": "Professional Highlights",
+      "items": [
+        "Nearly 40 years of experience in education, training, employability, and institutional development",
+        "Founder & CEO of Futureminds",
+        "Former Founder & CEO of MeriTrain Education Services",
+        "Former Member, Executive Committee, AICTE, Government of India",
+        "Education entrepreneur and institution builder",
+        "Chairman of Governing Councils of professional colleges",
+        "Teacher, trainer, mentor, career counsellor, and education strategist",
+        "Pioneer in Information Technology integration within education",
+        "Contributor to Government of India and World Bank-supported education initiatives",
+        "Designed and implemented large-scale teacher development programmes",
+        "Impacted more than 300,000 students and over 270,000 educators",
+        "Advisor and collaborator with universities, colleges, educational institutions, and government agencies",
+        "Champion of employability, entrepreneurship, communication capability, and future skills education",
+        "Advocate of NEP 2020 aligned educational transformation"
+      ]
+    },
+    "leadership": {
+      "title": "Leadership & Institution Building",
+      "paragraphs": [
+        "Futureminds is built upon decades of experience in institution building, academic leadership, educational innovation, and large-scale programme implementation.",
+        "Under the leadership of Venkatessh Sharma, numerous educational initiatives have been conceptualised, implemented, scaled, and sustained across diverse educational environments. His work has consistently focused on creating systems, processes, frameworks, and interventions that strengthen institutions while delivering measurable outcomes for students and educators.",
+        "His leadership philosophy combines academic excellence, employability orientation, innovation, technology integration, and stakeholder engagement to create sustainable institutional transformation."
+      ]
+    },
+    "contributions": {
+      "title": "National Contributions",
+      "intro": "Venkatessh Sharma has contributed to the advancement of education and skill development through active engagement with national institutions, educational bodies, universities, professional associations, government agencies, and development initiatives.",
+      "aicte": "His appointment to the Executive Committee of AICTE reflects the trust placed in his educational leadership and his commitment to strengthening higher education in India. Over the years, he has contributed to initiatives related to:",
+      "items": [
+        "Higher Education Development",
+        "Educational Technology Integration",
+        "Faculty Capacity Building",
+        "Employability Enhancement",
+        "Skill Development",
+        "Entrepreneurship Promotion",
+        "Curriculum Innovation",
+        "Educational Transformation",
+        "Future Skills Development"
+      ]
+    },
+    "impact": {
+      "title": "Impact at a Glance",
+      "metrics": [
+        {
+          "value": "300,000+",
+          "label": "Students Impacted"
+        },
+        {
+          "value": "270,000+",
+          "label": "Educators Trained"
+        },
+        {
+          "value": "40+",
+          "label": "Years of Educational Leadership"
+        },
+        {
+          "value": "Multiple States",
+          "label": "Programme Implementation"
+        },
+        {
+          "value": "Universities, Colleges, Government Bodies & Industry Partners",
+          "label": "National-Level Policy and Educational Leadership Experience"
+        }
+      ]
+    },
+    "associations": {
+      "title": "Professional Associations",
+      "intro": "Venkatessh Sharma is associated with several professional, educational, and industry bodies including:",
+      "bodies": [
+        "FKCCI",
+        "Bangalore Management Association (BMA)",
+        "Indian Society for Technical Education (ISTE)",
+        "IET Future Tech Panel"
+      ],
+      "note": "These associations enable continuous engagement with emerging developments in education, technology, leadership, entrepreneurship, and industry."
+    },
+    "rotary": {
+      "title": "Rotary Leadership",
+      "paragraphs": [
+        "Venkatessh Sharma has been associated with Rotary for several decades and has held numerous leadership positions at both club and district levels.",
+        "A Past President of his Rotary Club, he has served in various capacities including Assistant Governor, District Secretary, Conference Leadership Roles, Membership Development, Awards, and Strategic Planning.",
+        "His Rotary journey reflects a long-standing commitment to service, leadership development, community engagement, and institution building."
+      ]
+    },
+    "positioning": "\"Venkatessh Sharma's professional journey reflects a lifelong commitment to educational excellence, institutional transformation, employability enhancement, leadership development, and social impact. Through Futureminds, he continues to work towards creating future-ready learners, empowered educators, and stronger institutions capable of thriving in an increasingly dynamic and interconnected world.\""
+  },
   "gallery": {
     "hero": {
       "eyebrow": "Gallery",
@@ -322,23 +446,23 @@ window.FM_BUNDLE = {
   },
   "home": {
     "hero": {
-      "badge": "41+ Years of Educational Leadership · Bengaluru, India",
-      "titleLead": "Building Future-Ready Minds for",
-      "titleAccent": "Education, Employability",
-      "titleTail": "& Leadership",
-      "subtitle": "A nationally recognised education and employability organisation partnering with universities, colleges and government bodies across India — bridging academic learning and real-world readiness through structured capability-building frameworks.",
+      "badge": "40+ Years of Educational Leadership · Bengaluru, India",
+      "titleLead": "Future-Ready Education.",
+      "titleAccent": "Employability.",
+      "titleTail": "Institutional Transformation.",
+      "subtitle": "Futureminds partners with universities, colleges, educational institutions and government bodies to strengthen employability, communication capability, entrepreneurship, faculty effectiveness and future-readiness through structured, scalable and outcome-driven interventions.",
       "stats": [
         {
-          "value": "41+",
-          "label": "Years of Impact"
+          "value": "300,000+",
+          "label": "Students Impacted"
         },
         {
-          "value": "3,00,000+",
-          "label": "Students Empowered"
+          "value": "270,000+",
+          "label": "Educators Trained"
         },
         {
-          "value": "3,00,000+",
-          "label": "Educators Empowered"
+          "value": "40+",
+          "label": "Years of Educational Leadership"
         }
       ]
     },
@@ -372,28 +496,27 @@ window.FM_BUNDLE = {
       ],
       "metrics": [
         {
-          "count": 41,
-          "suffix": "+",
-          "label": "Years of Leadership"
-        },
-        {
           "count": 300,
           "suffix": "K+",
           "label": "Students Impacted"
         },
         {
-          "count": 300,
+          "count": 270,
           "suffix": "K+",
-          "label": "Educators Impacted"
+          "label": "Educators Trained"
         },
         {
-          "count": 4,
-          "suffix": "",
-          "label": "Active States"
+          "count": 40,
+          "suffix": "+",
+          "label": "Years of Educational Leadership"
         },
         {
           "text": "Pan-India",
-          "label": "Institutional Reach"
+          "label": "Universities & Colleges Engaged"
+        },
+        {
+          "text": "National",
+          "label": "Government Bodies Engaged"
         }
       ]
     },
@@ -486,6 +609,17 @@ window.FM_BUNDLE = {
           "statLabel": "2020 aligned"
         }
       ]
+    },
+    "founderPreview": {
+      "eyebrow": "From The Founder",
+      "title": "A Message from Venkatessh Sharma",
+      "quote": "Futureminds was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
+      "name": "Venkatessh Sharma",
+      "role": "Founder & CEO, Futureminds",
+      "cta": {
+        "label": "Read Full Profile",
+        "href": "founder.html"
+      }
     }
   },
   "impact": {
@@ -805,6 +939,79 @@ window.FM_BUNDLE = {
       "More institutionally relevant"
     ]
   },
+  "pedagogy": {
+    "hero": {
+      "eyebrow": "Pedagogy & Philosophy",
+      "title": "Why Futureminds",
+      "subtitle": "We partner with educational institutions to design and implement structured, scalable, and outcome-driven interventions."
+    },
+    "why": {
+      "title": "The Futureminds Difference",
+      "intro": "Many educational websites miss this. Here is why Vice-Chancellors, Registrars and Principals choose Futureminds:",
+      "items": [
+        {
+          "icon": "building",
+          "title": "Institutional Focus",
+          "text": "Designed specifically for universities and colleges, integrating seamlessly with existing academic ecosystems."
+        },
+        {
+          "icon": "layers",
+          "title": "Structured Frameworks",
+          "text": "We deliver long-term capability building, not just standalone motivational workshops."
+        },
+        {
+          "icon": "cpu",
+          "title": "Trainer-Independent Content",
+          "text": "A scalable delivery model built on robust content and methodology, ensuring consistent quality."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Employability Integration",
+          "text": "Bridging the gap between academic learning and practical workplace readiness."
+        },
+        {
+          "icon": "users",
+          "title": "Faculty Capability Enhancement",
+          "text": "Empowering educators to drive long-term institutional impact through modern pedagogical practices."
+        },
+        {
+          "icon": "shield",
+          "title": "National Alignment",
+          "text": "Strict alignment with NEP 2020, PM-USHA, employability mandates, and future skills frameworks."
+        }
+      ]
+    },
+    "pedagogy": {
+      "title": "Our Pedagogical Framework",
+      "intro": "Our training methodology is rooted in proven educational frameworks that move learners from passive reception to active capability.",
+      "items": [
+        {
+          "id": "4cs",
+          "icon": "message",
+          "title": "The 4Cs Framework",
+          "text": "Critical Thinking, Communication, Collaboration, and Creativity embedded into every learning module."
+        },
+        {
+          "id": "5e",
+          "icon": "rocket",
+          "title": "The 5E Model",
+          "text": "Engage, Explore, Explain, Elaborate, and Evaluate — ensuring deep conceptual understanding and application."
+        },
+        {
+          "id": "blooms",
+          "icon": "trend",
+          "title": "Bloom's Taxonomy",
+          "text": "Structuring learning outcomes to move students from basic remembering to higher-order creating and evaluating."
+        },
+        {
+          "id": "orid",
+          "icon": "compass",
+          "title": "ORID Framework",
+          "text": "Objective, Reflective, Interpretive, and Decisional learning processes for structured reflection and experiential growth."
+        }
+      ]
+    }
+  },
   "programmes": {
     "hero": {
       "eyebrow": "Programmes",
@@ -945,32 +1152,82 @@ window.FM_BUNDLE = {
         "href": "index.html"
       },
       {
-        "label": "About",
-        "href": "about.html"
+        "label": "About Us",
+        "href": "about.html",
+        "dropdown": [
+          {
+            "label": "About Futureminds",
+            "href": "about.html"
+          },
+          {
+            "label": "Founder & Leadership",
+            "href": "founder.html"
+          }
+        ]
       },
       {
         "label": "Programmes",
-        "href": "programmes.html"
+        "href": "programmes.html",
+        "dropdown": [
+          {
+            "label": "EEE",
+            "href": "programmes.html#eee"
+          },
+          {
+            "label": "Career Pathways",
+            "href": "career-pathways.html"
+          },
+          {
+            "label": "Employability Programmes",
+            "href": "programmes.html"
+          },
+          {
+            "label": "FDP",
+            "href": "programmes.html#fdp"
+          },
+          {
+            "label": "OET & Healthcare Communication",
+            "href": "overseas.html"
+          }
+        ]
       },
       {
-        "label": "Career Pathways",
-        "href": "career-pathways.html"
+        "label": "Pedagogy",
+        "href": "pedagogy.html",
+        "dropdown": [
+          {
+            "label": "4Cs Framework",
+            "href": "pedagogy.html#4cs"
+          },
+          {
+            "label": "5E Model",
+            "href": "pedagogy.html#5e"
+          },
+          {
+            "label": "Bloom's Taxonomy",
+            "href": "pedagogy.html#blooms"
+          },
+          {
+            "label": "ORID",
+            "href": "pedagogy.html#orid"
+          }
+        ]
       },
       {
-        "label": "Impact",
-        "href": "impact.html"
-      },
-      {
-        "label": "Partners",
+        "label": "Collaborations",
         "href": "partners.html"
       },
       {
-        "label": "Overseas",
-        "href": "overseas.html"
+        "label": "Resources",
+        "href": "impact.html"
       },
       {
-        "label": "Gallery",
+        "label": "Media",
         "href": "gallery.html"
+      },
+      {
+        "label": "Contact",
+        "href": "contact.html"
       }
     ],
     "navCta": {
@@ -1032,7 +1289,7 @@ window.FM_BUNDLE = {
       }
     },
     "footer": {
-      "blurb": "A nationally recognised education and employability organisation with 40+ years of impact — partnering with universities, colleges and government bodies to build future-ready learning ecosystems.",
+      "blurb": "Futureminds partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
       "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KHEC · TKM & Burlington Partnership",
       "columns": [
         {

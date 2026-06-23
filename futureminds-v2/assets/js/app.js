@@ -6,7 +6,7 @@
 (function () {
   "use strict";
   var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var DATA_FILES = ['site', 'home', 'about', 'programmes', 'pathways', 'impact', 'partners', 'overseas', 'gallery', 'testimonials'];
+  var DATA_FILES = ['site', 'home', 'about', 'programmes', 'pathways', 'impact', 'partners', 'overseas', 'gallery', 'testimonials', 'founder', 'pedagogy'];
 
   /* ---------- ICONS ---------- */
   var ICONS = {
@@ -64,6 +64,12 @@
     var links = site.nav.map(function (n) {
       var linkId = norm(n.href.replace('.html', ''));
       var active = linkId === cur ? ' active' : '';
+      if (n.dropdown) {
+        var dropLinks = n.dropdown.map(function(d) {
+          return '<a href="' + d.href + '">' + esc(d.label) + '</a>';
+        }).join('');
+        return '<div class="nav-drop' + active + '"><a href="' + n.href + '" class="drop-trigger">' + esc(n.label) + ' ▾</a><div class="drop-menu">' + dropLinks + '</div></div>';
+      }
       return '<a href="' + n.href + '" class="' + active.trim() + '">' + esc(n.label) + '</a>';
     }).join('');
     var brandInner = '<img src="' + site.brand.logo + '" alt="' + esc(site.brand.name) + '" onerror="this.style.display=\'none\';this.nextElementSibling.style.display=\'flex\'">' + brandFallbackSVG();
@@ -312,8 +318,42 @@
   /* ---------- PAGE COMPOSERS ---------- */
   var PAGES = {
     home: function (d) {
-      return homeHero(d.home, d.site) + trustBlock(d.home.trust) + transformBlock(d.home.future) + pillarsBlock(d.home.pillars) + pathwaysInteractive(d.pathways, false) + testimonialsBlock(d.testimonials) + ctaBand(d.site);
+      var fp = d.home.founderPreview;
+      var founderSec = '<section class="section ink" id="founder-message"><div class="container"><div class="founder-preview reveal">' +
+        '<span class="eyebrow center">' + esc(fp.eyebrow) + '</span>' +
+        '<blockquote class="founder-quote">&#8220;' + esc(fp.quote) + '&#8221;</blockquote>' +
+        '<div class="founder-sig"><b>' + esc(fp.name) + '</b><span>' + esc(fp.role) + '</span>' +
+        '<a href="' + esc(fp.cta.href) + '" class="btn btn-gold" style="margin-top:18px">' + esc(fp.cta.label) + ' <span class="arrow">&rarr;</span></a></div>' +
+        '</div></div></section>';
+      var collab = '<section class="section paper" id="collaborations"><div class="container">' +
+        sectionHead("Collaborations", "Our Institutional & Industry Partners", "Trusted by universities, government bodies and industry across India.", true) +
+        '<div class="trust-logos" style="justify-content:center;gap:20px;flex-wrap:wrap;margin-top:30px">' +
+        '<div class="trust-chip">AICTE <small>MoU</small></div>' +
+        '<div class="trust-chip">VTU <small>MoU</small></div>' +
+        '<div class="trust-chip">KSOU <small>MoU</small></div>' +
+        '<div class="trust-chip">KHEC <small>Recommended</small></div>' +
+        '<div class="trust-chip">Burlington <small>Intl. Partner</small></div>' +
+        '<div class="trust-chip">TKM Toyota Kirloskar <small>MoU</small></div>' +
+        '</div>' +
+        '<div style="text-align:center;margin-top:28px"><a href="partners.html" class="btn btn-ghost">View All Collaborations <span class="arrow">&rarr;</span></a></div>' +
+        '</div></section>';
+      var resources = '<section class="section" id="resources"><div class="container">' +
+        sectionHead("Resources", "Impact Stories & Media", "Explore our programme outcomes, galleries and evidence of impact.", true) +
+        '<div class="grid-2" style="margin-top:30px">' +
+        '<a href="impact.html" class="prog-card reveal" style="text-decoration:none"><div class="pico">' + icon("trend", 40) + '</div><h4>Impact Reports</h4><p>Evidence of our reach — 300,000+ students, 270,000+ educators, and growing.</p></a>' +
+        '<a href="gallery.html" class="prog-card reveal" style="text-decoration:none"><div class="pico">' + icon("users", 40) + '</div><h4>Photo & Video Gallery</h4><p>Moments from our programmes, MOU signings and institutional events.</p></a>' +
+        '</div></div></section>';
+      return homeHero(d.home, d.site) +
+        trustBlock(d.home.trust) +
+        transformBlock(d.home.future) +
+        pillarsBlock(d.home.pillars) +
+        collab +
+        founderSec +
+        testimonialsBlock(d.testimonials) +
+        resources +
+        ctaBand(d.site);
     },
+
     about: function (d) {
       var a = d.about;
       var tl = a.timeline.map(function (t) { return '<div class="tl-item"><div class="tl-era">' + esc(t.era) + '</div><h4>' + esc(t.title) + '</h4><p>' + esc(t.text) + '</p></div>'; }).join('');
@@ -332,6 +372,63 @@
         '<section class="section paper" id="approach"><div class="container">' + sectionHead(a.approach.eyebrow, a.approach.title, a.approach.intro, true) +
         '<div class="compare reveal"><div class="compare-col trad"><span class="tag">' + esc(trad.title) + '</span><h4>' + esc(trad.subtitle) + '</h4><ul>' + tradPoints + '</ul></div><div class="compare-vs"><span>vs</span></div><div class="compare-col fm"><span class="tag">' + esc(fm.title) + '</span><h4>' + esc(fm.subtitle) + '</h4><ul>' + fmPoints + '</ul></div></div></div></section>' +
         ctaBand(d.site);
+    },
+    founder: function(d) {
+      var f = d.founder;
+      /* Section 1: Founder's Message */
+      var msg = f.message.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      /* Section 2: Founder Profile */
+      var prof = f.profile.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      /* Section 3: Professional Highlights */
+      var hi = f.highlights.items.map(function(h) { return '<li>' + icon('check', 20) + '<span>' + esc(h) + '</span></li>'; }).join('');
+      /* Section 4: Leadership */
+      var lead = f.leadership.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      /* Section 5: National Contributions */
+      var cont = f.contributions.items.map(function(c) { return '<span>' + esc(c) + '</span>'; }).join('');
+      /* Section 6: Impact */
+      var impactCards = f.impact.metrics.map(function(m) { return '<div class="impact-card reveal"><b class="num">' + esc(m.value) + '</b><span>' + esc(m.label) + '</span></div>'; }).join('');
+      /* Section 7: Associations */
+      var bodies = f.associations.bodies.map(function(b) { return '<span>' + esc(b) + '</span>'; }).join('');
+      /* Section 8: Rotary */
+      var rotary = f.rotary.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
+      return pageHero(f.hero, 'Founder & Leadership') +
+        /* S1: Message */
+        '<section class="section paper"><div class="container"><div class="about-grid">' +
+        '<div class="lead reveal"><span class="eyebrow">' + esc(f.message.title) + '</span><h2 style="font-size:clamp(1.5rem,3vw,2.2rem);margin:14px 0 20px">' + esc(f.hero.title) + '</h2>' + msg +
+        '<p style="margin-top:24px;font-style:italic">' + esc(f.message.signoff) + '</p><p><b>' + esc(f.message.name) + '</b><br><small>' + esc(f.message.role) + '<br>' + esc(f.message.org) + '</small></p></div>' +
+        /* S2: Profile */
+        '<div class="reveal"><span class="eyebrow">' + esc(f.profile.title) + '</span><h3 style="margin:10px 0 16px">' + esc(f.profile.subtitle) + '</h3>' + prof + '</div>' +
+        '</div></div></section>' +
+        /* S3: Highlights */
+        '<section class="section"><div class="container">' + sectionHead(null, f.highlights.title) +
+        '<ul class="statement-list reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">' + hi + '</ul></div></section>' +
+        /* S4: Leadership */
+        '<section class="section ink"><div class="container">' + sectionHead(null, f.leadership.title) +
+        '<div class="reveal" style="max-width:800px;margin:0 auto">' + lead + '</div></div></section>' +
+        /* S5: National Contributions */
+        '<section class="section paper"><div class="container"><div class="grid-2">' +
+        '<div class="reveal"><span class="eyebrow">' + esc(f.contributions.title) + '</span><p style="margin:14px 0 10px">' + esc(f.contributions.intro) + '</p><p>' + esc(f.contributions.aicte) + '</p></div>' +
+        '<div class="reveal"><div class="chip-cloud" style="margin-top:20px">' + cont + '</div></div>' +
+        '</div></div></section>' +
+        /* S6: Impact */
+        '<section class="section ink"><div class="container">' + sectionHead(null, f.impact.title, null, true) +
+        '<div class="impact-grid">' + impactCards + '</div></div></section>' +
+        /* S7 & S8: Associations + Rotary */
+        '<section class="section"><div class="container"><div class="grid-2">' +
+        '<div class="reveal"><span class="eyebrow">' + esc(f.associations.title) + '</span><p style="margin:14px 0 10px">' + esc(f.associations.intro) + '</p><div class="chip-cloud">' + bodies + '</div><p style="margin-top:10px;color:var(--mute)">' + esc(f.associations.note) + '</p></div>' +
+        '<div class="reveal"><span class="eyebrow">' + esc(f.rotary.title) + '</span>' + rotary + '</div>' +
+        '</div></div></section>' +
+        /* S9: Final Positioning */
+        '<section class="section ink"><div class="container"><div class="cta-band reveal"><blockquote style="font-size:1.15rem;color:var(--gold);font-style:italic;text-align:center;max-width:820px;margin:0 auto;line-height:1.7">' + esc(f.positioning) + '</blockquote></div></div></section>' +
+        ctaBand(d.site);
+    },
+    pedagogy: function(d) {
+      var p = d.pedagogy;
+      var why = p.why.items.map(function (it) { return '<div class="pillar reveal"><div class="pi">' + icon(it.icon) + '</div><h4>' + esc(it.title) + '</h4><p>' + esc(it.text) + '</p></div>'; }).join('');
+      var ped = p.pedagogy.items.map(function(it) { return '<div class="prog-card reveal" id="' + esc(it.id) + '"><div class="pico">' + icon(it.icon, 40) + '</div><h4>' + esc(it.title) + '</h4><p>' + esc(it.text) + '</p></div>'; }).join('');
+      return pageHero(p.hero, 'Why Futureminds') +
+        '<section class="section"><div class="container">' + sectionHead(null, p.why.title, p.why.intro) + '<div class="grid-3">' + why + '</div></div></section>' +
+        '<section class="section ink"><div class="container">' + sectionHead('Methodology', p.pedagogy.title, p.pedagogy.intro, true) + '<div class="grid-4">' + ped + '</div></div></section>' + ctaBand(d.site);
     },
     programmes: function (d) { var p = d.programmes; return pageHero(p.hero, 'Programmes') + eeeBlock(p.eee) + programmesBlock(p.programmes, 'All Programmes') + ctaBand(d.site); },
     'career-pathways': function (d) {
