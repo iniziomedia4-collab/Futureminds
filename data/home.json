@@ -1,14 +1,14 @@
 {
   "hero": {
-    "badge": "41+ Years of Educational Leadership · Bengaluru, India",
-    "titleLead": "Building Future-Ready Minds for",
-    "titleAccent": "Education, Employability",
-    "titleTail": "& Leadership",
-    "subtitle": "A nationally recognised education and employability organisation partnering with universities, colleges and government bodies across India — bridging academic learning and real-world readiness through structured capability-building frameworks.",
+    "badge": "40+ Years of Educational Leadership · Bengaluru, India",
+    "titleLead": "Future-Ready Education.",
+    "titleAccent": "Employability.",
+    "titleTail": "Institutional Transformation.",
+    "subtitle": "Futureminds partners with universities, colleges, educational institutions and government bodies to strengthen employability, communication capability, entrepreneurship, faculty effectiveness and future-readiness through structured, scalable and outcome-driven interventions.",
     "stats": [
-      { "value": "41+", "label": "Years of Impact" },
-      { "value": "3,00,000+", "label": "Students Empowered" },
-      { "value": "3,00,000+", "label": "Educators Empowered" }
+      { "value": "300,000+", "label": "Students Impacted" },
+      { "value": "270,000+", "label": "Educators Trained" },
+      { "value": "40+", "label": "Years of Educational Leadership" }
     ]
   },
   "trust": {
@@ -22,11 +22,11 @@
       { "name": "NEP 2020", "note": "Aligned" }
     ],
     "metrics": [
-      { "count": 41, "suffix": "+", "label": "Years of Leadership" },
       { "count": 300, "suffix": "K+", "label": "Students Impacted" },
-      { "count": 300, "suffix": "K+", "label": "Educators Impacted" },
-      { "count": 4, "suffix": "", "label": "Active States" },
-      { "text": "Pan-India", "label": "Institutional Reach" }
+      { "count": 270, "suffix": "K+", "label": "Educators Trained" },
+      { "count": 40, "suffix": "+", "label": "Years of Educational Leadership" },
+      { "text": "Pan-India", "label": "Universities & Colleges Engaged" },
+      { "text": "National", "label": "Government Bodies Engaged" }
     ]
   },
   "future": {
@@ -46,14 +46,22 @@
     "title": "Eight Pillars of Future-Ready Capability",
     "intro": "Holistic capability building that integrates communication, employability, ethics and applied technology — institution-sensitive and discipline-contextual.",
     "items": [
-      { "icon": "briefcase", "title": "Employability Enhancement", "text": "Workplace readiness, professional confidence and career-aligned interventions built into the academic journey.", "stat": "3,00,000+", "statLabel": "students prepared" },
-      { "icon": "users", "title": "Faculty Development", "text": "21st-century pedagogy, the 4Cs, Bloom's taxonomy and AI awareness for educators across institutions.", "stat": "3,00,000+", "statLabel": "educators empowered" },
+      { "icon": "briefcase", "title": "Employability Enhancement", "text": "Workplace readiness, professional confidence and career-aligned interventions built into the academic journey.", "stat": "300,000+", "statLabel": "students prepared" },
+      { "icon": "users", "title": "Faculty Development", "text": "21st-century pedagogy, the 4Cs, Bloom's taxonomy and AI awareness for educators across institutions.", "stat": "270,000+", "statLabel": "educators empowered" },
       { "icon": "compass", "title": "Career Readiness", "text": "Resume, interview, group discussion and career-pathway awareness aligned to evolving industry expectations.", "stat": "8", "statLabel": "domains mapped" },
-      { "icon": "message", "title": "English & Communication", "text": "CEFR-aligned language proficiency and workplace communication, supported by our Burlington partnership.", "stat": "CEFR", "statLabel": "& OET aligned" },
+      { "icon": "message", "title": "English & Communication", "text": "CEFR-aligned language proficiency and workplace communication, supported by our Burlington partnership.", "stat": "CEFR & OET", "statLabel": "Aligned" },
       { "icon": "cpu", "title": "AI & Digital Awareness", "text": "Applied AI literacy and digital fluency so students and faculty stay ahead of automation-driven change.", "stat": "21st C", "statLabel": "skills focus" },
       { "icon": "rocket", "title": "Entrepreneurship", "text": "An entrepreneurial mindset — initiative, problem-solving and value creation — embedded into the EEE framework.", "stat": "EEE", "statLabel": "flagship model" },
       { "icon": "shield", "title": "Professional Ethics", "text": "Skills without values lack sustainability. We build ethical, responsible and accountable professionals.", "stat": "Values", "statLabel": "led delivery" },
       { "icon": "trend", "title": "Future Skills", "text": "Adaptability, critical thinking and long-term readiness for workplaces and careers still emerging.", "stat": "NEP", "statLabel": "2020 aligned" }
     ]
+  },
+  "founderPreview": {
+    "eyebrow": "From The Founder",
+    "title": "A Message from Venkatessh Sharma",
+    "quote": "Futureminds was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
+    "name": "Venkatessh Sharma",
+    "role": "Founder & CEO, Futureminds",
+    "cta": { "label": "Read Full Profile", "href": "founder.html" }
   }
 }

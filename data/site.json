@@ -6,22 +6,49 @@
   },
   "nav": [
     { "label": "Home", "href": "index.html" },
-    { "label": "About", "href": "about.html" },
-    { "label": "Programmes", "href": "programmes.html" },
-    { "label": "Career Pathways", "href": "career-pathways.html" },
-    { "label": "Impact", "href": "impact.html" },
-    { "label": "Partners", "href": "partners.html" },
-    { "label": "Overseas", "href": "overseas.html" },
-    { "label": "Gallery", "href": "gallery.html" }
+    { 
+      "label": "About Us", 
+      "href": "about.html",
+      "dropdown": [
+        { "label": "About Futureminds", "href": "about.html" },
+        { "label": "Founder & Leadership", "href": "founder.html" }
+      ]
+    },
+    { 
+      "label": "Programmes", 
+      "href": "programmes.html",
+      "dropdown": [
+        { "label": "EEE", "href": "programmes.html#eee" },
+        { "label": "Career Pathways", "href": "career-pathways.html" },
+        { "label": "Employability Programmes", "href": "programmes.html" },
+        { "label": "School Education Initiatives", "href": "programmes.html" },
+        { "label": "FDP", "href": "programmes.html#fdp" },
+        { "label": "OET & Healthcare Communication", "href": "overseas.html" }
+      ]
+    },
+    { 
+      "label": "Pedagogy", 
+      "href": "pedagogy.html",
+      "dropdown": [
+        { "label": "4Cs Framework", "href": "pedagogy.html#4cs" },
+        { "label": "5E Model", "href": "pedagogy.html#5e" },
+        { "label": "Bloom's Taxonomy", "href": "pedagogy.html#blooms" },
+        { "label": "ORID", "href": "pedagogy.html#orid" }
+      ]
+    },
+    { "label": "Collaborations", "href": "partners.html" },
+    { "label": "Resources", "href": "impact.html" },
+    { "label": "Media", "href": "gallery.html" },
+    { "label": "Contact", "href": "contact.html" }
   ],
   "navCta": { "label": "Partner With Us", "href": "contact.html" },
   "contact": {
     "address": "226 Maithri, 3rd Cross, 7th Main, Vasantapur, Bengaluru 560078, Karnataka, India",
-    "email": "info@futureminds.in",
+    "email": "admin@futureminds.in",
     "partnerEmail": "partnerships@futureminds.in",
-    "phoneGeneral": "+91 819 707 1905",
-    "phoneInstitutions": "+91 819 707 1949",
-    "whatsapp": "918197071905",
+    "phoneGeneral": "+91 98450 29886",
+    "phoneInstitutions": "+91 98450 29886",
+    "whatsapp": "919845029886",
     "mapNote": "Headquartered in Bengaluru, serving institutions Pan-India."
   },
   "socials": [
@@ -38,7 +65,7 @@
     "brochure": { "label": "Download Programme Overview", "href": "#" }
   },
   "footer": {
-    "blurb": "A nationally recognised education and employability organisation with 40+ years of impact — partnering with universities, colleges and government bodies to build future-ready learning ecosystems.",
+    "blurb": "Futureminds partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
     "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KHEC · TKM & Burlington Partnership",
     "columns": [
       {

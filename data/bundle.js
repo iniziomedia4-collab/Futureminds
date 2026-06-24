@@ -3,85 +3,65 @@
 window.FM_BUNDLE = {
   "about": {
     "hero": {
-      "eyebrow": "About Futureminds",
-      "title": "Four Decades of Educational Leadership",
-      "subtitle": "A nationally recognised education and employability-skills organisation with over four decades of cumulative experience in education, training, institutional development, and skill-ecosystem design."
+      "eyebrow": "About",
+      "title": "ABOUT FUTUREMINDS",
+      "subtitle": "A professionally managed education, employability and institutional development organisation with more than four decades of experience."
     },
-    "lead": {
-      "title": "The Evolution of Excellence",
+    "about": {
+      "title": "About Futureminds",
       "paragraphs": [
-        "Futureminds works closely with universities, autonomous colleges, government bodies, and higher-education institutions to support employability enhancement, student capability building, faculty development, career readiness, and institution-wide academic transformation.",
-        "We believe higher education must move beyond degrees alone and increasingly support students in becoming adaptable, responsible, employable, and future-ready professionals. We are currently executing projects across Karnataka, Kerala, Tamil Nadu and Andhra Pradesh."
-      ],
-      "pull": "Transformation is not a single event. It is a sequence of purposeful shifts in capability, culture, and context."
-    },
-    "timeline": [
-      {
-        "era": "1970s — 1990s",
-        "title": "Educational Leadership",
-        "text": "Four decades of grounding in education, training and institution building — establishing the bedrock of trust and pedagogical depth."
-      },
-      {
-        "era": "2000s",
-        "title": "Faculty Empowerment",
-        "text": "Structured faculty development programmes bringing 21st-century pedagogy, learning outcomes and learner engagement into classrooms."
-      },
-      {
-        "era": "2010s",
-        "title": "Employability Transformation",
-        "text": "The shift from content delivery to capability — career readiness, communication and workplace preparedness at institutional scale."
-      },
-      {
-        "era": "Today",
-        "title": "Future-Ready Ecosystems",
-        "text": "NEP-2020 aligned frameworks, the flagship EEE model, AI awareness and career-pathway intelligence across India."
-      }
-    ],
-    "philosophy": {
-      "eyebrow": "Our Philosophy",
-      "title": "What We Believe",
-      "beliefs": [
-        "Degrees alone do not ensure employability.",
-        "Skills without values lack sustainability.",
-        "Education must evolve with industry, society, and technology.",
-        "Students require career clarity in addition to academic knowledge.",
-        "Institutions must prepare learners for evolving workplaces, not only examinations."
-      ],
-      "integrates": [
-        "English & communication capability",
-        "Employability & workplace readiness",
-        "Entrepreneurship awareness",
-        "21st-century skills",
-        "Professional ethics",
-        "Applied digital & AI awareness",
-        "Career-pathway understanding",
-        "Long-term adaptability"
+        "Futureminds is a professionally managed education, employability and institutional development organisation with more than four decades of experience in the areas of education, skill development, teacher and faculty development, communication enhancement, employability, entrepreneurship, leadership development and institutional transformation.",
+        "The organisation works across school education, higher education, vocational education and professional learning ecosystems to support students, educators and institutions in building the capabilities required for success in a rapidly changing world.",
+        "Over the years, Futureminds has worked extensively with schools, universities, colleges, educational institutions, government bodies, industry partners and professional organisations through initiatives focused on learner success, educator effectiveness, career readiness, future skills and lifelong learning.",
+        "Futureminds believes that education must go beyond academic achievement and equip learners with the knowledge, skills, attitudes and capabilities required to succeed in higher education, careers, entrepreneurship and life.",
+        "Our work is guided by a commitment to developing future-ready learners, empowered educators and capable institutions through innovative, learner-centered and outcome-oriented interventions."
       ]
     },
-    "approach": {
-      "eyebrow": "Our Distinctive Approach",
-      "title": "Designed Differently from Conventional Training",
-      "intro": "Rather than relying on motivational delivery, we build thinking, confidence and adaptability through experiential, reflection-driven learning.",
-      "traditional": {
-        "title": "Conventional Training",
-        "subtitle": "Motivational & Generic",
-        "points": [
-          "One-size-fits-all workshops",
-          "Lecture-led, passive delivery",
-          "Short-term placement focus",
-          "Discipline-agnostic content"
-        ]
-      },
-      "futureminds": {
-        "title": "The Futureminds Methodology",
-        "subtitle": "Experiential & Future-Aligned",
-        "points": [
-          "Experiential learning & case studies",
-          "Role plays, simulations & guided reflection",
-          "Career awareness & future-of-work alignment",
-          "Discipline-contextual & industry-relevant"
-        ]
-      }
+    "experience": {
+      "title": "Experience Across Educational Ecosystems",
+      "intro": "Futureminds has worked across both school and higher education ecosystems, supporting students, educators, institutions and educational leaders through capability-building, communication enhancement, employability development and future-readiness initiatives.",
+      "list_title": "Selected educational impact initiatives include:",
+      "bullets": [
+        "Teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
+        "Participation in the Rotary India Literacy Mission's national teacher development initiative aimed at supporting the training and capacity building of approximately 300,000 teachers across India.",
+        "Memorandum of Understanding with TKM for training and capability development of apprentices and ITI learners, supporting workforce readiness, employability and industry-linked skill development.",
+        "Faculty development, employability enhancement and student success initiatives across multiple educational ecosystems."
+      ]
+    },
+    "vision_mission": {
+      "vision": "To contribute towards building future-ready learners, educators and institutions capable of succeeding in education, employment, entrepreneurship and society.",
+      "mission": "To strengthen educational outcomes through innovative learning interventions, teacher and faculty development, career pathways, employability enhancement, communication capability, entrepreneurship education and future skills development."
+    },
+    "philosophy": {
+      "title": "Educational Philosophy",
+      "text": "Futureminds believes that education must extend beyond academic achievement to develop communication capability, critical thinking, creativity, collaboration, adaptability, leadership and lifelong learning competencies that prepare learners for a rapidly evolving world."
+    }
+  },
+  "founder": {
+    "hero": {
+      "eyebrow": "Leadership",
+      "title": "FOUNDER PROFILE",
+      "subtitle": "Founder & CEO – Futureminds"
+    },
+    "profile": {
+      "title": "FOUNDER & CEO – FUTUREMINDS",
+      "paragraphs": [
+        "Venkatessh Sharma is an education entrepreneur, institution builder, trainer, mentor, educator and skill development leader with nearly four decades of experience spanning higher education, school education, employability enhancement, faculty development, educational technology, leadership development and institutional transformation.",
+        "Over the course of his distinguished career, he has worked extensively with universities, colleges, schools, educational institutions, government bodies, professional associations and industry organisations across India. His work has focused on strengthening educational quality, enhancing learner success, developing faculty capability, promoting employability and creating sustainable frameworks for institutional growth.",
+        "He has been associated with educational initiatives involving universities, national educational bodies, government-supported programmes and development projects, including assignments and engagements connected with the University Grants Commission (UGC), World Bank-aided educational initiatives and a range of higher education, skill development and institutional transformation programmes.",
+        "He has also served as a Member of the Executive Committee of AICTE (All India Council for Technical Education), contributing to discussions and initiatives relating to technical education, employability, institutional development, quality enhancement and student success.",
+        "As Founder & CEO of Futureminds, he leads the design and implementation of innovative programmes in the areas of career pathways, employability enhancement, communication capability, entrepreneurship development, teacher and faculty development, workplace readiness, future skills and educational transformation."
+      ]
+    },
+    "impact": {
+      "title": "Educational Impact & Capacity Building",
+      "bullets": [
+        "Associated with teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
+        "Associated with the Rotary India Literacy Mission's national teacher development initiative aimed at supporting the training and capacity building of approximately 300,000 teachers across India.",
+        "Associated with faculty development, student success, employability enhancement and institutional capacity-building initiatives across educational ecosystems.",
+        "Has worked extensively with educational leaders, faculty members, trainers, students and institutions across India in the areas of communication capability, employability, leadership development and future-ready education."
+      ],
+      "conclusion": "His professional journey reflects a deep commitment to preparing learners, educators and institutions for the challenges and opportunities of the future."
     }
   },
   "gallery": {
@@ -322,23 +302,23 @@ window.FM_BUNDLE = {
   },
   "home": {
     "hero": {
-      "badge": "41+ Years of Educational Leadership · Bengaluru, India",
-      "titleLead": "Building Future-Ready Minds for",
-      "titleAccent": "Education, Employability",
-      "titleTail": "& Leadership",
-      "subtitle": "A nationally recognised education and employability organisation partnering with universities, colleges and government bodies across India — bridging academic learning and real-world readiness through structured capability-building frameworks.",
+      "badge": "40+ Years of Educational Leadership · Bengaluru, India",
+      "titleLead": "Future-Ready Education.",
+      "titleAccent": "Employability.",
+      "titleTail": "Institutional Transformation.",
+      "subtitle": "Futureminds partners with universities, colleges, educational institutions and government bodies to strengthen employability, communication capability, entrepreneurship, faculty effectiveness and future-readiness through structured, scalable and outcome-driven interventions.",
       "stats": [
         {
-          "value": "41+",
-          "label": "Years of Impact"
+          "value": "300,000+",
+          "label": "Students Impacted"
         },
         {
-          "value": "3,00,000+",
-          "label": "Students Empowered"
+          "value": "270,000+",
+          "label": "Educators Trained"
         },
         {
-          "value": "3,00,000+",
-          "label": "Educators Empowered"
+          "value": "40+",
+          "label": "Years of Educational Leadership"
         }
       ]
     },
@@ -372,28 +352,27 @@ window.FM_BUNDLE = {
       ],
       "metrics": [
         {
-          "count": 41,
-          "suffix": "+",
-          "label": "Years of Leadership"
-        },
-        {
           "count": 300,
           "suffix": "K+",
           "label": "Students Impacted"
         },
         {
-          "count": 300,
+          "count": 270,
           "suffix": "K+",
-          "label": "Educators Impacted"
+          "label": "Educators Trained"
         },
         {
-          "count": 4,
-          "suffix": "",
-          "label": "Active States"
+          "count": 40,
+          "suffix": "+",
+          "label": "Years of Educational Leadership"
         },
         {
           "text": "Pan-India",
-          "label": "Institutional Reach"
+          "label": "Universities & Colleges Engaged"
+        },
+        {
+          "text": "National",
+          "label": "Government Bodies Engaged"
         }
       ]
     },
@@ -433,14 +412,14 @@ window.FM_BUNDLE = {
           "icon": "briefcase",
           "title": "Employability Enhancement",
           "text": "Workplace readiness, professional confidence and career-aligned interventions built into the academic journey.",
-          "stat": "3,00,000+",
+          "stat": "300,000+",
           "statLabel": "students prepared"
         },
         {
           "icon": "users",
           "title": "Faculty Development",
           "text": "21st-century pedagogy, the 4Cs, Bloom's taxonomy and AI awareness for educators across institutions.",
-          "stat": "3,00,000+",
+          "stat": "270,000+",
           "statLabel": "educators empowered"
         },
         {
@@ -454,8 +433,8 @@ window.FM_BUNDLE = {
           "icon": "message",
           "title": "English & Communication",
           "text": "CEFR-aligned language proficiency and workplace communication, supported by our Burlington partnership.",
-          "stat": "CEFR",
-          "statLabel": "& OET aligned"
+          "stat": "CEFR & OET",
+          "statLabel": "Aligned"
         },
         {
           "icon": "cpu",
@@ -486,73 +465,85 @@ window.FM_BUNDLE = {
           "statLabel": "2020 aligned"
         }
       ]
+    },
+    "founderPreview": {
+      "eyebrow": "From The Founder",
+      "title": "A Message from Venkatessh Sharma",
+      "quote": "Futureminds was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
+      "name": "Venkatessh Sharma",
+      "role": "Founder & CEO, Futureminds",
+      "cta": {
+        "label": "Read Full Profile",
+        "href": "founder.html"
+      }
     }
   },
   "impact": {
     "hero": {
-      "eyebrow": "Impact at Scale",
-      "title": "Four Decades. Measurable Outcomes.",
-      "subtitle": "A track record built on consistent institutional partnerships and outcomes that compound across cohorts and states."
+      "eyebrow": "Why Us & Impact",
+      "title": "WHY FUTUREMINDS?",
+      "subtitle": "Education today demands much more than academic excellence."
     },
-    "metrics": [
-      {
-        "count": 41,
-        "suffix": "+",
-        "label": "Years of leadership experience"
-      },
-      {
-        "count": 300,
-        "suffix": "K+",
-        "label": "Students impacted across India"
-      },
-      {
-        "count": 300,
-        "suffix": "K+",
-        "label": "Educators trained & empowered"
-      },
-      {
-        "count": 4,
-        "suffix": "",
-        "label": "States with active engagements"
-      }
-    ],
-    "chart": {
-      "title": "Cumulative Reach & Institutional Growth",
-      "note": "Illustrative trajectory of student & educator engagement across decades of operation.",
-      "labels": [
-        "1980s",
-        "1990s",
-        "2000s",
-        "2010s",
-        "2020s",
-        "Today"
+    "why_futureminds": {
+      "intro_paragraphs": [
+        "Education today demands much more than academic excellence.",
+        "Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world.",
+        "Futureminds helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions."
       ],
-      "values": [
-        40,
-        70,
-        120,
-        175,
-        235,
-        300
-      ]
+      "list_title": "Why Institutions Choose Futureminds",
+      "bullets": [
+        "More than four decades of educational experience.",
+        "Experience across school education, higher education and vocational learning ecosystems.",
+        "Expertise in Career Pathways, Employability Enhancement and Future Skills.",
+        "Strong focus on teacher development, faculty development and institutional capacity building.",
+        "Learner-centred and outcome-oriented methodologies.",
+        "Alignment with NEP 2020 and contemporary educational frameworks.",
+        "Integration of the 4Cs – Communication, Collaboration, Critical Thinking and Creativity.",
+        "Alignment with Bloom's Taxonomy, Constructivist Learning Principles and the 5E Instructional Model.",
+        "Experiential, activity-based and inquiry-driven learning approaches.",
+        "Proven experience in working with educational institutions, government bodies and industry stakeholders.",
+        "Capability to design and deliver interventions at scale.",
+        "Strong focus on lifelong learning, career readiness and future employability."
+      ],
+      "conclusion": "At Futureminds, we believe that institutions that invest in learner success, educator excellence and future readiness today will become the most relevant and impactful institutions of tomorrow."
     },
-    "highlights": [
-      {
-        "icon": "handshake",
-        "title": "Institutional Partnerships",
-        "text": "MoUs and long-term collaborations with universities, councils and national bodies."
+    "impact_reach_collaborations": {
+      "title": "IMPACT, REACH & COLLABORATIONS",
+      "intro": "Futureminds has established collaborations, engagements and partnerships across educational ecosystems, supporting learners, educators and institutions through capability-building, employability enhancement, communication development and future-readiness initiatives.",
+      "educational_impact": {
+        "title": "Selected Educational Impact Initiatives",
+        "bullets": [
+          "Teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
+          "Participation in the Rotary India Literacy Mission's national teacher development initiative aimed at supporting the training and capacity building of approximately 300,000 teachers across India.",
+          "Memorandum of Understanding with TKM for training and capability development of apprentices and ITI learners, supporting workforce readiness and industry-linked skill development.",
+          "Faculty development, employability enhancement and student success initiatives delivered across educational institutions."
+        ]
       },
-      {
-        "icon": "globe",
-        "title": "Pan-India Presence",
-        "text": "Active engagements across Karnataka, Kerala, Tamil Nadu and Andhra Pradesh."
+      "institutional_collaborations": {
+        "title": "Institutional Collaborations & Engagements",
+        "bullets": [
+          "AICTE-related initiatives and engagements.",
+          "Visvesvaraya Technological University (VTU) – Memorandum of Understanding and collaborative initiatives.",
+          "Karnataka State Open University (KSOU) – Memorandum of Understanding and collaborative initiatives.",
+          "Karnataka State Higher Education Council (KSHEC) aligned and recommended initiatives.",
+          "Collaborations, engagements and institutional partnerships across schools, universities, colleges and educational ecosystems."
+        ]
       },
-      {
-        "icon": "shield",
-        "title": "NEP-2020 Alignment",
-        "text": "Frameworks designed to support national education policy outcomes."
-      }
-    ]
+      "current_areas": {
+        "title": "Current Areas of Engagement",
+        "bullets": [
+          "Career Pathways & Student Success",
+          "EEE – English, Employability & Entrepreneurship",
+          "Teacher & Faculty Development",
+          "Employability & Future Skills",
+          "Digital & AI Readiness",
+          "Entrepreneurship Development",
+          "Leadership Development",
+          "Nursing Employability & Healthcare Communication"
+        ]
+      },
+      "conclusion": "Futureminds remains committed to supporting learners, educators and institutions in preparing for education, employment, entrepreneurship, lifelong learning and meaningful participation in society."
+    }
   },
   "overseas": {
     "hero": {
@@ -681,13 +672,15 @@ window.FM_BUNDLE = {
       }
     ],
     "statements": [
-      "MoUs with VTU, AICTE & KSOU — national university and council bodies",
-      "Recommended by the Karnataka Higher Education Council (KHEC)",
-      "Partnership with Toyota Kirloskar Motor (TKM) — industry employability linkage",
-      "International partnership with Burlington English for CEFR assessment & OET training",
-      "NEP-2020 aligned frameworks across all programmes",
-      "Pan-India institutional engagement spanning universities, colleges and government bodies",
-      "Proven implementation capability across diverse educational environments"
+      "AICTE-related initiatives and engagements",
+      "Visvesvaraya Technological University (VTU) - Memorandum of Understanding and collaborative initiatives",
+      "Karnataka State Open University (KSOU) - Memorandum of Understanding and collaborative initiatives",
+      "Karnataka State Higher Education Council (KSHEC) aligned and recommended initiatives",
+      "Partnerships across schools, universities, colleges and educational ecosystems",
+      "Career Pathways, Student Success & EEE Frameworks",
+      "Teacher & Faculty Development",
+      "Digital & AI Readiness, Entrepreneurship & Leadership Development",
+      "Nursing Employability & Healthcare Communication"
     ]
   },
   "pathways": {
@@ -804,6 +797,109 @@ window.FM_BUNDLE = {
       "More meaningful",
       "More institutionally relevant"
     ]
+  },
+  "pedagogy": {
+    "hero": {
+      "eyebrow": "Pedagogy & Philosophy",
+      "title": "Why Futureminds",
+      "subtitle": "We partner with educational institutions to design and implement structured, scalable, and outcome-driven interventions."
+    },
+    "why": {
+      "title": "Why Institutions Choose Futureminds",
+      "intro": "Education today demands much more than academic excellence. Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world. Futureminds helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions.",
+      "items": [
+        {
+          "icon": "clock",
+          "title": "Four Decades of Experience",
+          "text": "More than four decades of educational experience."
+        },
+        {
+          "icon": "building",
+          "title": "Ecosystem Wide Experience",
+          "text": "Experience across school education, higher education and vocational learning ecosystems."
+        },
+        {
+          "icon": "compass",
+          "title": "Employability & Skills",
+          "text": "Expertise in Career Pathways, Employability Enhancement and Future Skills."
+        },
+        {
+          "icon": "users",
+          "title": "Capacity Building",
+          "text": "Strong focus on teacher development, faculty development and institutional capacity building."
+        },
+        {
+          "icon": "trend",
+          "title": "Outcome-Oriented",
+          "text": "Learner-centred and outcome-oriented methodologies."
+        },
+        {
+          "icon": "shield",
+          "title": "NEP 2020 Alignment",
+          "text": "Alignment with NEP 2020 and contemporary educational frameworks."
+        },
+        {
+          "icon": "message",
+          "title": "Integration of the 4Cs",
+          "text": "Integration of the 4Cs - Communication, Collaboration, Critical Thinking and Creativity."
+        },
+        {
+          "icon": "layers",
+          "title": "Pedagogical Frameworks",
+          "text": "Alignment with Bloom's Taxonomy, Constructivist Learning Principles and the 5E Instructional Model."
+        },
+        {
+          "icon": "cpu",
+          "title": "Experiential Learning",
+          "text": "Experiential, activity-based and inquiry-driven learning approaches."
+        },
+        {
+          "icon": "handshake",
+          "title": "Trusted Partnerships",
+          "text": "Proven experience in working with educational institutions, government bodies and industry stakeholders."
+        },
+        {
+          "icon": "globe",
+          "title": "Interventions at Scale",
+          "text": "Capability to design and deliver interventions at scale."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Lifelong Learning",
+          "text": "Strong focus on lifelong learning, career readiness and future employability."
+        }
+      ]
+    },
+    "pedagogy": {
+      "title": "Our Pedagogical Framework",
+      "intro": "Our training methodology is rooted in proven educational frameworks that move learners from passive reception to active capability.",
+      "items": [
+        {
+          "id": "4cs",
+          "icon": "message",
+          "title": "The 4Cs Framework",
+          "text": "Critical Thinking, Communication, Collaboration, and Creativity embedded into every learning module."
+        },
+        {
+          "id": "5e",
+          "icon": "rocket",
+          "title": "The 5E Model",
+          "text": "Engage, Explore, Explain, Elaborate, and Evaluate — ensuring deep conceptual understanding and application."
+        },
+        {
+          "id": "blooms",
+          "icon": "trend",
+          "title": "Bloom's Taxonomy",
+          "text": "Structuring learning outcomes to move students from basic remembering to higher-order creating and evaluating."
+        },
+        {
+          "id": "orid",
+          "icon": "compass",
+          "title": "ORID Framework",
+          "text": "Objective, Reflective, Interpretive, and Decisional learning processes for structured reflection and experiential growth."
+        }
+      ]
+    }
   },
   "programmes": {
     "hero": {
@@ -933,6 +1029,30 @@ window.FM_BUNDLE = {
       }
     ]
   },
+  "schools": {
+    "hero": {
+      "eyebrow": "Services / Programmes",
+      "title": "SCHOOL EDUCATION INITIATIVES",
+      "subtitle": "Futureminds supports schools in preparing learners and educators for the demands of a rapidly evolving educational and professional landscape."
+    },
+    "content": {
+      "intro": "Our school-focused interventions are designed to strengthen communication capability, future skills, learner engagement, leadership development, career awareness and educator effectiveness while aligning with contemporary educational frameworks and pedagogical practices.",
+      "list_title": "Key areas of support include:",
+      "bullets": [
+        "Teacher Professional Development & Capacity Building",
+        "Communication & English Enhancement Programmes",
+        "Student Leadership Development",
+        "Career Awareness & Career Pathways",
+        "Future Skills Development",
+        "Entrepreneurship & Innovation Programmes",
+        "Experiential and Activity-Based Learning Interventions",
+        "Educator Capability Enhancement",
+        "School Transformation & Institutional Development Support",
+        "Teacher Talent Pipelines & Staffing Support"
+      ],
+      "conclusion": "Our programmes are aligned with NEP 2020, the 4Cs Framework, Bloom's Taxonomy, Constructivist Learning Principles and the 5E Instructional Model, enabling schools to create meaningful learning experiences and future-ready learners."
+    }
+  },
   "site": {
     "brand": {
       "name": "Futureminds",
@@ -945,32 +1065,86 @@ window.FM_BUNDLE = {
         "href": "index.html"
       },
       {
-        "label": "About",
-        "href": "about.html"
+        "label": "About Us",
+        "href": "about.html",
+        "dropdown": [
+          {
+            "label": "About Futureminds",
+            "href": "about.html"
+          },
+          {
+            "label": "Founder & Leadership",
+            "href": "founder.html"
+          }
+        ]
       },
       {
         "label": "Programmes",
-        "href": "programmes.html"
+        "href": "programmes.html",
+        "dropdown": [
+          {
+            "label": "EEE",
+            "href": "programmes.html#eee"
+          },
+          {
+            "label": "Career Pathways",
+            "href": "career-pathways.html"
+          },
+          {
+            "label": "Employability Programmes",
+            "href": "programmes.html"
+          },
+          {
+            "label": "School Education Initiatives",
+            "href": "programmes.html"
+          },
+          {
+            "label": "FDP",
+            "href": "programmes.html#fdp"
+          },
+          {
+            "label": "OET & Healthcare Communication",
+            "href": "overseas.html"
+          }
+        ]
       },
       {
-        "label": "Career Pathways",
-        "href": "career-pathways.html"
+        "label": "Pedagogy",
+        "href": "pedagogy.html",
+        "dropdown": [
+          {
+            "label": "4Cs Framework",
+            "href": "pedagogy.html#4cs"
+          },
+          {
+            "label": "5E Model",
+            "href": "pedagogy.html#5e"
+          },
+          {
+            "label": "Bloom's Taxonomy",
+            "href": "pedagogy.html#blooms"
+          },
+          {
+            "label": "ORID",
+            "href": "pedagogy.html#orid"
+          }
+        ]
       },
       {
-        "label": "Impact",
-        "href": "impact.html"
-      },
-      {
-        "label": "Partners",
+        "label": "Collaborations",
         "href": "partners.html"
       },
       {
-        "label": "Overseas",
-        "href": "overseas.html"
+        "label": "Resources",
+        "href": "impact.html"
       },
       {
-        "label": "Gallery",
+        "label": "Media",
         "href": "gallery.html"
+      },
+      {
+        "label": "Contact",
+        "href": "contact.html"
       }
     ],
     "navCta": {
@@ -979,11 +1153,11 @@ window.FM_BUNDLE = {
     },
     "contact": {
       "address": "226 Maithri, 3rd Cross, 7th Main, Vasantapur, Bengaluru 560078, Karnataka, India",
-      "email": "info@futureminds.in",
+      "email": "admin@futureminds.in",
       "partnerEmail": "partnerships@futureminds.in",
-      "phoneGeneral": "+91 819 707 1905",
-      "phoneInstitutions": "+91 819 707 1949",
-      "whatsapp": "918197071905",
+      "phoneGeneral": "+91 98450 29886",
+      "phoneInstitutions": "+91 98450 29886",
+      "whatsapp": "919845029886",
       "mapNote": "Headquartered in Bengaluru, serving institutions Pan-India."
     },
     "socials": [
@@ -1032,7 +1206,7 @@ window.FM_BUNDLE = {
       }
     },
     "footer": {
-      "blurb": "A nationally recognised education and employability organisation with 40+ years of impact — partnering with universities, colleges and government bodies to build future-ready learning ecosystems.",
+      "blurb": "Futureminds partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
       "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KHEC · TKM & Burlington Partnership",
       "columns": [
         {

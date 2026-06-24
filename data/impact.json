@@ -1,24 +1,67 @@
 {
   "hero": {
-    "eyebrow": "Impact at Scale",
-    "title": "Four Decades. Measurable Outcomes.",
-    "subtitle": "A track record built on consistent institutional partnerships and outcomes that compound across cohorts and states."
+    "eyebrow": "Why Us & Impact",
+    "title": "WHY FUTUREMINDS?",
+    "subtitle": "Education today demands much more than academic excellence."
   },
-  "metrics": [
-    { "count": 41, "suffix": "+", "label": "Years of leadership experience" },
-    { "count": 300, "suffix": "K+", "label": "Students impacted across India" },
-    { "count": 300, "suffix": "K+", "label": "Educators trained & empowered" },
-    { "count": 4, "suffix": "", "label": "States with active engagements" }
-  ],
-  "chart": {
-    "title": "Cumulative Reach & Institutional Growth",
-    "note": "Illustrative trajectory of student & educator engagement across decades of operation.",
-    "labels": ["1980s", "1990s", "2000s", "2010s", "2020s", "Today"],
-    "values": [40, 70, 120, 175, 235, 300]
+  "why_futureminds": {
+    "intro_paragraphs": [
+      "Education today demands much more than academic excellence.",
+      "Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world.",
+      "Futureminds helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions."
+    ],
+    "list_title": "Why Institutions Choose Futureminds",
+    "bullets": [
+      "More than four decades of educational experience.",
+      "Experience across school education, higher education and vocational learning ecosystems.",
+      "Expertise in Career Pathways, Employability Enhancement and Future Skills.",
+      "Strong focus on teacher development, faculty development and institutional capacity building.",
+      "Learner-centred and outcome-oriented methodologies.",
+      "Alignment with NEP 2020 and contemporary educational frameworks.",
+      "Integration of the 4Cs \u2013 Communication, Collaboration, Critical Thinking and Creativity.",
+      "Alignment with Bloom's Taxonomy, Constructivist Learning Principles and the 5E Instructional Model.",
+      "Experiential, activity-based and inquiry-driven learning approaches.",
+      "Proven experience in working with educational institutions, government bodies and industry stakeholders.",
+      "Capability to design and deliver interventions at scale.",
+      "Strong focus on lifelong learning, career readiness and future employability."
+    ],
+    "conclusion": "At Futureminds, we believe that institutions that invest in learner success, educator excellence and future readiness today will become the most relevant and impactful institutions of tomorrow."
   },
-  "highlights": [
-    { "icon": "handshake", "title": "Institutional Partnerships", "text": "MoUs and long-term collaborations with universities, councils and national bodies." },
-    { "icon": "globe", "title": "Pan-India Presence", "text": "Active engagements across Karnataka, Kerala, Tamil Nadu and Andhra Pradesh." },
-    { "icon": "shield", "title": "NEP-2020 Alignment", "text": "Frameworks designed to support national education policy outcomes." }
-  ]
+  "impact_reach_collaborations": {
+    "title": "IMPACT, REACH & COLLABORATIONS",
+    "intro": "Futureminds has established collaborations, engagements and partnerships across educational ecosystems, supporting learners, educators and institutions through capability-building, employability enhancement, communication development and future-readiness initiatives.",
+    "educational_impact": {
+      "title": "Selected Educational Impact Initiatives",
+      "bullets": [
+        "Teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
+        "Participation in the Rotary India Literacy Mission's national teacher development initiative aimed at supporting the training and capacity building of approximately 300,000 teachers across India.",
+        "Memorandum of Understanding with TKM for training and capability development of apprentices and ITI learners, supporting workforce readiness and industry-linked skill development.",
+        "Faculty development, employability enhancement and student success initiatives delivered across educational institutions."
+      ]
+    },
+    "institutional_collaborations": {
+      "title": "Institutional Collaborations & Engagements",
+      "bullets": [
+        "AICTE-related initiatives and engagements.",
+        "Visvesvaraya Technological University (VTU) \u2013 Memorandum of Understanding and collaborative initiatives.",
+        "Karnataka State Open University (KSOU) \u2013 Memorandum of Understanding and collaborative initiatives.",
+        "Karnataka State Higher Education Council (KSHEC) aligned and recommended initiatives.",
+        "Collaborations, engagements and institutional partnerships across schools, universities, colleges and educational ecosystems."
+      ]
+    },
+    "current_areas": {
+      "title": "Current Areas of Engagement",
+      "bullets": [
+        "Career Pathways & Student Success",
+        "EEE \u2013 English, Employability & Entrepreneurship",
+        "Teacher & Faculty Development",
+        "Employability & Future Skills",
+        "Digital & AI Readiness",
+        "Entrepreneurship Development",
+        "Leadership Development",
+        "Nursing Employability & Healthcare Communication"
+      ]
+    },
+    "conclusion": "Futureminds remains committed to supporting learners, educators and institutions in preparing for education, employment, entrepreneurship, lifelong learning and meaningful participation in society."
+  }
 }
