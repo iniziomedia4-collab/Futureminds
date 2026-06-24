@@ -155,7 +155,8 @@
   function programmesBlock(list, title) {
     var cards = list.map(function (pr) {
       var out = pr.outcomes.map(function (o) { return '<li>' + esc(o) + '</li>'; }).join('');
-      return '<div class="prog-card reveal"><div class="top"></div><div class="pico">' + icon(pr.icon, 40) + '</div><h4>' + esc(pr.title) + '</h4><p>' + esc(pr.text) + '</p><ul class="outcomes">' + out + '</ul></div>';
+      var noteHtml = pr.note ? '<p style="margin-top:16px;font-size:0.9rem;font-style:italic;color:var(--mute)">' + esc(pr.note) + '</p>' : '';
+      return '<div class="prog-card reveal"><div class="top"></div><div class="pico">' + icon(pr.icon, 40) + '</div><h4>' + esc(pr.title) + '</h4><p>' + esc(pr.text) + '</p><ul class="outcomes">' + out + '</ul>' + noteHtml + '</div>';
     }).join('');
     return '<section class="section" id="programmes"><div class="container">' + (title ? sectionHead('Programmes', title) : '') + '<div class="grid-3">' + cards + '</div></div></section>';
   }
@@ -243,11 +244,32 @@
     return '<svg viewBox="0 0 500 250" width="100%" aria-label="Global reach map">' + html + '</svg>';
   }
   function indiaSVG() {
-    var path = 'M120 20 L150 35 L160 60 L150 80 L165 95 L160 120 L175 130 L160 160 L150 155 L145 185 L130 230 L115 255 L105 220 L95 200 L80 175 L70 150 L55 130 L60 100 L80 95 L75 70 L95 55 L100 35 Z';
-    return '<svg viewBox="0 0 240 280" width="100%" aria-label="India map, Bengaluru highlighted"><path d="' + path + '" fill="rgba(201,155,13,.12)" stroke="rgba(201,155,13,.5)" stroke-width="1.5"/>' +
-      '<circle cx="108" cy="205" r="5" fill="#c99b0d"/><circle cx="108" cy="205" r="10" fill="none" stroke="#c99b0d" opacity=".6"><animate attributeName="r" values="5;15;5" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".7;0;.7" dur="2.4s" repeatCount="indefinite"/></circle>' +
-      '<text x="118" y="208" fill="#f5ecc7" font-size="11" font-family="Verdana" font-weight="700">Bengaluru HQ</text>' +
-      '<circle cx="125" cy="225" r="3" fill="rgba(255,255,255,.5)"/><circle cx="118" cy="190" r="3" fill="rgba(255,255,255,.5)"/><circle cx="100" cy="175" r="3" fill="rgba(255,255,255,.5)"/></svg>';
+    /* Karnataka state outline with Bengaluru HQ marker */
+    var karnataka = 'M115 30 L135 28 L155 38 L168 55 L172 75 L165 90 L175 105 L170 125 L178 140 L168 158 L155 165 L148 180 L135 195 L118 205 L105 200 L92 188 L80 170 L72 152 L68 130 L75 110 L68 90 L75 72 L88 58 L102 42 Z';
+    /* Bengaluru is approx 60% down the state */
+    var blrX = 125, blrY = 165;
+    return '<svg viewBox="0 0 240 260" width="100%" aria-label="Karnataka map, Bengaluru HQ highlighted">' +
+      /* State background glow */
+      '<defs><radialGradient id="kglow" cx="50%" cy="60%" r="50%"><stop offset="0%" stop-color="rgba(201,155,13,0.25)"/><stop offset="100%" stop-color="rgba(201,155,13,0)"/></radialGradient></defs>' +
+      '<ellipse cx="120" cy="140" rx="80" ry="90" fill="url(#kglow)"/>' +
+      /* Karnataka outline */
+      '<path d="' + karnataka + '" fill="rgba(201,155,13,.1)" stroke="rgba(201,155,13,.55)" stroke-width="1.8"/>' +
+      /* Neighbouring state dots */
+      '<circle cx="145" cy="50" r="2.5" fill="rgba(255,255,255,.25)"/>' +
+      '<text x="148" y="54" fill="rgba(255,255,255,.3)" font-size="7.5" font-family="Verdana">Maharashtra</text>' +
+      '<circle cx="168" cy="100" r="2.5" fill="rgba(255,255,255,.25)"/>' +
+      '<text x="170" y="104" fill="rgba(255,255,255,.3)" font-size="7.5" font-family="Verdana">Telangana</text>' +
+      '<circle cx="155" cy="180" r="2.5" fill="rgba(255,255,255,.25)"/>' +
+      '<text x="157" y="184" fill="rgba(255,255,255,.3)" font-size="7.5" font-family="Verdana">Tamil Nadu</text>' +
+      '<circle cx="78" cy="175" r="2.5" fill="rgba(255,255,255,.25)"/>' +
+      '<text x="30" y="179" fill="rgba(255,255,255,.3)" font-size="7.5" font-family="Verdana">Kerala</text>' +
+      /* Bengaluru HQ pulse */
+      '<circle cx="' + blrX + '" cy="' + blrY + '" r="6" fill="#c99b0d"/>' +
+      '<circle cx="' + blrX + '" cy="' + blrY + '" r="12" fill="none" stroke="#c99b0d" opacity=".5"><animate attributeName="r" values="6;18;6" dur="2.4s" repeatCount="indefinite"/><animate attributeName="opacity" values=".6;0;.6" dur="2.4s" repeatCount="indefinite"/></circle>' +
+      '<text x="' + (blrX + 10) + '" y="' + (blrY + 4) + '" fill="#f5ecc7" font-size="11" font-family="Verdana" font-weight="700">Bengaluru HQ</text>' +
+      /* State label */
+      '<text x="85" y="105" fill="rgba(201,155,13,.6)" font-size="13" font-family="Verdana" font-weight="700" text-anchor="middle">Karnataka</text>' +
+      '</svg>';
   }
   function galleryBlock(g) {
     var filters = g.filters.map(function (f, i) { return '<button class="gallery-filter' + (i === 0 ? ' active' : '') + '" data-f="' + esc(f) + '">' + esc(f) + '</button>'; }).join('');
@@ -304,12 +326,12 @@
       '<div class="ci"><div class="ic">' + icon('pin') + '</div><div><b>Headquarters</b><span>' + esc(c.address) + '</span></div></div>' +
       '<div class="ci"><div class="ic">' + icon('mail') + '</div><div><b>Email</b><span><a href="mailto:' + esc(c.email) + '">' + esc(c.email) + '</a></span></div></div>' +
       '<div class="ci"><div class="ic">' + icon('phone') + '</div><div><b>General</b><span><a href="tel:' + c.phoneGeneral.replace(/\s/g, '') + '">' + esc(c.phoneGeneral) + '</a></span></div></div>' +
-      '<div class="ci"><div class="ic">' + icon('building') + '</div><div><b>For Universities / Colleges</b><span><a href="tel:' + c.phoneInstitutions.replace(/\s/g, '') + '">' + esc(c.phoneInstitutions) + '</a></span></div></div>' +
+      '<div class="ci"><div class="ic">' + icon('building') + '</div><div><b>For Universities / Colleges / Schools</b><span><a href="tel:' + c.phoneInstitutions.replace(/\s/g, '') + '">' + esc(c.phoneInstitutions) + '</a></span></div></div>' +
       '<div class="india-map">' + indiaSVG() + '</div></div>' +
-      '<form class="contact-form reveal" id="contactForm"><h3>Start a Conversation</h3><p class="sub">For Vice Chancellors, Registrars, Principals, IQAC coordinators and government bodies.</p>' +
-      '<div class="form-row"><div class="field"><label>Full Name</label><input type="text" required placeholder="Dr. / Prof. Name"></div><div class="field"><label>Designation</label><input type="text" placeholder="VC / Registrar / Principal"></div></div>' +
-      '<div class="form-row"><div class="field"><label>Institution</label><input type="text" required placeholder="University / College"></div><div class="field"><label>Email</label><input type="email" required placeholder="name@institution.edu"></div></div>' +
-      '<div class="field"><label>Area of Interest</label><select><option>EEE Framework Implementation</option><option>Faculty Development Programmes</option><option>Student Capability Building</option><option>Institutional Transformation</option><option>Overseas Career Readiness</option><option>University Partnership / MoU</option></select></div>' +
+      '<form class="contact-form reveal" id="contactForm"><h3>Start a Conversation</h3><p class="sub">For Vice Chancellors, Registrars, Principals, Headmasters, IQAC coordinators and government bodies.</p>' +
+      '<div class="form-row"><div class="field"><label>Full Name</label><input type="text" required placeholder="Dr. / Prof. / Mr. / Ms. Name"></div><div class="field"><label>Designation</label><input type="text" placeholder="VC / Registrar / Principal / Headmaster"></div></div>' +
+      '<div class="form-row"><div class="field"><label>Institution</label><input type="text" required placeholder="University / College / School"></div><div class="field"><label>Email</label><input type="email" required placeholder="name@institution.edu"></div></div>' +
+      '<div class="field"><label>Area of Interest</label><select><option>EEE Framework Implementation</option><option>Faculty Development Programmes</option><option>Student Capability Building</option><option>Institutional Transformation</option><option>Overseas Career Readiness</option><option>University / College / School Partnership</option></select></div>' +
       '<div class="field"><label>Message</label><textarea placeholder="Tell us about your institution goals..."></textarea></div>' +
       '<div class="form-actions"><button type="submit" class="btn btn-gold">Request Discussion <span class="arrow">&rarr;</span></button><a href="' + site.ctas.brochure.href + '" class="btn btn-ink">Download Brochure</a></div>' +
       '<p class="form-ok">Thank you &mdash; our partnerships team will be in touch shortly.</p></form></div></div></section>';
@@ -356,70 +378,41 @@
 
     about: function (d) {
       var a = d.about;
-      var tl = a.timeline.map(function (t) { return '<div class="tl-item"><div class="tl-era">' + esc(t.era) + '</div><h4>' + esc(t.title) + '</h4><p>' + esc(t.text) + '</p></div>'; }).join('');
-      var beliefs = a.philosophy.beliefs.map(function (b) { return '<li>' + icon('check', 22) + '<span>' + esc(b) + '</span></li>'; }).join('');
-      var integ = a.philosophy.integrates.map(function (s) { return '<span>' + esc(s) + '</span>'; }).join('');
-      var trad = a.approach.traditional, fm = a.approach.futureminds;
-      var xIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#8C99B0" stroke-width="2"><circle cx="12" cy="12" r="9"/><path d="M9 9l6 6M15 9l-6 6"/></svg>';
       var ckIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#c99b0d" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
-      var tradPoints = trad.points.map(function (p) { return '<li>' + xIcon + esc(p) + '</li>'; }).join('');
-      var fmPoints = fm.points.map(function (p) { return '<li>' + ckIcon + esc(p) + '</li>'; }).join('');
+      var expBullets = a.experience.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+
       return pageHero(a.hero, 'About') +
-        '<section class="section paper"><div class="container"><div class="about-grid"><div class="lead reveal"><span class="eyebrow">About Futureminds</span><h2 style="font-size:clamp(1.8rem,3.4vw,2.7rem);margin:14px 0 20px">' + esc(a.lead.title) + '</h2>' +
-        a.lead.paragraphs.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
-        '<p class="pull">' + esc(a.lead.pull) + '</p><div style="margin-top:24px"><a href="impact.html" class="btn btn-ink">See the Impact <span class="arrow">&rarr;</span></a></div></div><div class="timeline reveal">' + tl + '</div></div></div></section>' +
-        '<section class="section" id="philosophy"><div class="container">' + sectionHead(a.philosophy.eyebrow, a.philosophy.title) + '<div class="belief-grid"><ul class="belief-list reveal">' + beliefs + '</ul><div class="reveal"><p style="color:#5A6B85;margin-bottom:16px;font-weight:700">We integrate:</p><div class="chip-cloud">' + integ + '</div></div></div></div></section>' +
-        '<section class="section paper" id="approach"><div class="container">' + sectionHead(a.approach.eyebrow, a.approach.title, a.approach.intro, true) +
-        '<div class="compare reveal"><div class="compare-col trad"><span class="tag">' + esc(trad.title) + '</span><h4>' + esc(trad.subtitle) + '</h4><ul>' + tradPoints + '</ul></div><div class="compare-vs"><span>vs</span></div><div class="compare-col fm"><span class="tag">' + esc(fm.title) + '</span><h4>' + esc(fm.subtitle) + '</h4><ul>' + fmPoints + '</ul></div></div></div></section>' +
+        '<section class="section paper"><div class="container"><div class="about-grid"><div class="lead reveal"><span class="eyebrow">ABOUT FUTUREMINDS</span><h2 style="font-size:clamp(1.8rem,3.4vw,2.7rem);margin:14px 0 20px">' + esc(a.about.title) + '</h2>' +
+        a.about.paragraphs.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+        '</div><div class="reveal" style="background:var(--surface);padding:32px;border-radius:12px;border:1px solid var(--border)">' +
+        '<h3 style="margin-top:0">' + esc(a.experience.title) + '</h3><p>' + esc(a.experience.intro) + '</p><p style="margin:16px 0;font-weight:600">' + esc(a.experience.list_title) + '</p>' +
+        '<ul class="statement-list">' + expBullets + '</ul>' +
+        '</div></div></div></section>' +
+        '<section class="section ink"><div class="container"><div class="grid-2">' +
+        '<div class="reveal"><h3>Vision</h3><p>' + esc(a.vision_mission.vision) + '</p></div>' +
+        '<div class="reveal"><h3>Mission</h3><p>' + esc(a.vision_mission.mission) + '</p></div>' +
+        '</div></div></section>' +
+        '<section class="section"><div class="container"><div class="reveal" style="max-width:800px;margin:0 auto;text-align:center">' +
+        '<h2>' + esc(a.philosophy.title) + '</h2><p style="font-size:1.1rem;line-height:1.7">' + esc(a.philosophy.text) + '</p>' +
+        '</div></div></section>' +
         ctaBand(d.site);
     },
     founder: function(d) {
       var f = d.founder;
-      /* Section 1: Founder's Message */
-      var msg = f.message.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
-      /* Section 2: Founder Profile */
-      var prof = f.profile.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
-      /* Section 3: Professional Highlights */
-      var hi = f.highlights.items.map(function(h) { return '<li>' + icon('check', 20) + '<span>' + esc(h) + '</span></li>'; }).join('');
-      /* Section 4: Leadership */
-      var lead = f.leadership.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
-      /* Section 5: National Contributions */
-      var cont = f.contributions.items.map(function(c) { return '<span>' + esc(c) + '</span>'; }).join('');
-      /* Section 6: Impact */
-      var impactCards = f.impact.metrics.map(function(m) { return '<div class="impact-card reveal"><b class="num">' + esc(m.value) + '</b><span>' + esc(m.label) + '</span></div>'; }).join('');
-      /* Section 7: Associations */
-      var bodies = f.associations.bodies.map(function(b) { return '<span>' + esc(b) + '</span>'; }).join('');
-      /* Section 8: Rotary */
-      var rotary = f.rotary.paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('');
-      return pageHero(f.hero, 'Founder & Leadership') +
-        /* S1: Message */
-        '<section class="section paper"><div class="container"><div class="about-grid">' +
-        '<div class="lead reveal"><span class="eyebrow">' + esc(f.message.title) + '</span><h2 style="font-size:clamp(1.5rem,3vw,2.2rem);margin:14px 0 20px">' + esc(f.hero.title) + '</h2>' + msg +
-        '<p style="margin-top:24px;font-style:italic">' + esc(f.message.signoff) + '</p><p><b>' + esc(f.message.name) + '</b><br><small>' + esc(f.message.role) + '<br>' + esc(f.message.org) + '</small></p></div>' +
-        /* S2: Profile */
-        '<div class="reveal"><span class="eyebrow">' + esc(f.profile.title) + '</span><h3 style="margin:10px 0 16px">' + esc(f.profile.subtitle) + '</h3>' + prof + '</div>' +
-        '</div></div></section>' +
-        /* S3: Highlights */
-        '<section class="section"><div class="container">' + sectionHead(null, f.highlights.title) +
-        '<ul class="statement-list reveal" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:16px">' + hi + '</ul></div></section>' +
-        /* S4: Leadership */
-        '<section class="section ink"><div class="container">' + sectionHead(null, f.leadership.title) +
-        '<div class="reveal" style="max-width:800px;margin:0 auto">' + lead + '</div></div></section>' +
-        /* S5: National Contributions */
-        '<section class="section paper"><div class="container"><div class="grid-2">' +
-        '<div class="reveal"><span class="eyebrow">' + esc(f.contributions.title) + '</span><p style="margin:14px 0 10px">' + esc(f.contributions.intro) + '</p><p>' + esc(f.contributions.aicte) + '</p></div>' +
-        '<div class="reveal"><div class="chip-cloud" style="margin-top:20px">' + cont + '</div></div>' +
-        '</div></div></section>' +
-        /* S6: Impact */
-        '<section class="section ink"><div class="container">' + sectionHead(null, f.impact.title, null, true) +
-        '<div class="impact-grid">' + impactCards + '</div></div></section>' +
-        /* S7 & S8: Associations + Rotary */
-        '<section class="section"><div class="container"><div class="grid-2">' +
-        '<div class="reveal"><span class="eyebrow">' + esc(f.associations.title) + '</span><p style="margin:14px 0 10px">' + esc(f.associations.intro) + '</p><div class="chip-cloud">' + bodies + '</div><p style="margin-top:10px;color:var(--mute)">' + esc(f.associations.note) + '</p></div>' +
-        '<div class="reveal"><span class="eyebrow">' + esc(f.rotary.title) + '</span>' + rotary + '</div>' +
-        '</div></div></section>' +
-        /* S9: Final Positioning */
-        '<section class="section ink"><div class="container"><div class="cta-band reveal"><blockquote style="font-size:1.15rem;color:var(--gold);font-style:italic;text-align:center;max-width:820px;margin:0 auto;line-height:1.7">' + esc(f.positioning) + '</blockquote></div></div></section>' +
+      var ckIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#c99b0d" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+      var impactBullets = f.impact.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+
+      return pageHero(f.hero, 'Founder') +
+        '<section class="section paper"><div class="container">' +
+        '<div class="founder-grid" style="display:grid;gap:40px;grid-template-columns:1fr;max-width:900px;margin:0 auto">' +
+        '<div class="reveal"><h2>' + esc(f.profile.title) + '</h2>' +
+        f.profile.paragraphs.map(function(p) { return '<p style="margin-bottom:16px">' + esc(p) + '</p>'; }).join('') +
+        '</div>' +
+        '<div class="reveal" style="background:var(--surface);padding:32px;border-radius:12px;border:1px solid var(--border)">' +
+        '<h3 style="margin-top:0">' + esc(f.impact.title) + '</h3>' +
+        '<ul class="statement-list">' + impactBullets + '</ul>' +
+        '<p style="margin-top:24px;font-style:italic;font-weight:600">' + esc(f.impact.conclusion) + '</p>' +
+        '</div></div></div></section>' +
         ctaBand(d.site);
     },
     pedagogy: function(d) {
@@ -431,6 +424,18 @@
         '<section class="section ink"><div class="container">' + sectionHead('Methodology', p.pedagogy.title, p.pedagogy.intro, true) + '<div class="grid-4">' + ped + '</div></div></section>' + ctaBand(d.site);
     },
     programmes: function (d) { var p = d.programmes; return pageHero(p.hero, 'Programmes') + eeeBlock(p.eee) + programmesBlock(p.programmes, 'All Programmes') + ctaBand(d.site); },
+    schools: function (d) {
+      var s = d.schools;
+      var ckIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#c99b0d" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+      var list = s.content.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+      return pageHero(s.hero, 'Schools') +
+        '<section class="section paper"><div class="container"><div class="about-grid"><div class="lead reveal"><span class="eyebrow">School Education</span><h2 style="font-size:clamp(1.5rem,3vw,2.2rem);margin:14px 0 20px">' + esc(s.content.intro) + '</h2></div>' +
+        '<div class="reveal" style="background:var(--surface);padding:32px;border-radius:12px;border:1px solid var(--border)">' +
+        '<h3 style="margin-top:0">' + esc(s.content.list_title) + '</h3>' +
+        '<ul class="statement-list">' + list + '</ul>' +
+        '<p style="margin-top:24px;font-style:italic;font-weight:600">' + esc(s.content.conclusion) + '</p>' +
+        '</div></div></div></section>' + ctaBand(d.site);
+    },
     'career-pathways': function (d) {
       var pw = d.pathways;
       var benefits = pw.benefits.map(function (b) { return '<span>' + esc(b) + '</span>'; }).join('');
@@ -440,11 +445,34 @@
     },
     impact: function (d) {
       var im = d.impact;
-      var cards = im.metrics.map(function (m) { return '<div class="impact-card reveal"><b class="num" data-count="' + m.count + '" data-suffix="' + (m.suffix || '') + '">0</b><span>' + esc(m.label) + '</span></div>'; }).join('');
-      var hi = im.highlights.map(function (h) { return '<div class="pillar reveal"><div class="pi">' + icon(h.icon) + '</div><h4>' + esc(h.title) + '</h4><p>' + esc(h.text) + '</p></div>'; }).join('');
+      var ckIcon = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#c99b0d" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+      
+      var whyBullets = im.why_futureminds.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+      var edBullets = im.impact_reach_collaborations.educational_impact.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+      var instBullets = im.impact_reach_collaborations.institutional_collaborations.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+      var areaBullets = im.impact_reach_collaborations.current_areas.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
+
       return pageHero(im.hero, 'Impact') +
-        '<section class="section ink"><div class="container"><div class="impact-grid">' + cards + '</div><div class="impact-chart reveal"><h3>' + esc(im.chart.title) + '</h3><p>' + esc(im.chart.note) + '</p>' + chartSVG(im.chart) + '</div></div></section>' +
-        '<section class="section"><div class="container">' + sectionHead('What Drives It', 'Built on Partnership & Policy Alignment') + '<div class="grid-3">' + hi + '</div></div></section>' + ctaBand(d.site);
+        '<section class="section paper"><div class="container"><div class="about-grid"><div class="lead reveal"><h2 style="font-size:clamp(1.5rem,3vw,2.2rem);margin:14px 0 20px">' + esc(im.hero.title) + '</h2>' +
+        im.why_futureminds.intro_paragraphs.map(function(p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+        '</div><div class="reveal" style="background:var(--surface);padding:32px;border-radius:12px;border:1px solid var(--border)">' +
+        '<h3 style="margin-top:0">' + esc(im.why_futureminds.list_title) + '</h3>' +
+        '<ul class="statement-list">' + whyBullets + '</ul>' +
+        '<p style="margin-top:24px;font-style:italic;font-weight:600">' + esc(im.why_futureminds.conclusion) + '</p>' +
+        '</div></div></div></section>' +
+        
+        '<section class="section ink"><div class="container"><div class="reveal" style="text-align:center;max-width:800px;margin:0 auto 40px">' +
+        '<h2>' + esc(im.impact_reach_collaborations.title) + '</h2><p>' + esc(im.impact_reach_collaborations.intro) + '</p></div>' +
+        '<div class="grid-2">' +
+        '<div class="reveal" style="background:#fff;padding:32px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.05)"><h3>' + esc(im.impact_reach_collaborations.educational_impact.title) + '</h3><ul class="statement-list">' + edBullets + '</ul></div>' +
+        '<div class="reveal" style="background:#fff;padding:32px;border-radius:12px;box-shadow:0 10px 30px rgba(0,0,0,0.05)"><h3>' + esc(im.impact_reach_collaborations.institutional_collaborations.title) + '</h3><ul class="statement-list">' + instBullets + '</ul></div>' +
+        '</div></div></section>' +
+        
+        '<section class="section"><div class="container"><div class="reveal" style="max-width:800px;margin:0 auto">' +
+        '<h3>' + esc(im.impact_reach_collaborations.current_areas.title) + '</h3><ul class="statement-list" style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:32px">' + areaBullets + '</ul>' +
+        '<p style="font-size:1.1rem;font-style:italic;font-weight:600;text-align:center">' + esc(im.impact_reach_collaborations.conclusion) + '</p>' +
+        '</div></div></section>' +
+        ctaBand(d.site);
     },
     partners: function (d) {
       var pn = d.partners;
@@ -471,7 +499,7 @@
       return pageHero(pn.hero, 'Partners') +
         '<section class="section"><div class="container"><div class="client-wall reveal">' + cells + '</div></div></section>' +
         mouHtml +
-        '<section class="section paper"><div class="container">' + sectionHead('Credibility', 'Trust & Accreditation', null, true) + '<ul class="statement-list reveal">' + stmts + '</ul></div></section>' + ctaBand(d.site);
+        '<section class="section paper"><div class="container">' + sectionHead('Collaborations', 'Institutional Collaborations & Engagements', null, true) + '<ul class="statement-list reveal">' + stmts + '</ul></div></section>' + ctaBand(d.site);
     },
     overseas: function (d) {
       var ov = d.overseas;

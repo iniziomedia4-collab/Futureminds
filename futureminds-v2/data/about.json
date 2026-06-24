@@ -1,57 +1,36 @@
 {
   "hero": {
-    "eyebrow": "About Futureminds",
-    "title": "Four Decades of Educational Leadership",
-    "subtitle": "A nationally recognised education and employability-skills organisation with over four decades of cumulative experience in education, training, institutional development, and skill-ecosystem design."
+    "eyebrow": "About",
+    "title": "ABOUT FUTUREMINDS",
+    "subtitle": "A professionally managed education, employability and institutional development organisation with more than four decades of experience."
   },
-  "lead": {
-    "title": "The Evolution of Excellence",
+  "about": {
+    "title": "About Futureminds",
     "paragraphs": [
-      "Futureminds works closely with universities, autonomous colleges, government bodies, and higher-education institutions to support employability enhancement, student capability building, faculty development, career readiness, and institution-wide academic transformation.",
-      "We believe higher education must move beyond degrees alone and increasingly support students in becoming adaptable, responsible, employable, and future-ready professionals. We are currently executing projects across Karnataka, Kerala, Tamil Nadu and Andhra Pradesh."
-    ],
-    "pull": "Transformation is not a single event. It is a sequence of purposeful shifts in capability, culture, and context."
-  },
-  "timeline": [
-    { "era": "1970s — 1990s", "title": "Educational Leadership", "text": "Four decades of grounding in education, training and institution building — establishing the bedrock of trust and pedagogical depth." },
-    { "era": "2000s", "title": "Faculty Empowerment", "text": "Structured faculty development programmes bringing 21st-century pedagogy, learning outcomes and learner engagement into classrooms." },
-    { "era": "2010s", "title": "Employability Transformation", "text": "The shift from content delivery to capability — career readiness, communication and workplace preparedness at institutional scale." },
-    { "era": "Today", "title": "Future-Ready Ecosystems", "text": "NEP-2020 aligned frameworks, the flagship EEE model, AI awareness and career-pathway intelligence across India." }
-  ],
-  "philosophy": {
-    "eyebrow": "Our Philosophy",
-    "title": "What We Believe",
-    "beliefs": [
-      "Degrees alone do not ensure employability.",
-      "Skills without values lack sustainability.",
-      "Education must evolve with industry, society, and technology.",
-      "Students require career clarity in addition to academic knowledge.",
-      "Institutions must prepare learners for evolving workplaces, not only examinations."
-    ],
-    "integrates": [
-      "English & communication capability",
-      "Employability & workplace readiness",
-      "Entrepreneurship awareness",
-      "21st-century skills",
-      "Professional ethics",
-      "Applied digital & AI awareness",
-      "Career-pathway understanding",
-      "Long-term adaptability"
+      "Futureminds is a professionally managed education, employability and institutional development organisation with more than four decades of experience in the areas of education, skill development, teacher and faculty development, communication enhancement, employability, entrepreneurship, leadership development and institutional transformation.",
+      "The organisation works across school education, higher education, vocational education and professional learning ecosystems to support students, educators and institutions in building the capabilities required for success in a rapidly changing world.",
+      "Over the years, Futureminds has worked extensively with schools, universities, colleges, educational institutions, government bodies, industry partners and professional organisations through initiatives focused on learner success, educator effectiveness, career readiness, future skills and lifelong learning.",
+      "Futureminds believes that education must go beyond academic achievement and equip learners with the knowledge, skills, attitudes and capabilities required to succeed in higher education, careers, entrepreneurship and life.",
+      "Our work is guided by a commitment to developing future-ready learners, empowered educators and capable institutions through innovative, learner-centered and outcome-oriented interventions."
     ]
   },
-  "approach": {
-    "eyebrow": "Our Distinctive Approach",
-    "title": "Designed Differently from Conventional Training",
-    "intro": "Rather than relying on motivational delivery, we build thinking, confidence and adaptability through experiential, reflection-driven learning.",
-    "traditional": {
-      "title": "Conventional Training",
-      "subtitle": "Motivational & Generic",
-      "points": ["One-size-fits-all workshops", "Lecture-led, passive delivery", "Short-term placement focus", "Discipline-agnostic content"]
-    },
-    "futureminds": {
-      "title": "The Futureminds Methodology",
-      "subtitle": "Experiential & Future-Aligned",
-      "points": ["Experiential learning & case studies", "Role plays, simulations & guided reflection", "Career awareness & future-of-work alignment", "Discipline-contextual & industry-relevant"]
-    }
+  "experience": {
+    "title": "Experience Across Educational Ecosystems",
+    "intro": "Futureminds has worked across both school and higher education ecosystems, supporting students, educators, institutions and educational leaders through capability-building, communication enhancement, employability development and future-readiness initiatives.",
+    "list_title": "Selected educational impact initiatives include:",
+    "bullets": [
+      "Teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
+      "Participation in the Rotary India Literacy Mission's national teacher development initiative aimed at supporting the training and capacity building of approximately 300,000 teachers across India.",
+      "Memorandum of Understanding with TKM for training and capability development of apprentices and ITI learners, supporting workforce readiness, employability and industry-linked skill development.",
+      "Faculty development, employability enhancement and student success initiatives across multiple educational ecosystems."
+    ]
+  },
+  "vision_mission": {
+    "vision": "To contribute towards building future-ready learners, educators and institutions capable of succeeding in education, employment, entrepreneurship and society.",
+    "mission": "To strengthen educational outcomes through innovative learning interventions, teacher and faculty development, career pathways, employability enhancement, communication capability, entrepreneurship education and future skills development."
+  },
+  "philosophy": {
+    "title": "Educational Philosophy",
+    "text": "Futureminds believes that education must extend beyond academic achievement to develop communication capability, critical thinking, creativity, collaboration, adaptability, leadership and lifelong learning competencies that prepare learners for a rapidly evolving world."
   }
 }

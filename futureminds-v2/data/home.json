@@ -46,10 +46,10 @@
     "title": "Eight Pillars of Future-Ready Capability",
     "intro": "Holistic capability building that integrates communication, employability, ethics and applied technology — institution-sensitive and discipline-contextual.",
     "items": [
-      { "icon": "briefcase", "title": "Employability Enhancement", "text": "Workplace readiness, professional confidence and career-aligned interventions built into the academic journey.", "stat": "3,00,000+", "statLabel": "students prepared" },
-      { "icon": "users", "title": "Faculty Development", "text": "21st-century pedagogy, the 4Cs, Bloom's taxonomy and AI awareness for educators across institutions.", "stat": "3,00,000+", "statLabel": "educators empowered" },
+      { "icon": "briefcase", "title": "Employability Enhancement", "text": "Workplace readiness, professional confidence and career-aligned interventions built into the academic journey.", "stat": "300,000+", "statLabel": "students prepared" },
+      { "icon": "users", "title": "Faculty Development", "text": "21st-century pedagogy, the 4Cs, Bloom's taxonomy and AI awareness for educators across institutions.", "stat": "270,000+", "statLabel": "educators empowered" },
       { "icon": "compass", "title": "Career Readiness", "text": "Resume, interview, group discussion and career-pathway awareness aligned to evolving industry expectations.", "stat": "8", "statLabel": "domains mapped" },
-      { "icon": "message", "title": "English & Communication", "text": "CEFR-aligned language proficiency and workplace communication, supported by our Burlington partnership.", "stat": "CEFR", "statLabel": "& OET aligned" },
+      { "icon": "message", "title": "English & Communication", "text": "CEFR-aligned language proficiency and workplace communication, supported by our Burlington partnership.", "stat": "CEFR & OET", "statLabel": "Aligned" },
       { "icon": "cpu", "title": "AI & Digital Awareness", "text": "Applied AI literacy and digital fluency so students and faculty stay ahead of automation-driven change.", "stat": "21st C", "statLabel": "skills focus" },
       { "icon": "rocket", "title": "Entrepreneurship", "text": "An entrepreneurial mindset — initiative, problem-solving and value creation — embedded into the EEE framework.", "stat": "EEE", "statLabel": "flagship model" },
       { "icon": "shield", "title": "Professional Ethics", "text": "Skills without values lack sustainability. We build ethical, responsible and accountable professionals.", "stat": "Values", "statLabel": "led delivery" },

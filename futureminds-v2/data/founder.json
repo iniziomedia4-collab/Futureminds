@@ -1,104 +1,27 @@
 {
   "hero": {
-    "eyebrow": "Founder & Leadership",
-    "title": "Venkatessh Sharma",
-    "subtitle": "Education entrepreneur, institution builder, trainer, mentor, and skill development leader with nearly four decades of experience spanning higher education, employability, faculty development, educational technology, leadership development, and institutional transformation."
-  },
-  "message": {
-    "title": "Founder's Message",
-    "paragraphs": [
-      "India stands at a critical point in its educational journey. While academic excellence remains important, the future increasingly belongs to individuals who can communicate effectively, think critically, collaborate across disciplines, adapt to change, leverage technology responsibly, and continuously learn throughout their careers.",
-      "At Futureminds, we believe that education must extend beyond knowledge acquisition to include employability, entrepreneurship, workplace readiness, leadership, and lifelong learning.",
-      "For more than four decades, I have had the privilege of working with educational institutions, universities, government bodies, teachers, students, and industry leaders across India. These experiences have reinforced my conviction that institutions must proactively prepare learners not only for examinations but also for life, careers, and meaningful societal contributions.",
-      "Futureminds was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
-      "Through our programmes in employability enhancement, faculty development, communication skills, entrepreneurship, future skills, AI awareness, and institutional transformation, we strive to create measurable and sustainable impact.",
-      "We look forward to partnering with institutions that share our commitment to developing future-ready learners and transforming education into a powerful catalyst for personal, professional, and societal growth."
-    ],
-    "signoff": "Warm Regards,",
-    "name": "Venkatessh Sharma",
-    "role": "Founder & CEO",
-    "org": "Futureminds"
+    "eyebrow": "Leadership",
+    "title": "FOUNDER PROFILE",
+    "subtitle": "Founder & CEO \u2013 Futureminds"
   },
   "profile": {
-    "title": "Founder Profile",
-    "subtitle": "Founder & CEO – Futureminds",
+    "title": "FOUNDER & CEO \u2013 FUTUREMINDS",
     "paragraphs": [
-      "Venkatessh Sharma is an education entrepreneur, institution builder, trainer, mentor, and skill development leader with nearly four decades of experience spanning higher education, employability, faculty development, educational technology, leadership development, and institutional transformation.",
-      "Over the course of his distinguished career, he has worked extensively with universities, colleges, educational institutions, government bodies, professional associations, and industry organisations across India. His work has focused on strengthening educational quality, enhancing student employability, developing faculty capability, and creating sustainable frameworks for institutional growth.",
-      "As Founder & CEO of Futureminds, he leads the design and implementation of innovative programmes in the areas of employability enhancement, communication capability, entrepreneurship development, faculty development, career pathways, workplace readiness, future skills, and educational transformation.",
-      "Venkatessh Sharma has played a pioneering role in integrating Information Technology into education and has successfully executed several large-scale initiatives involving national institutions, government agencies, and development projects. His contributions have significantly influenced the adoption of technology-enabled learning and skill development practices across educational ecosystems.",
-      "He has conceptualised and implemented professional development programmes that have impacted more than 300,000 students and over 270,000 educators, helping institutions strengthen teaching-learning processes, student outcomes, and employability readiness.",
-      "His contributions to education were recognised by the Government of India through his appointment as a Member of the Executive Committee of the All India Council for Technical Education (AICTE), where he participated in policy-level deliberations and contributed to strengthening India's higher education ecosystem.",
-      "In addition to his educational leadership, Venkatessh Sharma has been actively associated with entrepreneurship development, institutional consulting, leadership development, and social impact initiatives. He has worked closely with educational leaders, policymakers, administrators, and industry stakeholders to design programmes that align education with the evolving needs of society and the workplace.",
-      "A passionate advocate of lifelong learning and future-ready education, he continues to champion initiatives that empower students, educators, and institutions to succeed in a rapidly changing world."
-    ]
-  },
-  "highlights": {
-    "title": "Professional Highlights",
-    "items": [
-      "Nearly 40 years of experience in education, training, employability, and institutional development",
-      "Founder & CEO of Futureminds",
-      "Former Founder & CEO of MeriTrain Education Services",
-      "Former Member, Executive Committee, AICTE, Government of India",
-      "Education entrepreneur and institution builder",
-      "Chairman of Governing Councils of professional colleges",
-      "Teacher, trainer, mentor, career counsellor, and education strategist",
-      "Pioneer in Information Technology integration within education",
-      "Contributor to Government of India and World Bank-supported education initiatives",
-      "Designed and implemented large-scale teacher development programmes",
-      "Impacted more than 300,000 students and over 270,000 educators",
-      "Advisor and collaborator with universities, colleges, educational institutions, and government agencies",
-      "Champion of employability, entrepreneurship, communication capability, and future skills education",
-      "Advocate of NEP 2020 aligned educational transformation"
-    ]
-  },
-  "leadership": {
-    "title": "Leadership & Institution Building",
-    "paragraphs": [
-      "Futureminds is built upon decades of experience in institution building, academic leadership, educational innovation, and large-scale programme implementation.",
-      "Under the leadership of Venkatessh Sharma, numerous educational initiatives have been conceptualised, implemented, scaled, and sustained across diverse educational environments. His work has consistently focused on creating systems, processes, frameworks, and interventions that strengthen institutions while delivering measurable outcomes for students and educators.",
-      "His leadership philosophy combines academic excellence, employability orientation, innovation, technology integration, and stakeholder engagement to create sustainable institutional transformation."
-    ]
-  },
-  "contributions": {
-    "title": "National Contributions",
-    "intro": "Venkatessh Sharma has contributed to the advancement of education and skill development through active engagement with national institutions, educational bodies, universities, professional associations, government agencies, and development initiatives.",
-    "aicte": "His appointment to the Executive Committee of AICTE reflects the trust placed in his educational leadership and his commitment to strengthening higher education in India. Over the years, he has contributed to initiatives related to:",
-    "items": [
-      "Higher Education Development",
-      "Educational Technology Integration",
-      "Faculty Capacity Building",
-      "Employability Enhancement",
-      "Skill Development",
-      "Entrepreneurship Promotion",
-      "Curriculum Innovation",
-      "Educational Transformation",
-      "Future Skills Development"
+      "Venkatessh Sharma is an education entrepreneur, institution builder, trainer, mentor, educator and skill development leader with nearly four decades of experience spanning higher education, school education, employability enhancement, faculty development, educational technology, leadership development and institutional transformation.",
+      "Over the course of his distinguished career, he has worked extensively with universities, colleges, schools, educational institutions, government bodies, professional associations and industry organisations across India. His work has focused on strengthening educational quality, enhancing learner success, developing faculty capability, promoting employability and creating sustainable frameworks for institutional growth.",
+      "He has been associated with educational initiatives involving universities, national educational bodies, government-supported programmes and development projects, including assignments and engagements connected with the University Grants Commission (UGC), World Bank-aided educational initiatives and a range of higher education, skill development and institutional transformation programmes.",
+      "He has also served as a Member of the Executive Committee of AICTE (All India Council for Technical Education), contributing to discussions and initiatives relating to technical education, employability, institutional development, quality enhancement and student success.",
+      "As Founder & CEO of Futureminds, he leads the design and implementation of innovative programmes in the areas of career pathways, employability enhancement, communication capability, entrepreneurship development, teacher and faculty development, workplace readiness, future skills and educational transformation."
     ]
   },
   "impact": {
-    "title": "Impact at a Glance",
-    "metrics": [
-      { "value": "300,000+", "label": "Students Impacted" },
-      { "value": "270,000+", "label": "Educators Trained" },
-      { "value": "40+", "label": "Years of Educational Leadership" },
-      { "value": "Multiple States", "label": "Programme Implementation" },
-      { "value": "Universities, Colleges, Government Bodies & Industry Partners", "label": "National-Level Policy and Educational Leadership Experience" }
-    ]
-  },
-  "associations": {
-    "title": "Professional Associations",
-    "intro": "Venkatessh Sharma is associated with several professional, educational, and industry bodies including:",
-    "bodies": ["FKCCI", "Bangalore Management Association (BMA)", "Indian Society for Technical Education (ISTE)", "IET Future Tech Panel"],
-    "note": "These associations enable continuous engagement with emerging developments in education, technology, leadership, entrepreneurship, and industry."
-  },
-  "rotary": {
-    "title": "Rotary Leadership",
-    "paragraphs": [
-      "Venkatessh Sharma has been associated with Rotary for several decades and has held numerous leadership positions at both club and district levels.",
-      "A Past President of his Rotary Club, he has served in various capacities including Assistant Governor, District Secretary, Conference Leadership Roles, Membership Development, Awards, and Strategic Planning.",
-      "His Rotary journey reflects a long-standing commitment to service, leadership development, community engagement, and institution building."
-    ]
-  },
-  "positioning": "\"Venkatessh Sharma's professional journey reflects a lifelong commitment to educational excellence, institutional transformation, employability enhancement, leadership development, and social impact. Through Futureminds, he continues to work towards creating future-ready learners, empowered educators, and stronger institutions capable of thriving in an increasingly dynamic and interconnected world.\""
+    "title": "Educational Impact & Capacity Building",
+    "bullets": [
+      "Associated with teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
+      "Associated with the Rotary India Literacy Mission's national teacher development initiative aimed at supporting the training and capacity building of approximately 300,000 teachers across India.",
+      "Associated with faculty development, student success, employability enhancement and institutional capacity-building initiatives across educational ecosystems.",
+      "Has worked extensively with educational leaders, faculty members, trainers, students and institutions across India in the areas of communication capability, employability, leadership development and future-ready education."
+    ],
+    "conclusion": "His professional journey reflects a deep commitment to preparing learners, educators and institutions for the challenges and opportunities of the future."
+  }
 }
