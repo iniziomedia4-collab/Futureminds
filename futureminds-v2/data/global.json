@@ -1,0 +1,132 @@
+{
+  "hero": {
+    "eyebrow": "Global Partnerships",
+    "title": "Building Partnerships That Create Global Impact",
+    "subtitle": "Connecting education, healthcare and institutions with knowledge, capability and global opportunity.",
+    "supporting": "Futureminds India brings together educational institutions, healthcare organisations, governments, industry, development agencies and international partners to build future-ready people, stronger institutions and sustainable pathways for collaboration.",
+    "primary": { "label": "Explore Partnership Opportunities", "href": "#partnership-pathways" },
+    "secondary": { "label": "Start a Conversation", "href": "contact.html" }
+  },
+  "whoWeAre": {
+    "title": "Who We Are and What We Connect",
+    "paragraphs": [
+      "The challenges facing education, healthcare and workforce development increasingly cross institutional and national boundaries. Futureminds India serves as a knowledge and partnership organisation—connecting expertise, institutions and opportunities to create practical, measurable and lasting impact.",
+      "Our collaborations strengthen communication, employability, faculty and leadership capability, healthcare workforce readiness, institutional development, innovation and responsible international engagement. Each initiative is shaped around the partner’s priorities, context and intended outcomes."
+    ]
+  },
+  "focusAreas": {
+    "eyebrow": "Strategic Focus Areas",
+    "title": "Strategic Focus Areas",
+    "items": [
+      { "icon": "compass", "title": "Higher Education & Employability", "text": "Graduate capability, curriculum enrichment, faculty development, leadership, entrepreneurship and industry relevance." },
+      { "icon": "shield", "title": "Healthcare & Nursing", "text": "Healthcare communication, professionalism, workplace readiness, faculty capability and responsible global career preparedness." },
+      { "icon": "users", "title": "School Education", "text": "Teacher development, student communication, life skills, leadership, creativity and future-readiness." },
+      { "icon": "building", "title": "Institutional Capacity Building", "text": "Strategic planning, quality enhancement, leadership, systems, academic innovation and sustainable capability." },
+      { "icon": "layers", "title": "Research, Innovation & Knowledge Exchange", "text": "Collaborative research, conferences, professional forums, publications and institutional networks." },
+      { "icon": "cpu", "title": "Digital & AI Readiness", "text": "Responsible adoption of digital tools, artificial intelligence and emerging technologies in education and healthcare." }
+    ]
+  },
+  "healthcare": {
+    "eyebrow": "Global Healthcare & Nursing",
+    "title": "Strengthening Healthcare Education. Preparing Future-Ready Professionals.",
+    "paragraphs": [
+      "Modern healthcare requires more than clinical competence. Nurses and healthcare professionals must communicate clearly, collaborate across disciplines, demonstrate empathy and ethical judgement, adapt to technology and serve diverse patient communities with confidence.",
+      "Futureminds works with nursing colleges, universities, hospitals and healthcare organisations to bridge the space between academic learning and professional practice. Our initiatives strengthen healthcare communication, workplace readiness, patient-centred care, leadership, faculty capability and global awareness."
+    ]
+  },
+  "eeeNursing": {
+    "eyebrow": "Futureminds EEE–Nursing",
+    "title": "Futureminds EEE–Nursing",
+    "subtitle": "English. Employability. Entrepreneurship. Applied to Healthcare.",
+    "intro": "EEE–Nursing is Futureminds’ integrated professional-readiness framework for nursing students and graduates. It complements clinical education by developing the communication, behaviours and capabilities required for effective practice in hospitals and multicultural healthcare environments.",
+    "developsTitle": "The framework develops",
+    "develops": [
+      "Professional English and healthcare communication",
+      "Patient interaction, empathy and cultural competence",
+      "Workplace readiness, teamwork and leadership",
+      "Professional behaviour, ethics and accountability",
+      "Clinical documentation and written communication",
+      "Critical thinking, decision-making and resilience",
+      "Digital healthcare and AI awareness",
+      "Career planning, interview readiness and lifelong learning",
+      "An OET-oriented communication foundation for eligible international aspirants"
+    ],
+    "note": "EEE–Nursing is not an OET coaching programme. It builds the healthcare communication foundation and professional confidence from which interested candidates may progress to recognised OET preparation, assessment and country-specific professional pathways."
+  },
+  "outcomes": {
+    "title": "Outcomes for Institutions and Learners",
+    "bullets": [
+      "More confident and effective professional communication",
+      "Stronger patient-centred interaction and teamwork",
+      "Improved workplace readiness and employability",
+      "Greater awareness of ethics, professionalism and digital healthcare",
+      "Better preparedness for multidisciplinary and multicultural environments",
+      "A responsible foundation for domestic and international career progression"
+    ]
+  },
+  "pathways": {
+    "eyebrow": "Partnership Pathways",
+    "title": "Partnership Pathways",
+    "intro": "Futureminds welcomes collaborations that combine local understanding with national and international expertise. Engagements may be programme-based, institutional, multi-stakeholder or long-term.",
+    "types": [
+      { "icon": "badge", "title": "Universities & Higher Education Institutions", "text": "Graduate employability; EEE; faculty and leadership development; curriculum enrichment; entrepreneurship; research; digital and AI readiness; international academic engagement." },
+      { "icon": "shield", "title": "Nursing Colleges & Health Universities", "text": "EEE–Nursing; healthcare communication; workplace readiness; faculty development; curriculum enrichment; OET-oriented foundation and responsible international preparedness." },
+      { "icon": "plus", "title": "Hospitals & Healthcare Systems", "text": "Workforce communication; patient-centred care; nursing leadership; team effectiveness; documentation; professional resilience; continuous capability development." },
+      { "icon": "globe", "title": "Governments, Embassies & Development Organisations", "text": "Education and healthcare capacity building; knowledge exchange; workforce development; institutional strengthening; international cooperation and development initiatives." },
+      { "icon": "briefcase", "title": "Industry, Professional Bodies & Employers", "text": "Industry–academia engagement; workforce expectations; professional development; career readiness; mentoring; innovation and knowledge forums." },
+      { "icon": "handshake", "title": "CSR & Philanthropic Partners", "text": "Scalable programmes for students, educators, healthcare workers and institutions, aligned with measurable educational and social outcomes." }
+    ],
+    "opportunitiesTitle": "Selected Collaboration Opportunities",
+    "opportunities": [
+      "Joint programmes, centres and institutional initiatives",
+      "Faculty, trainer and leadership development",
+      "Healthcare and nursing workforce development",
+      "Research, conferences and knowledge exchange",
+      "Curriculum enrichment and assessment frameworks",
+      "Student and professional mobility preparedness",
+      "CSR-supported education and healthcare initiatives",
+      "Digital transformation and responsible AI awareness"
+    ]
+  },
+  "howWePartner": {
+    "eyebrow": "How We Partner",
+    "title": "From Shared Priorities to Sustainable Outcomes",
+    "steps": [
+      { "n": "1", "title": "Understand", "text": "We begin with the partner’s vision, beneficiaries, institutional context and desired outcomes." },
+      { "n": "2", "title": "Co-create", "text": "We design a context-specific solution aligned with academic, workforce, regulatory and organisational priorities." },
+      { "n": "3", "title": "Deliver", "text": "We use experiential learning—case studies, simulations, role plays, projects, mentoring and reflective practice." },
+      { "n": "4", "title": "Measure", "text": "Defined objectives, assessments, feedback and partner review support accountability and continuous improvement." },
+      { "n": "5", "title": "Sustain", "text": "Where appropriate, we develop faculty, resources and internal capability so that value continues beyond the engagement." }
+    ]
+  },
+  "why": {
+    "eyebrow": "Why Futureminds",
+    "title": "Why Futureminds",
+    "bullets": [
+      "Four decades of educational leadership and institutional engagement",
+      "Experience across education, employability, healthcare, communication, leadership and capacity building",
+      "Customised solutions rather than standard, off-the-shelf programmes",
+      "Practical, experiential and learner-centred methodology",
+      "Engagement with universities, government bodies, professional organisations and industry",
+      "Commitment to ethical practice, measurable outcomes and long-term relationships",
+      "A strong India base with an expanding international partnership outlook"
+    ],
+    "principlesTitle": "Our Partnership Principles",
+    "principles": ["Shared purpose", "Mutual trust", "Professional integrity", "Co-creation", "Inclusiveness", "Innovation", "Regulatory respect", "Sustainability", "Measurable impact"]
+  },
+  "responsible": {
+    "eyebrow": "Responsible Global Readiness",
+    "title": "Responsible Global Readiness",
+    "text": "Futureminds prepares learners and professionals with communication capability, workplace readiness and professional confidence. We do not guarantee employment, migration or licensing outcomes. International progression remains subject to the eligibility, language, regulatory, licensing, immigration, recruitment and employer requirements of the relevant country and organisation."
+  },
+  "cta": {
+    "eyebrow": "Closing Call to Action",
+    "title": "Let Us Build What the Future Needs",
+    "paragraphs": [
+      "Futureminds India invites universities, nursing institutions, hospitals, governments, embassies, development organisations, professional bodies, industry and philanthropic partners to co-create initiatives that strengthen institutions, empower people and expand responsible global opportunity.",
+      "If your organisation is exploring collaboration in education, employability, healthcare, workforce development or institutional capacity building, we would be pleased to begin a conversation."
+    ],
+    "primary": { "label": "Partner With Futureminds", "href": "contact.html" },
+    "secondary": { "label": "Contact Us", "href": "contact.html" }
+  }
+}

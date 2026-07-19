@@ -6,7 +6,7 @@
 (function () {
   "use strict";
   var REDUCED = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-  var DATA_FILES = ['site', 'home', 'about', 'programmes', 'pathways', 'impact', 'partners', 'overseas', 'gallery', 'testimonials', 'founder', 'pedagogy'];
+  var DATA_FILES = ['site', 'home', 'about', 'programmes', 'pathways', 'impact', 'partners', 'overseas', 'gallery', 'testimonials', 'founder', 'pedagogy', 'global'];
 
   /* ---------- ICONS ---------- */
   var ICONS = {
@@ -510,6 +510,66 @@
         '<div class="world-card reveal">' + worldSVG() + '<div class="chip-cloud" style="margin-top:18px;justify-content:center">' + outs + '</div></div></div></div></section>' + ctaBand(d.site);
     },
     gallery: function (d) { return pageHero(d.gallery.hero, 'Gallery') + galleryBlock(d.gallery) + ctaBand(d.site); },
+    'global-partnerships': function (d) {
+      var g = d.global;
+      var ck = '<svg class="ic" viewBox="0 0 24 24" fill="none" stroke="#c99b0d" stroke-width="2.4"><path d="M20 6 9 17l-5-5"/></svg>';
+      var hero = '<header class="page-hero"><div class="glow"></div><div class="container"><div class="page-hero-inner reveal">' +
+        '<div class="crumbs"><a href="index.html">Home</a> / Global Partnerships</div>' +
+        '<span class="eyebrow">' + esc(g.hero.eyebrow) + '</span>' +
+        '<h1>' + esc(g.hero.title) + '</h1>' +
+        '<p style="font-size:1.2rem;color:#fff;font-weight:600;margin-bottom:14px">' + esc(g.hero.subtitle) + '</p>' +
+        '<p>' + esc(g.hero.supporting) + '</p>' +
+        '<div class="hero-cta" style="margin-top:26px">' +
+        '<a href="' + g.hero.primary.href + '" class="btn btn-gold">' + esc(g.hero.primary.label) + ' <span class="arrow">&rarr;</span></a>' +
+        '<a href="' + g.hero.secondary.href + '" class="btn btn-ghost">' + esc(g.hero.secondary.label) + '</a>' +
+        '</div></div></div></header>';
+      var who = '<section class="section"><div class="container" style="max-width:920px">' +
+        sectionHead(null, g.whoWeAre.title) +
+        g.whoWeAre.paragraphs.map(function (p) { return '<p class="reveal" style="font-size:1.08rem;color:var(--mute);margin-bottom:18px">' + esc(p) + '</p>'; }).join('') +
+        '</div></section>';
+      var faCards = g.focusAreas.items.map(function (it) { return '<div class="pillar reveal"><div class="pi">' + icon(it.icon) + '</div><h4>' + esc(it.title) + '</h4><p>' + esc(it.text) + '</p></div>'; }).join('');
+      var focus = '<section class="section paper"><div class="container">' + sectionHead(g.focusAreas.eyebrow, g.focusAreas.title, null, true) + '<div class="grid-3">' + faCards + '</div></div></section>';
+      var hc = '<section class="section ink"><div class="container" style="max-width:920px">' +
+        sectionHead(g.healthcare.eyebrow, g.healthcare.title) +
+        g.healthcare.paragraphs.map(function (p) { return '<p class="reveal" style="color:rgba(255,255,255,.82);margin-bottom:18px;font-size:1.05rem">' + esc(p) + '</p>'; }).join('') +
+        '</div></section>';
+      var devs = g.eeeNursing.develops.map(function (b) { return '<li>' + ck + '<span>' + esc(b) + '</span></li>'; }).join('');
+      var eee = '<section class="section" id="eee-nursing"><div class="container">' +
+        '<div class="reveal" style="text-align:center;max-width:780px;margin:0 auto 34px">' +
+        '<span class="eyebrow center">' + esc(g.eeeNursing.eyebrow) + '</span>' +
+        '<h2 style="margin:14px 0 8px">' + esc(g.eeeNursing.title) + '</h2>' +
+        '<p style="font-weight:700;color:var(--gold);font-size:1.05rem">' + esc(g.eeeNursing.subtitle) + '</p></div>' +
+        '<div class="about-grid">' +
+        '<div class="lead reveal"><p style="font-size:1.05rem;color:var(--mute)">' + esc(g.eeeNursing.intro) + '</p>' +
+        '<div style="margin-top:22px;padding:20px 22px;border-left:3px solid var(--gold);background:var(--paper);border-radius:8px"><p style="font-style:italic;color:var(--ink);font-size:.98rem">' + esc(g.eeeNursing.note) + '</p></div></div>' +
+        '<div class="reveal" style="background:var(--surface);padding:30px;border-radius:12px;border:1px solid var(--border)"><h3 style="margin-top:0">' + esc(g.eeeNursing.developsTitle) + '</h3><ul class="statement-list">' + devs + '</ul></div>' +
+        '</div></div></section>';
+      var outs = g.outcomes.bullets.map(function (b) { return '<li>' + ck + '<span>' + esc(b) + '</span></li>'; }).join('');
+      var outcomes = '<section class="section paper"><div class="container" style="max-width:920px">' + sectionHead(null, g.outcomes.title, null, true) + '<ul class="statement-list reveal" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">' + outs + '</ul></div></section>';
+      var types = g.pathways.types.map(function (t) { return '<div class="prog-card reveal"><div class="top"></div><div class="pico">' + icon(t.icon, 40) + '</div><h4>' + esc(t.title) + '</h4><p>' + esc(t.text) + '</p></div>'; }).join('');
+      var opps = g.pathways.opportunities.map(function (o) { return '<li>' + ck + '<span>' + esc(o) + '</span></li>'; }).join('');
+      var pathways = '<section class="section" id="partnership-pathways"><div class="container">' +
+        '<div class="reveal" style="max-width:780px;margin:0 auto 34px;text-align:center"><span class="eyebrow center">' + esc(g.pathways.eyebrow) + '</span><h2 style="margin:14px 0 12px">' + esc(g.pathways.title) + '</h2><p style="color:var(--mute)">' + esc(g.pathways.intro) + '</p></div>' +
+        '<div class="grid-3">' + types + '</div>' +
+        '<div class="reveal" style="max-width:920px;margin:44px auto 0"><h3 style="text-align:center;margin-bottom:20px">' + esc(g.pathways.opportunitiesTitle) + '</h3><ul class="statement-list" style="display:grid;grid-template-columns:1fr 1fr;gap:14px">' + opps + '</ul></div>' +
+        '</div></section>';
+      var steps = g.howWePartner.steps.map(function (st) { return '<div class="pillar reveal"><div class="pi" style="font-family:var(--font);font-weight:700;font-size:1.3rem;color:#fff;background:var(--green)">' + esc(st.n) + '</div><h4>' + esc(st.title) + '</h4><p>' + esc(st.text) + '</p></div>'; }).join('');
+      var how = '<section class="section paper" id="how-we-partner"><div class="container">' + sectionHead(g.howWePartner.eyebrow, g.howWePartner.title, null, true) + '<div class="grid-3">' + steps + '</div></div></section>';
+      var whyB = g.why.bullets.map(function (b) { return '<li>' + ck + '<span>' + esc(b) + '</span></li>'; }).join('');
+      var principles = g.why.principles.map(function (p) { return '<span>' + esc(p) + '</span>'; }).join('');
+      var why = '<section class="section ink"><div class="container"><div class="about-grid" style="align-items:start">' +
+        '<div class="reveal"><span class="eyebrow">' + esc(g.why.eyebrow) + '</span><h2 style="color:#fff;margin:14px 0 20px">' + esc(g.why.title) + '</h2><ul class="statement-list">' + whyB + '</ul></div>' +
+        '<div class="reveal"><h3 style="color:#fff">' + esc(g.why.principlesTitle) + '</h3><div class="chip-cloud" style="margin-top:16px">' + principles + '</div></div>' +
+        '</div></div></section>';
+      var resp = '<section class="section"><div class="container"><div class="reveal" style="max-width:920px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--gold);border-radius:12px;padding:32px 34px">' +
+        '<span class="eyebrow">' + esc(g.responsible.eyebrow) + '</span><h3 style="margin:12px 0 12px">' + esc(g.responsible.title) + '</h3><p style="color:var(--mute);font-size:1.02rem">' + esc(g.responsible.text) + '</p></div></div></section>';
+      var cta = '<section class="section"><div class="container"><div class="cta-band reveal">' +
+        '<h2>' + esc(g.cta.title) + '</h2>' +
+        g.cta.paragraphs.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
+        '<div class="cta-row" style="margin-top:22px"><a href="' + g.cta.primary.href + '" class="btn btn-gold">' + esc(g.cta.primary.label) + ' <span class="arrow">&rarr;</span></a><a href="' + g.cta.secondary.href + '" class="btn btn-ghost">' + esc(g.cta.secondary.label) + '</a></div>' +
+        '</div></div></section>';
+      return hero + who + focus + hc + eee + outcomes + pathways + how + why + resp + cta;
+    },
     contact: function (d) {
       return '<header class="page-hero" style="padding-bottom:30px"><div class="glow"></div><div class="container"><div class="page-hero-inner reveal"><div class="crumbs"><a href="index.html">Home</a> / Contact</div><span class="eyebrow">Contact</span><h1>Let\'s Shape Future-Ready Institutions Together</h1><p>' + esc(d.site.contact.mapNote) + '</p></div></div></header>' + contactBlock(d.site);
     }
