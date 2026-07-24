@@ -1,0 +1,101 @@
+{
+  "brand": {
+    "name": "Futureminds",
+    "logo": "assets/img/logo.svg",
+    "tagline": "Building Future-Ready Minds"
+  },
+  "nav": [
+    { "label": "Home", "href": "index.html" },
+    { 
+      "label": "About Us", 
+      "href": "about.html",
+      "dropdown": [
+        { "label": "About Futureminds", "href": "about.html" },
+        { "label": "Founder & Leadership", "href": "founder.html" }
+      ]
+    },
+    { 
+      "label": "Programmes", 
+      "href": "programmes.html",
+      "dropdown": [
+        { "label": "EEE", "href": "programmes.html#eee" },
+        { "label": "Career Pathways", "href": "career-pathways.html" },
+        { "label": "Employability Programmes", "href": "programmes.html" },
+        { "label": "School Education Initiatives", "href": "programmes.html" },
+        { "label": "FDP", "href": "programmes.html#fdp" },
+        { "label": "OET & Healthcare Communication", "href": "overseas.html" }
+      ]
+    },
+    { 
+      "label": "Pedagogy", 
+      "href": "pedagogy.html",
+      "dropdown": [
+        { "label": "4Cs Framework", "href": "pedagogy.html#4cs" },
+        { "label": "5E Model", "href": "pedagogy.html#5e" },
+        { "label": "Bloom's Taxonomy", "href": "pedagogy.html#blooms" },
+        { "label": "ORID", "href": "pedagogy.html#orid" }
+      ]
+    },
+    { "label": "Collaborations", "href": "partners.html" },
+    { "label": "Global Partnerships", "href": "global-partnerships.html" },
+    { "label": "Resources", "href": "impact.html" },
+    { "label": "Media", "href": "gallery.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "navCta": { "label": "Partner With Us", "href": "contact.html" },
+  "contact": {
+    "address": "226 Maithri, 3rd Cross, 7th Main, Vasantapur, Bengaluru 560078, Karnataka, India",
+    "email": "admin@futureminds.in",
+    "partnerEmail": "partnerships@futureminds.in",
+    "phoneGeneral": "+91 98450 29886",
+    "phoneInstitutions": "+91 98450 29886",
+    "whatsapp": "919845029886",
+    "mapNote": "Headquartered in Bengaluru, serving institutions Pan-India."
+  },
+  "socials": [
+    { "label": "LinkedIn", "href": "https://www.linkedin.com/company/Futureminds/", "icon": "linkedin" },
+    { "label": "YouTube", "href": "https://www.youtube.com/channel/UClkBtwJsScYxFzNoFdlifeA", "icon": "youtube" },
+    { "label": "Instagram", "href": "https://www.instagram.com/Futureminds_eym/", "icon": "instagram" },
+    { "label": "Facebook", "href": "https://www.facebook.com/Futuremindsgroup", "icon": "facebook" },
+    { "label": "Twitter", "href": "https://twitter.com/minds_rare", "icon": "twitter" }
+  ],
+  "ctas": {
+    "explore": { "label": "Explore Programmes", "href": "programmes.html" },
+    "partner": { "label": "Partner With Futureminds", "href": "contact.html" },
+    "discuss": { "label": "Request Institutional Discussion", "href": "contact.html" },
+    "brochure": { "label": "Download Programme Overview", "href": "#" }
+  },
+  "footer": {
+    "blurb": "Futureminds partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
+    "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KSHEC · TKM & Burlington Partnership",
+    "columns": [
+      {
+        "title": "Organisation",
+        "links": [
+          { "label": "About Futureminds", "href": "about.html" },
+          { "label": "Our Approach", "href": "about.html#approach" },
+          { "label": "Impact", "href": "impact.html" },
+          { "label": "Partners", "href": "partners.html" }
+        ]
+      },
+      {
+        "title": "Programmes",
+        "links": [
+          { "label": "EEE Framework", "href": "programmes.html#eee" },
+          { "label": "Faculty Development", "href": "programmes.html" },
+          { "label": "Career Pathways", "href": "career-pathways.html" },
+          { "label": "Overseas Readiness", "href": "overseas.html" }
+        ]
+      },
+      {
+        "title": "Engage",
+        "links": [
+          { "label": "Partner With Us", "href": "contact.html" },
+          { "label": "Request Discussion", "href": "contact.html" },
+          { "label": "Gallery", "href": "gallery.html" },
+          { "label": "Contact", "href": "contact.html" }
+        ]
+      }
+    ]
+  }
+}

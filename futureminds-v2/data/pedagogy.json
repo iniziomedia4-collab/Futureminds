@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "eyebrow": "Pedagogy & Philosophy",
+    "title": "Why Futureminds",
+    "subtitle": "We partner with educational institutions to design and implement structured, scalable, and outcome-driven interventions."
+  },
+  "why": {
+    "title": "Why Institutions Choose Futureminds",
+    "intro": "Education today demands much more than academic excellence. Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world. Futureminds helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions.",
+    "items": [
+      {
+        "icon": "clock",
+        "title": "Four Decades of Experience",
+        "text": "More than four decades of educational experience."
+      },
+      {
+        "icon": "building",
+        "title": "Ecosystem Wide Experience",
+        "text": "Experience across school education, higher education and vocational learning ecosystems."
+      },
+      {
+        "icon": "compass",
+        "title": "Employability & Skills",
+        "text": "Expertise in Career Pathways, Employability Enhancement and Future Skills."
+      },
+      {
+        "icon": "users",
+        "title": "Capacity Building",
+        "text": "Strong focus on teacher development, faculty development and institutional capacity building."
+      },
+      {
+        "icon": "trend",
+        "title": "Outcome-Oriented",
+        "text": "Learner-centred and outcome-oriented methodologies."
+      },
+      {
+        "icon": "shield",
+        "title": "NEP 2020 Alignment",
+        "text": "Alignment with NEP 2020 and contemporary educational frameworks."
+      },
+      {
+        "icon": "message",
+        "title": "Integration of the 4Cs",
+        "text": "Integration of the 4Cs - Communication, Collaboration, Critical Thinking and Creativity."
+      },
+      {
+        "icon": "layers",
+        "title": "Pedagogical Frameworks",
+        "text": "Alignment with Bloom's Taxonomy, Constructivist Learning Principles and the 5E Instructional Model."
+      },
+      {
+        "icon": "cpu",
+        "title": "Experiential Learning",
+        "text": "Experiential, activity-based and inquiry-driven learning approaches."
+      },
+      {
+        "icon": "handshake",
+        "title": "Trusted Partnerships",
+        "text": "Proven experience in working with educational institutions, government bodies and industry stakeholders."
+      },
+      {
+        "icon": "globe",
+        "title": "Interventions at Scale",
+        "text": "Capability to design and deliver interventions at scale."
+      },
+      {
+        "icon": "briefcase",
+        "title": "Lifelong Learning",
+        "text": "Strong focus on lifelong learning, career readiness and future employability."
+      }
+    ]
+  },
+  "pedagogy": {
+    "title": "Our Pedagogical Framework",
+    "intro": "Our training methodology is rooted in proven educational frameworks that move learners from passive reception to active capability.",
+    "items": [
+      {
+        "id": "4cs",
+        "icon": "message",
+        "title": "The 4Cs Framework",
+        "text": "Critical Thinking, Communication, Collaboration, and Creativity embedded into every learning module."
+      },
+      {
+        "id": "5e",
+        "icon": "rocket",
+        "title": "The 5E Model",
+        "text": "Engage, Explore, Explain, Elaborate, and Evaluate — ensuring deep conceptual understanding and application."
+      },
+      {
+        "id": "blooms",
+        "icon": "trend",
+        "title": "Bloom's Taxonomy",
+        "text": "Structuring learning outcomes to move students from basic remembering to higher-order creating and evaluating."
+      },
+      {
+        "id": "orid",
+        "icon": "compass",
+        "title": "ORID Framework",
+        "text": "Objective, Reflective, Interpretive, and Decisional learning processes for structured reflection and experiential growth."
+      }
+    ]
+  }
+}
