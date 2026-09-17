@@ -4,22 +4,22 @@ window.FM_BUNDLE = {
   "about": {
     "hero": {
       "eyebrow": "About",
-      "title": "ABOUT FUTUREMINDS",
+      "title": "ABOUT FUTUREMINDS INDIA",
       "subtitle": "A professionally managed education, employability and institutional development organisation with more than four decades of experience."
     },
     "about": {
-      "title": "About Futureminds",
+      "title": "About Futureminds India",
       "paragraphs": [
-        "Futureminds is a professionally managed education, employability and institutional development organisation with more than four decades of experience in the areas of education, skill development, teacher and faculty development, communication enhancement, employability, entrepreneurship, leadership development and institutional transformation.",
+        "Futureminds India is a professionally managed education, employability and institutional development organisation with more than four decades of experience in the areas of education, skill development, teacher and faculty development, communication enhancement, employability, entrepreneurship, leadership development and institutional transformation.",
         "The organisation works across school education, higher education, vocational education and professional learning ecosystems to support students, educators and institutions in building the capabilities required for success in a rapidly changing world.",
-        "Over the years, Futureminds has worked extensively with schools, universities, colleges, educational institutions, government bodies, industry partners and professional organisations through initiatives focused on learner success, educator effectiveness, career readiness, future skills and lifelong learning.",
-        "Futureminds believes that education must go beyond academic achievement and equip learners with the knowledge, skills, attitudes and capabilities required to succeed in higher education, careers, entrepreneurship and life.",
+        "Over the years, Futureminds India has worked extensively with schools, universities, colleges, educational institutions, government bodies, industry partners and professional organisations through initiatives focused on learner success, educator effectiveness, career readiness, future skills and lifelong learning.",
+        "Futureminds India believes that education must go beyond academic achievement and equip learners with the knowledge, skills, attitudes and capabilities required to succeed in higher education, careers, entrepreneurship and life.",
         "Our work is guided by a commitment to developing future-ready learners, empowered educators and capable institutions through innovative, learner-centered and outcome-oriented interventions."
       ]
     },
     "experience": {
       "title": "Experience Across Educational Ecosystems",
-      "intro": "Futureminds has worked across both school and higher education ecosystems, supporting students, educators, institutions and educational leaders through capability-building, communication enhancement, employability development and future-readiness initiatives.",
+      "intro": "Futureminds India has worked across both school and higher education ecosystems, supporting students, educators, institutions and educational leaders through capability-building, communication enhancement, employability development and future-readiness initiatives.",
       "list_title": "Selected educational impact initiatives include:",
       "bullets": [
         "Teacher development and capacity-building programmes involving thousands of educators from the Karnataka Residential Educational Institutions Society (KREIS).",
@@ -29,28 +29,28 @@ window.FM_BUNDLE = {
       ]
     },
     "vision_mission": {
-      "vision": "To contribute towards building future-ready learners, educators and institutions capable of succeeding in education, employment, entrepreneurship and society.",
-      "mission": "To strengthen educational outcomes through innovative learning interventions, teacher and faculty development, career pathways, employability enhancement, communication capability, entrepreneurship education and future skills development."
+      "vision": "To contribute towards building future-ready learners, educators and institutions capable of succeeding in education, employment, entrepreneurship and an interconnected global society.",
+      "mission": "To strengthen educational outcomes through innovative learning interventions, teacher and faculty development, communication capability, employability enhancement, career pathways, entrepreneurship education, healthcare workforce readiness, future skills development and strategic institutional partnerships."
     },
     "philosophy": {
       "title": "Educational Philosophy",
-      "text": "Futureminds believes that education must extend beyond academic achievement to develop communication capability, critical thinking, creativity, collaboration, adaptability, leadership and lifelong learning competencies that prepare learners for a rapidly evolving world."
+      "text": "Futureminds India believes that education must extend beyond academic achievement to develop communication capability, critical thinking, creativity, collaboration, adaptability, leadership and lifelong learning competencies that prepare learners for a rapidly evolving world."
     }
   },
   "founder": {
     "hero": {
       "eyebrow": "Leadership",
       "title": "FOUNDER PROFILE",
-      "subtitle": "Founder & CEO – Futureminds"
+      "subtitle": "Founder & CEO – Futureminds India"
     },
     "profile": {
-      "title": "FOUNDER & CEO – FUTUREMINDS",
+      "title": "FOUNDER & CEO – FUTUREMINDS INDIA",
       "paragraphs": [
         "Venkatessh Sharma is an education entrepreneur, institution builder, trainer, mentor, educator and skill development leader with nearly four decades of experience spanning higher education, school education, employability enhancement, faculty development, educational technology, leadership development and institutional transformation.",
         "Over the course of his distinguished career, he has worked extensively with universities, colleges, schools, educational institutions, government bodies, professional associations and industry organisations across India. His work has focused on strengthening educational quality, enhancing learner success, developing faculty capability, promoting employability and creating sustainable frameworks for institutional growth.",
         "He has been associated with educational initiatives involving universities, national educational bodies, government-supported programmes and development projects, including assignments and engagements connected with the University Grants Commission (UGC), World Bank-aided educational initiatives and a range of higher education, skill development and institutional transformation programmes.",
         "He has also served as a Member of the Executive Committee of AICTE (All India Council for Technical Education), contributing to discussions and initiatives relating to technical education, employability, institutional development, quality enhancement and student success.",
-        "As Founder & CEO of Futureminds, he leads the design and implementation of innovative programmes in the areas of career pathways, employability enhancement, communication capability, entrepreneurship development, teacher and faculty development, workplace readiness, future skills and educational transformation."
+        "As Founder & CEO of Futureminds India, he leads the design and implementation of innovative programmes in the areas of career pathways, employability enhancement, communication capability, entrepreneurship development, teacher and faculty development, workplace readiness, future skills and educational transformation."
       ]
     },
     "impact": {
@@ -97,7 +97,7 @@ window.FM_BUNDLE = {
       {
         "type": "video",
         "category": "Videos",
-        "title": "Futureminds Programme Highlights",
+        "title": "Futureminds India Programme Highlights",
         "src": "vid/VID-20250926-WA0006.mp4",
         "thumb": "img/gallery/IMG-20260304-WA0010.jpg",
         "size": "mid"
@@ -192,7 +192,7 @@ window.FM_BUNDLE = {
       {
         "type": "image",
         "category": "Engagement",
-        "title": "Convocation — Futureminds Institutional Partner",
+        "title": "Convocation — Futureminds India Institutional Partner",
         "src": "img/gallery/IMG-20260612-WA0006.jpg",
         "size": "mid"
       },
@@ -257,7 +257,7 @@ window.FM_BUNDLE = {
       {
         "type": "video",
         "category": "Videos",
-        "title": "Programme Overview — Futureminds",
+        "title": "Programme Overview — Futureminds India",
         "src": "vid/VID_20260227_172051.mp4",
         "thumb": "img/gallery/IMG-20250315-WA0006.jpg",
         "size": "wide"
@@ -300,13 +300,235 @@ window.FM_BUNDLE = {
       }
     ]
   },
+  "global": {
+    "hero": {
+      "eyebrow": "Global Partnerships",
+      "title": "Building Partnerships That Create Global Impact",
+      "subtitle": "Connecting education, healthcare and institutions with knowledge, capability and global opportunity.",
+      "supporting": "Futureminds India brings together educational institutions, healthcare organisations, governments, industry, development agencies and international partners to build future-ready people, stronger institutions and sustainable pathways for collaboration.",
+      "primary": {
+        "label": "Explore Partnership Opportunities",
+        "href": "#partnership-pathways"
+      },
+      "secondary": {
+        "label": "Start a Conversation",
+        "href": "contact.html"
+      }
+    },
+    "whoWeAre": {
+      "title": "Who We Are and What We Connect",
+      "paragraphs": [
+        "The challenges facing education, healthcare and workforce development increasingly cross institutional and national boundaries. Futureminds India serves as a knowledge and partnership organisation—connecting expertise, institutions and opportunities to create practical, measurable and lasting impact.",
+        "Our collaborations strengthen communication, employability, faculty and leadership capability, healthcare workforce readiness, institutional development, innovation and responsible international engagement. Each initiative is shaped around the partner’s priorities, context and intended outcomes."
+      ]
+    },
+    "focusAreas": {
+      "eyebrow": "Strategic Focus Areas",
+      "title": "Strategic Focus Areas",
+      "items": [
+        {
+          "icon": "compass",
+          "title": "Higher Education & Employability",
+          "text": "Graduate capability, curriculum enrichment, faculty development, leadership, entrepreneurship and industry relevance."
+        },
+        {
+          "icon": "shield",
+          "title": "Healthcare & Nursing",
+          "text": "Healthcare communication, professionalism, workplace readiness, faculty capability and responsible global career preparedness."
+        },
+        {
+          "icon": "users",
+          "title": "School Education",
+          "text": "Teacher development, student communication, life skills, leadership, creativity and future-readiness."
+        },
+        {
+          "icon": "building",
+          "title": "Institutional Capacity Building",
+          "text": "Strategic planning, quality enhancement, leadership, systems, academic innovation and sustainable capability."
+        },
+        {
+          "icon": "layers",
+          "title": "Research, Innovation & Knowledge Exchange",
+          "text": "Collaborative research, conferences, professional forums, publications and institutional networks."
+        },
+        {
+          "icon": "cpu",
+          "title": "Digital & AI Readiness",
+          "text": "Responsible adoption of digital tools, artificial intelligence and emerging technologies in education and healthcare."
+        }
+      ]
+    },
+    "healthcare": {
+      "eyebrow": "Global Healthcare & Nursing",
+      "title": "Strengthening Healthcare Education. Preparing Future-Ready Professionals.",
+      "paragraphs": [
+        "Modern healthcare requires more than clinical competence. Nurses and healthcare professionals must communicate clearly, collaborate across disciplines, demonstrate empathy and ethical judgement, adapt to technology and serve diverse patient communities with confidence.",
+        "Futureminds India works with nursing colleges, universities, hospitals and healthcare organisations to bridge the space between academic learning and professional practice. Our initiatives strengthen healthcare communication, workplace readiness, patient-centred care, leadership, faculty capability and global awareness."
+      ]
+    },
+    "eeeNursing": {
+      "eyebrow": "Futureminds India EEE–Nursing",
+      "title": "Futureminds India EEE–Nursing",
+      "subtitle": "English. Employability. Entrepreneurship. Applied to Healthcare.",
+      "intro": "EEE–Nursing is Futureminds India’s integrated professional-readiness framework for nursing students and graduates. It complements clinical education by developing the communication, behaviours and capabilities required for effective practice in hospitals and multicultural healthcare environments.",
+      "developsTitle": "The framework develops",
+      "develops": [
+        "Professional English and healthcare communication",
+        "Patient interaction, empathy and cultural competence",
+        "Workplace readiness, teamwork and leadership",
+        "Professional behaviour, ethics and accountability",
+        "Clinical documentation and written communication",
+        "Critical thinking, decision-making and resilience",
+        "Digital healthcare and AI awareness",
+        "Career planning, interview readiness and lifelong learning",
+        "An OET-oriented communication foundation for eligible international aspirants"
+      ],
+      "note": "EEE–Nursing is not an OET coaching programme. It builds the healthcare communication foundation and professional confidence from which interested candidates may progress to recognised OET preparation, assessment and country-specific professional pathways."
+    },
+    "outcomes": {
+      "title": "Outcomes for Institutions and Learners",
+      "bullets": [
+        "More confident and effective professional communication",
+        "Stronger patient-centred interaction and teamwork",
+        "Improved workplace readiness and employability",
+        "Greater awareness of ethics, professionalism and digital healthcare",
+        "Better preparedness for multidisciplinary and multicultural environments",
+        "A responsible foundation for domestic and international career progression"
+      ]
+    },
+    "pathways": {
+      "eyebrow": "Partnership Pathways",
+      "title": "Partnership Pathways",
+      "intro": "Futureminds India welcomes collaborations that combine local understanding with national and international expertise. Engagements may be programme-based, institutional, multi-stakeholder or long-term.",
+      "types": [
+        {
+          "icon": "badge",
+          "title": "Universities & Higher Education Institutions",
+          "text": "Graduate employability; EEE; faculty and leadership development; curriculum enrichment; entrepreneurship; research; digital and AI readiness; international academic engagement."
+        },
+        {
+          "icon": "shield",
+          "title": "Nursing Colleges & Health Universities",
+          "text": "EEE–Nursing; healthcare communication; workplace readiness; faculty development; curriculum enrichment; OET-oriented foundation and responsible international preparedness."
+        },
+        {
+          "icon": "plus",
+          "title": "Hospitals & Healthcare Systems",
+          "text": "Workforce communication; patient-centred care; nursing leadership; team effectiveness; documentation; professional resilience; continuous capability development."
+        },
+        {
+          "icon": "globe",
+          "title": "Governments, Embassies & Development Organisations",
+          "text": "Education and healthcare capacity building; knowledge exchange; workforce development; institutional strengthening; international cooperation and development initiatives."
+        },
+        {
+          "icon": "briefcase",
+          "title": "Industry, Professional Bodies & Employers",
+          "text": "Industry–academia engagement; workforce expectations; professional development; career readiness; mentoring; innovation and knowledge forums."
+        },
+        {
+          "icon": "handshake",
+          "title": "CSR & Philanthropic Partners",
+          "text": "Scalable programmes for students, educators, healthcare workers and institutions, aligned with measurable educational and social outcomes."
+        }
+      ],
+      "opportunitiesTitle": "Selected Collaboration Opportunities",
+      "opportunities": [
+        "Joint programmes, centres and institutional initiatives",
+        "Faculty, trainer and leadership development",
+        "Healthcare and nursing workforce development",
+        "Research, conferences and knowledge exchange",
+        "Curriculum enrichment and assessment frameworks",
+        "Student and professional mobility preparedness",
+        "CSR-supported education and healthcare initiatives",
+        "Digital transformation and responsible AI awareness"
+      ]
+    },
+    "howWePartner": {
+      "eyebrow": "How We Partner",
+      "title": "From Shared Priorities to Sustainable Outcomes",
+      "steps": [
+        {
+          "n": "1",
+          "title": "Understand",
+          "text": "We begin with the partner’s vision, beneficiaries, institutional context and desired outcomes."
+        },
+        {
+          "n": "2",
+          "title": "Co-create",
+          "text": "We design a context-specific solution aligned with academic, workforce, regulatory and organisational priorities."
+        },
+        {
+          "n": "3",
+          "title": "Deliver",
+          "text": "We use experiential learning—case studies, simulations, role plays, projects, mentoring and reflective practice."
+        },
+        {
+          "n": "4",
+          "title": "Measure",
+          "text": "Defined objectives, assessments, feedback and partner review support accountability and continuous improvement."
+        },
+        {
+          "n": "5",
+          "title": "Sustain",
+          "text": "Where appropriate, we develop faculty, resources and internal capability so that value continues beyond the engagement."
+        }
+      ]
+    },
+    "why": {
+      "eyebrow": "Why Futureminds India",
+      "title": "Why Futureminds India",
+      "bullets": [
+        "Four decades of educational leadership and institutional engagement",
+        "Experience across education, employability, healthcare, communication, leadership and capacity building",
+        "Customised solutions rather than standard, off-the-shelf programmes",
+        "Practical, experiential and learner-centred methodology",
+        "Engagement with universities, government bodies, professional organisations and industry",
+        "Commitment to ethical practice, measurable outcomes and long-term relationships",
+        "A strong India base with an expanding international partnership outlook"
+      ],
+      "principlesTitle": "Our Partnership Principles",
+      "principles": [
+        "Shared purpose",
+        "Mutual trust",
+        "Professional integrity",
+        "Co-creation",
+        "Inclusiveness",
+        "Innovation",
+        "Regulatory respect",
+        "Sustainability",
+        "Measurable impact"
+      ]
+    },
+    "responsible": {
+      "eyebrow": "Responsible Global Readiness",
+      "title": "Responsible Global Readiness",
+      "text": "Futureminds India prepares learners and professionals with communication capability, workplace readiness and professional confidence. We do not guarantee employment, migration or licensing outcomes. International progression remains subject to the eligibility, language, regulatory, licensing, immigration, recruitment and employer requirements of the relevant country and organisation."
+    },
+    "cta": {
+      "eyebrow": "Closing Call to Action",
+      "title": "Let Us Build What the Future Needs",
+      "paragraphs": [
+        "Futureminds India invites universities, nursing institutions, hospitals, governments, embassies, development organisations, professional bodies, industry and philanthropic partners to co-create initiatives that strengthen institutions, empower people and expand responsible global opportunity.",
+        "If your organisation is exploring collaboration in education, employability, healthcare, workforce development or institutional capacity building, we would be pleased to begin a conversation."
+      ],
+      "primary": {
+        "label": "Partner With Futureminds India",
+        "href": "contact.html"
+      },
+      "secondary": {
+        "label": "Contact Us",
+        "href": "contact.html"
+      }
+    }
+  },
   "home": {
     "hero": {
       "badge": "40+ Years of Educational Leadership · Bengaluru, India",
       "titleLead": "Future-Ready Education.",
       "titleAccent": "Employability.",
       "titleTail": "Institutional Transformation.",
-      "subtitle": "Futureminds partners with universities, colleges, educational institutions and government bodies to strengthen employability, communication capability, entrepreneurship, faculty effectiveness and future-readiness through structured, scalable and outcome-driven interventions.",
+      "subtitle": "Futureminds India partners with universities, colleges, educational institutions and government bodies to strengthen employability, communication capability, entrepreneurship, faculty effectiveness and future-readiness through structured, scalable and outcome-driven interventions.",
       "stats": [
         {
           "value": "300,000+",
@@ -469,9 +691,9 @@ window.FM_BUNDLE = {
     "founderPreview": {
       "eyebrow": "From The Founder",
       "title": "A Message from Venkatessh Sharma",
-      "quote": "Futureminds was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
+      "quote": "Futureminds India was founded with a simple yet powerful vision — to bridge the gap between education and employability by creating structured, scalable, and outcome-driven interventions that enable students, educators, and institutions to thrive in an increasingly dynamic world.",
       "name": "Venkatessh Sharma",
-      "role": "Founder & CEO, Futureminds",
+      "role": "Founder & CEO, Futureminds India",
       "cta": {
         "label": "Read Full Profile",
         "href": "founder.html"
@@ -481,16 +703,16 @@ window.FM_BUNDLE = {
   "impact": {
     "hero": {
       "eyebrow": "Why Us & Impact",
-      "title": "WHY FUTUREMINDS?",
+      "title": "WHY FUTUREMINDS INDIA?",
       "subtitle": "Education today demands much more than academic excellence."
     },
     "why_futureminds": {
       "intro_paragraphs": [
         "Education today demands much more than academic excellence.",
         "Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world.",
-        "Futureminds helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions."
+        "Futureminds India helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions."
       ],
-      "list_title": "Why Institutions Choose Futureminds",
+      "list_title": "Why Institutions Choose Futureminds India",
       "bullets": [
         "More than four decades of educational experience.",
         "Experience across school education, higher education and vocational learning ecosystems.",
@@ -505,11 +727,11 @@ window.FM_BUNDLE = {
         "Capability to design and deliver interventions at scale.",
         "Strong focus on lifelong learning, career readiness and future employability."
       ],
-      "conclusion": "At Futureminds, we believe that institutions that invest in learner success, educator excellence and future readiness today will become the most relevant and impactful institutions of tomorrow."
+      "conclusion": "At Futureminds India, we believe that institutions that invest in learner success, educator excellence and future readiness today will become the most relevant and impactful institutions of tomorrow."
     },
     "impact_reach_collaborations": {
       "title": "IMPACT, REACH & COLLABORATIONS",
-      "intro": "Futureminds has established collaborations, engagements and partnerships across educational ecosystems, supporting learners, educators and institutions through capability-building, employability enhancement, communication development and future-readiness initiatives.",
+      "intro": "Futureminds India has established collaborations, engagements and partnerships across educational ecosystems, supporting learners, educators and institutions through capability-building, employability enhancement, communication development and future-readiness initiatives.",
       "educational_impact": {
         "title": "Selected Educational Impact Initiatives",
         "bullets": [
@@ -542,14 +764,14 @@ window.FM_BUNDLE = {
           "Nursing Employability & Healthcare Communication"
         ]
       },
-      "conclusion": "Futureminds remains committed to supporting learners, educators and institutions in preparing for education, employment, entrepreneurship, lifelong learning and meaningful participation in society."
+      "conclusion": "Futureminds India remains committed to supporting learners, educators and institutions in preparing for education, employment, entrepreneurship, lifelong learning and meaningful participation in society."
     }
   },
   "overseas": {
     "hero": {
       "eyebrow": "Global Career Readiness",
       "title": "Preparing Talent for International Opportunity",
-      "subtitle": "Beyond domestic employability, Futureminds prepares students and professionals for global standards of communication and workplace readiness — through structured, assessment-aligned programmes."
+      "subtitle": "Beyond domestic employability, Futureminds India prepares students and professionals for global standards of communication and workplace readiness — through structured, assessment-aligned programmes."
     },
     "positioning": "Positioned as global career readiness and professional preparation — not a visa or migration service.",
     "features": [
@@ -664,7 +886,7 @@ window.FM_BUNDLE = {
       },
       {
         "src": "img/mou/IMG-20260506-WA0003.jpeg",
-        "caption": "Futureminds Programme Engagement — Partner Institution"
+        "caption": "Futureminds India Programme Engagement — Partner Institution"
       },
       {
         "src": "img/mou/IMG-20260516-WA0003.jpg",
@@ -687,7 +909,7 @@ window.FM_BUNDLE = {
     "hero": {
       "eyebrow": "Career Pathways & Industry Alignment",
       "title": "Preparing Students for Real Career Pathways — Not Just Placements",
-      "subtitle": "Different disciplines lead to different industry expectations and emerging opportunities. Explore how Futureminds maps each domain from curriculum to evolving careers."
+      "subtitle": "Different disciplines lead to different industry expectations and emerging opportunities. Explore how Futureminds India maps each domain from curriculum to evolving careers."
     },
     "shift": {
       "from": "Training students for jobs",
@@ -801,12 +1023,12 @@ window.FM_BUNDLE = {
   "pedagogy": {
     "hero": {
       "eyebrow": "Pedagogy & Philosophy",
-      "title": "Why Futureminds",
+      "title": "Why Futureminds India",
       "subtitle": "We partner with educational institutions to design and implement structured, scalable, and outcome-driven interventions."
     },
     "why": {
-      "title": "Why Institutions Choose Futureminds",
-      "intro": "Education today demands much more than academic excellence. Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world. Futureminds helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions.",
+      "title": "Why Institutions Choose Futureminds India",
+      "intro": "Education today demands much more than academic excellence. Institutions increasingly recognise that learners require communication capability, critical thinking, creativity, collaboration, adaptability, leadership, digital readiness and employability skills to succeed in a rapidly changing world. Futureminds India helps educational institutions bridge the gap between academic learning and real-world readiness through structured, scalable and outcome-oriented interventions.",
       "items": [
         {
           "icon": "clock",
@@ -1033,7 +1255,7 @@ window.FM_BUNDLE = {
     "hero": {
       "eyebrow": "Services / Programmes",
       "title": "SCHOOL EDUCATION INITIATIVES",
-      "subtitle": "Futureminds supports schools in preparing learners and educators for the demands of a rapidly evolving educational and professional landscape."
+      "subtitle": "Futureminds India supports schools in preparing learners and educators for the demands of a rapidly evolving educational and professional landscape."
     },
     "content": {
       "intro": "Our school-focused interventions are designed to strengthen communication capability, future skills, learner engagement, leadership development, career awareness and educator effectiveness while aligning with contemporary educational frameworks and pedagogical practices.",
@@ -1055,7 +1277,7 @@ window.FM_BUNDLE = {
   },
   "site": {
     "brand": {
-      "name": "Futureminds",
+      "name": "Futureminds India",
       "logo": "assets/img/logo.svg",
       "tagline": "Building Future-Ready Minds"
     },
@@ -1069,7 +1291,7 @@ window.FM_BUNDLE = {
         "href": "about.html",
         "dropdown": [
           {
-            "label": "About Futureminds",
+            "label": "About Futureminds India",
             "href": "about.html"
           },
           {
@@ -1135,6 +1357,10 @@ window.FM_BUNDLE = {
         "href": "partners.html"
       },
       {
+        "label": "Global Partnerships",
+        "href": "global-partnerships.html"
+      },
+      {
         "label": "Resources",
         "href": "impact.html"
       },
@@ -1193,7 +1419,7 @@ window.FM_BUNDLE = {
         "href": "programmes.html"
       },
       "partner": {
-        "label": "Partner With Futureminds",
+        "label": "Partner With Futureminds India",
         "href": "contact.html"
       },
       "discuss": {
@@ -1206,14 +1432,14 @@ window.FM_BUNDLE = {
       }
     },
     "footer": {
-      "blurb": "Futureminds partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
-      "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KHEC · TKM & Burlington Partnership",
+      "blurb": "Futureminds India partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
+      "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KSHEC · TKM & Burlington Partnership",
       "columns": [
         {
           "title": "Organisation",
           "links": [
             {
-              "label": "About Futureminds",
+              "label": "About Futureminds India",
               "href": "about.html"
             },
             {
@@ -1284,12 +1510,12 @@ window.FM_BUNDLE = {
         "name": "Vice Chancellors",
         "items": [
           {
-            "quote": "Futureminds approaches employability with the academic sensitivity we expect from a true institutional partner — not a vendor. Their EEE framework integrated cleanly with our NEP-2020 credit structure.",
+            "quote": "Futureminds India approaches employability with the academic sensitivity we expect from a true institutional partner — not a vendor. Their EEE framework integrated cleanly with our NEP-2020 credit structure.",
             "name": "Vice Chancellor",
             "role": "State University, Karnataka"
           },
           {
-            "quote": "In four decades few partners have understood the rhythm of a university the way Futureminds does. Their phased rollout respected our calendar and our culture.",
+            "quote": "In four decades few partners have understood the rhythm of a university the way Futureminds India does. Their phased rollout respected our calendar and our culture.",
             "name": "Vice Chancellor",
             "role": "Autonomous University"
           }
@@ -1319,7 +1545,7 @@ window.FM_BUNDLE = {
             "role": "Department of Management"
           },
           {
-            "quote": "The AI-awareness module helped me rethink assessment entirely. Futureminds treats faculty as partners in transformation.",
+            "quote": "The AI-awareness module helped me rethink assessment entirely. Futureminds India treats faculty as partners in transformation.",
             "name": "Assistant Professor",
             "role": "Computer Science"
           }
