@@ -1,5 +1,5 @@
 /* ============================================================
-   FUTUREMINDS v2 â€” app.js
+   FUTUREMINDS INDIA v2 â€” app.js
    JSON-driven multi-page renderer.
    Loads window.FM_BUNDLE (file://) or fetches /data/*.json (served).
    ============================================================ */
@@ -55,7 +55,7 @@
 
   /* ---------- CHROME ---------- */
   function brandFallbackSVG() {
-    return '<span class="brand-fallback" style="display:none"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#c99b0d" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#c99b0d" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#c99b0d" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#c99b0d"/></svg><span class="brand-name">Future<b>minds</b></span></span>';
+    return '<span class="brand-fallback" style="display:none"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#c99b0d" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#c99b0d" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#c99b0d" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#c99b0d"/></svg><span class="brand-name">Future<b>minds</b> India</span></span>';
   }
   function renderNav(site) {
     var page = currentPage();
@@ -89,7 +89,7 @@
     var socials = site.socials.map(function (s) {
       return '<a href="' + s.href + '" target="_blank" rel="noopener" aria-label="' + esc(s.label) + '">' + icon(s.icon, 18) + '</a>';
     }).join('');
-    var brand = '<a href="index.html" class="brand" style="display:inline-flex"><span class="brand-fallback" style="display:flex"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#c99b0d" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#c99b0d" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#c99b0d" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#c99b0d"/></svg><span class="brand-name">Future<b>minds</b></span></span></a>';
+    var brand = '<a href="index.html" class="brand" style="display:inline-flex"><span class="brand-fallback" style="display:flex"><svg class="brand-mark" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="#c99b0d" stroke-width="1.4" opacity="0.5"/><path d="M24 6c6 6 6 30 0 36M24 6c-6 6-6 30 0 36" stroke="#c99b0d" stroke-width="1.2" opacity="0.7"/><path d="M8 24h32M11 15h26M11 33h26" stroke="#c99b0d" stroke-width="1.2" opacity="0.5"/><circle cx="24" cy="24" r="5" fill="#c99b0d"/></svg><span class="brand-name">Future<b>minds</b> India</span></span></a>';
     return '<footer class="footer"><div class="container">' +
       '<div class="footer-top"><div class="footer-brand">' + brand +
       '<p>' + esc(f.blurb) + '</p><div class="footer-socials">' + socials + '</div></div>' + cols + '</div>' +
@@ -137,7 +137,7 @@
   function ctaBand(site) {
     return '<section class="section"><div class="container"><div class="cta-band reveal">' +
       '<h2>Ready to build a future-ready institution?</h2>' +
-      '<p>Partner with Futureminds to design employability, faculty development and capability frameworks tailored to your institution.</p>' +
+      '<p>Partner with Futureminds India to design employability, faculty development and capability frameworks tailored to your institution.</p>' +
       '<div class="cta-row"><a href="' + site.ctas.partner.href + '" class="btn btn-gold">' + esc(site.ctas.partner.label) + ' <span class="arrow">&rarr;</span></a>' +
       '<a href="' + site.ctas.discuss.href + '" class="btn btn-ghost">' + esc(site.ctas.discuss.label) + '</a></div></div></div></section>';
   }
@@ -382,7 +382,7 @@
       var expBullets = a.experience.bullets.map(function(b) { return '<li>' + ckIcon + esc(b) + '</li>'; }).join('');
 
       return pageHero(a.hero, 'About') +
-        '<section class="section paper"><div class="container"><div class="about-grid"><div class="lead reveal"><span class="eyebrow">ABOUT FUTUREMINDS</span><h2 style="font-size:clamp(1.8rem,3.4vw,2.7rem);margin:14px 0 20px">' + esc(a.about.title) + '</h2>' +
+        '<section class="section paper"><div class="container"><div class="about-grid"><div class="lead reveal"><span class="eyebrow">ABOUT FUTUREMINDS INDIA</span><h2 style="font-size:clamp(1.8rem,3.4vw,2.7rem);margin:14px 0 20px">' + esc(a.about.title) + '</h2>' +
         a.about.paragraphs.map(function (p) { return '<p>' + esc(p) + '</p>'; }).join('') +
         '</div><div class="reveal" style="background:var(--surface);padding:32px;border-radius:12px;border:1px solid var(--border)">' +
         '<h3 style="margin-top:0">' + esc(a.experience.title) + '</h3><p>' + esc(a.experience.intro) + '</p><p style="margin:16px 0;font-weight:600">' + esc(a.experience.list_title) + '</p>' +
@@ -419,7 +419,7 @@
       var p = d.pedagogy;
       var why = p.why.items.map(function (it) { return '<div class="pillar reveal"><div class="pi">' + icon(it.icon) + '</div><h4>' + esc(it.title) + '</h4><p>' + esc(it.text) + '</p></div>'; }).join('');
       var ped = p.pedagogy.items.map(function(it) { return '<div class="prog-card reveal" id="' + esc(it.id) + '"><div class="pico">' + icon(it.icon, 40) + '</div><h4>' + esc(it.title) + '</h4><p>' + esc(it.text) + '</p></div>'; }).join('');
-      return pageHero(p.hero, 'Why Futureminds') +
+      return pageHero(p.hero, 'Why Futureminds India') +
         '<section class="section"><div class="container">' + sectionHead(null, p.why.title, p.why.intro) + '<div class="grid-3">' + why + '</div></div></section>' +
         '<section class="section ink"><div class="container">' + sectionHead('Methodology', p.pedagogy.title, p.pedagogy.intro, true) + '<div class="grid-4">' + ped + '</div></div></section>' + ctaBand(d.site);
     },
@@ -646,7 +646,7 @@
     if (main) main.innerHTML = composer(d);
     try { wire(d, PAGES[page] ? page : 'home'); } catch (e) { console.error('wire error:', e); }
   }).catch(function (err) {
-    console.error('Futureminds load error:', err);
+    console.error('Futureminds India load error:', err);
     var main = document.getElementById('page-main');
     if (main) main.innerHTML = '<div class="container" style="padding:160px 0;text-align:center"><h2>Content could not be loaded</h2><p>Ensure data/bundle.js is present, or run via a local server (see README).</p></div>';
   });

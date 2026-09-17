@@ -1,4 +1,4 @@
-﻿/* Futureminds v2 â€” Three.js knowledge sphere (home hero)
+﻿/* Futureminds India v2 â€” Three.js knowledge sphere (home hero)
    Colors: #c99b0d gold dots (30%) Â· #006a34 green core (50%) Â· #007ab8 navy lines (20%) */
 window.initHero3D = function () {
   const canvas = document.getElementById('hero-canvas');
