@@ -1,6 +1,6 @@
 {
   "brand": {
-    "name": "Futureminds",
+    "name": "Futureminds India",
     "logo": "assets/img/logo.svg",
     "tagline": "Building Future-Ready Minds"
   },
@@ -10,7 +10,7 @@
       "label": "About Us", 
       "href": "about.html",
       "dropdown": [
-        { "label": "About Futureminds", "href": "about.html" },
+        { "label": "About Futureminds India", "href": "about.html" },
         { "label": "Founder & Leadership", "href": "founder.html" }
       ]
     },
@@ -61,18 +61,18 @@
   ],
   "ctas": {
     "explore": { "label": "Explore Programmes", "href": "programmes.html" },
-    "partner": { "label": "Partner With Futureminds", "href": "contact.html" },
+    "partner": { "label": "Partner With Futureminds India", "href": "contact.html" },
     "discuss": { "label": "Request Institutional Discussion", "href": "contact.html" },
     "brochure": { "label": "Download Programme Overview", "href": "#" }
   },
   "footer": {
-    "blurb": "Futureminds partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
+    "blurb": "Futureminds India partners with educational institutions to design and implement structured, scalable and outcome-driven interventions aligned to employability, communication capability, entrepreneurship, faculty development and 21st century learning.",
     "accreditations": "NEP-2020 Aligned · MoUs with VTU, AICTE & KSOU · Recommended by KSHEC · TKM & Burlington Partnership",
     "columns": [
       {
         "title": "Organisation",
         "links": [
-          { "label": "About Futureminds", "href": "about.html" },
+          { "label": "About Futureminds India", "href": "about.html" },
           { "label": "Our Approach", "href": "about.html#approach" },
           { "label": "Impact", "href": "impact.html" },
           { "label": "Partners", "href": "partners.html" }

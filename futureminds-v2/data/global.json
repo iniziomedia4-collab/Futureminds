@@ -31,14 +31,14 @@
     "title": "Strengthening Healthcare Education. Preparing Future-Ready Professionals.",
     "paragraphs": [
       "Modern healthcare requires more than clinical competence. Nurses and healthcare professionals must communicate clearly, collaborate across disciplines, demonstrate empathy and ethical judgement, adapt to technology and serve diverse patient communities with confidence.",
-      "Futureminds works with nursing colleges, universities, hospitals and healthcare organisations to bridge the space between academic learning and professional practice. Our initiatives strengthen healthcare communication, workplace readiness, patient-centred care, leadership, faculty capability and global awareness."
+      "Futureminds India works with nursing colleges, universities, hospitals and healthcare organisations to bridge the space between academic learning and professional practice. Our initiatives strengthen healthcare communication, workplace readiness, patient-centred care, leadership, faculty capability and global awareness."
     ]
   },
   "eeeNursing": {
-    "eyebrow": "Futureminds EEE–Nursing",
-    "title": "Futureminds EEE–Nursing",
+    "eyebrow": "Futureminds India EEE–Nursing",
+    "title": "Futureminds India EEE–Nursing",
     "subtitle": "English. Employability. Entrepreneurship. Applied to Healthcare.",
-    "intro": "EEE–Nursing is Futureminds’ integrated professional-readiness framework for nursing students and graduates. It complements clinical education by developing the communication, behaviours and capabilities required for effective practice in hospitals and multicultural healthcare environments.",
+    "intro": "EEE–Nursing is Futureminds India’s integrated professional-readiness framework for nursing students and graduates. It complements clinical education by developing the communication, behaviours and capabilities required for effective practice in hospitals and multicultural healthcare environments.",
     "developsTitle": "The framework develops",
     "develops": [
       "Professional English and healthcare communication",
@@ -67,7 +67,7 @@
   "pathways": {
     "eyebrow": "Partnership Pathways",
     "title": "Partnership Pathways",
-    "intro": "Futureminds welcomes collaborations that combine local understanding with national and international expertise. Engagements may be programme-based, institutional, multi-stakeholder or long-term.",
+    "intro": "Futureminds India welcomes collaborations that combine local understanding with national and international expertise. Engagements may be programme-based, institutional, multi-stakeholder or long-term.",
     "types": [
       { "icon": "badge", "title": "Universities & Higher Education Institutions", "text": "Graduate employability; EEE; faculty and leadership development; curriculum enrichment; entrepreneurship; research; digital and AI readiness; international academic engagement." },
       { "icon": "shield", "title": "Nursing Colleges & Health Universities", "text": "EEE–Nursing; healthcare communication; workplace readiness; faculty development; curriculum enrichment; OET-oriented foundation and responsible international preparedness." },
@@ -100,8 +100,8 @@
     ]
   },
   "why": {
-    "eyebrow": "Why Futureminds",
-    "title": "Why Futureminds",
+    "eyebrow": "Why Futureminds India",
+    "title": "Why Futureminds India",
     "bullets": [
       "Four decades of educational leadership and institutional engagement",
       "Experience across education, employability, healthcare, communication, leadership and capacity building",
@@ -117,7 +117,7 @@
   "responsible": {
     "eyebrow": "Responsible Global Readiness",
     "title": "Responsible Global Readiness",
-    "text": "Futureminds prepares learners and professionals with communication capability, workplace readiness and professional confidence. We do not guarantee employment, migration or licensing outcomes. International progression remains subject to the eligibility, language, regulatory, licensing, immigration, recruitment and employer requirements of the relevant country and organisation."
+    "text": "Futureminds India prepares learners and professionals with communication capability, workplace readiness and professional confidence. We do not guarantee employment, migration or licensing outcomes. International progression remains subject to the eligibility, language, regulatory, licensing, immigration, recruitment and employer requirements of the relevant country and organisation."
   },
   "cta": {
     "eyebrow": "Closing Call to Action",
@@ -126,7 +126,7 @@
       "Futureminds India invites universities, nursing institutions, hospitals, governments, embassies, development organisations, professional bodies, industry and philanthropic partners to co-create initiatives that strengthen institutions, empower people and expand responsible global opportunity.",
       "If your organisation is exploring collaboration in education, employability, healthcare, workforce development or institutional capacity building, we would be pleased to begin a conversation."
     ],
-    "primary": { "label": "Partner With Futureminds", "href": "contact.html" },
+    "primary": { "label": "Partner With Futureminds India", "href": "contact.html" },
     "secondary": { "label": "Contact Us", "href": "contact.html" }
   }
 }
